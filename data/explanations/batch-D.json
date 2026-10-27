@@ -1,0 +1,462 @@
+{
+  "301": {
+    "why": "Biển 1 là “Cấm xe ô tô” (P.103a): cấm xe cơ giới kể cả xe máy 3 bánh có thùng, trừ xe máy 2 bánh, xe gắn máy và xe ưu tiên. Biển 2 cấm ô tô khách và ô tô tải, biển 3 cấm xe kéo rơ-moóc, không đúng mô tả câu hỏi.",
+    "rule": "P.103a “Cấm xe ô tô”: cấm xe cơ giới (kể cả xe máy 3 bánh có thùng), trừ xe máy 2 bánh, xe gắn máy và xe ưu tiên.",
+    "tip": "Hình ô tô con nhìn thẳng bị gạch = cấm mọi ô tô, nhưng xe máy 2 bánh vẫn đi được."
+  },
+  "302": {
+    "why": "Biển 1 “Cấm xe ô tô” cấm mọi loại ô tô nên cấm cả ô tô tải; biển 2 vẽ xe khách và xe tải nên cấm cả hai loại. Biển 3 chỉ cấm xe kéo theo rơ-moóc, ô tô tải không kéo moóc vẫn được đi.",
+    "rule": "P.103a cấm các loại xe cơ giới, trừ xe máy 2 bánh, xe gắn máy và xe ưu tiên.",
+    "tip": "Biển vẽ xe có rơ-moóc nối phía sau chỉ cấm xe đang kéo moóc."
+  },
+  "303": {
+    "why": "Biển 2 “Cấm xe ô tô tải” (P.106a) có hiệu lực cấm cả máy kéo và xe máy chuyên dùng; biển 3 là “Cấm máy kéo” (P.109). Biển 1 là cấm xe máy, không cấm máy kéo.",
+    "rule": "P.106a cấm ô tô tải, đồng thời cấm máy kéo và xe máy chuyên dùng; P.109 cấm mọi loại máy kéo (bánh hơi và bánh xích).",
+    "tip": "Nhớ: biển cấm ô tô tải cũng cấm luôn máy kéo."
+  },
+  "304": {
+    "why": "Biển 1 “Cấm xe máy” (P.104) cấm mọi loại xe máy, gồm cả mô tô ba bánh; biển 2 “Cấm xe ô tô” (P.103a) cấm cả xe máy 3 bánh có thùng. Biển 3 chỉ cấm ô tô tải.",
+    "rule": "P.103a cấm xe cơ giới kể cả xe máy 3 bánh có thùng; P.104 cấm các loại xe máy, trừ xe ưu tiên.",
+    "tip": "Xe ba bánh chở hàng bị cấm bởi cả biển cấm xe máy lẫn biển cấm ô tô."
+  },
+  "305": {
+    "why": "Biển 1 là cấm xe mô tô, không áp dụng với xe gắn máy (cấm xe gắn máy dùng biển riêng). Biển 2 “Cấm xe ô tô” trừ xe máy 2 bánh và xe gắn máy. Vì vậy xe gắn máy được đi vào cả hai biển.",
+    "rule": "P.103a cấm ô tô, trừ xe máy 2 bánh, xe gắn máy; muốn cấm xe gắn máy phải đặt biển P.111a “Cấm xe gắn máy”.",
+    "tip": "Xe gắn máy chỉ bị cấm khi gặp đúng biển “Cấm xe gắn máy”."
+  },
+  "306": {
+    "why": "Biển 1 vẽ xe mô tô bị gạch chéo là “Cấm xe máy” (P.104). Biển 2 cấm ô tô (vẫn cho xe máy 2 bánh đi), biển 3 chỉ cấm ô tô tải.",
+    "rule": "P.104 cấm các loại xe máy, trừ xe ưu tiên; biển không cấm người dắt xe máy.",
+    "tip": "Hình mô tô trong vòng tròn viền đỏ có gạch chéo = cấm xe máy."
+  },
+  "307": {
+    "why": "Biển 2 “Cấm xe ô tô” trừ xe máy 2 bánh, xe gắn máy; biển 3 chỉ cấm ô tô tải. Vì vậy mô tô hai bánh được vào hai biển này. Biển 1 là cấm xe máy nên mô tô không được vào.",
+    "rule": "P.103a cấm ô tô, trừ xe máy 2 bánh, xe gắn máy và xe ưu tiên; P.104 cấm các loại xe máy.",
+    "tip": "Chỉ biển có hình mô tô mới cấm mô tô."
+  },
+  "308": {
+    "why": "Biển 1 (tròn xanh có các vạch chéo đen) báo hết lệnh cấm vượt nên được vượt. Biển 3 chỉ cấm ô tô tải vượt (P.126), ô tô con vẫn được vượt. Biển 2 “Cấm vượt” (P.125) cấm mọi xe cơ giới vượt nhau.",
+    "rule": "P.125 cấm xe cơ giới vượt nhau (được vượt xe máy 2 bánh, xe gắn máy); P.126 chỉ cấm ô tô tải vượt xe cơ giới khác.",
+    "tip": "Hai ô tô (một xe đỏ) = cấm vượt; xe tải đỏ cạnh ô tô = chỉ cấm ô tô tải vượt."
+  },
+  "309": {
+    "why": "Biển 2 “Cấm vượt” (P.125) cấm tất cả xe cơ giới vượt nhau, kể cả ô tô con. Biển 1 báo hết cấm vượt, biển 3 chỉ cấm ô tô tải vượt nên ô tô con vẫn được vượt.",
+    "rule": "P.125 cấm tất cả xe cơ giới vượt nhau, kể cả xe ưu tiên, nhưng được vượt xe máy 2 bánh, xe gắn máy.",
+    "tip": "Hai ô tô đứng cạnh nhau, xe bên trái màu đỏ = cấm vượt."
+  },
+  "310": {
+    "why": "Biển 2 “Cấm vượt” áp dụng với mọi xe cơ giới, trong đó có ô tô tải; biển 3 là “Cấm xe ô tô tải vượt” (P.126). Biển 1 báo hết cấm vượt nên không cấm.",
+    "rule": "P.126 cấm ô tô tải có khối lượng chuyên chở lớn hơn 3.500 kg vượt xe cơ giới khác; vẫn được vượt xe máy 2 bánh, xe gắn máy.",
+    "tip": "Biển cấm vượt chung đã bao gồm cả xe tải."
+  },
+  "311": {
+    "why": "Biển 1 “Cấm vượt” cấm mọi xe cơ giới vượt nhau nên cấm cả xe tải; biển 2 “Cấm xe ô tô tải vượt” cấm riêng xe tải. Vì vậy cả hai biển đều cấm xe tải vượt.",
+    "rule": "P.125 cấm xe cơ giới vượt nhau; P.126 cấm ô tô tải vượt xe cơ giới khác.",
+    "tip": "Biển cấm vượt chung đã bao gồm cả xe tải."
+  },
+  "312": {
+    "why": "Biển 2 chỉ cấm ô tô tải vượt (P.126) nên ô tô con vẫn được vượt. Biển 1 “Cấm vượt” (P.125) cấm mọi xe cơ giới vượt nhau, kể cả ô tô con.",
+    "rule": "P.126 chỉ cấm ô tô tải vượt xe cơ giới khác; P.125 cấm tất cả xe cơ giới vượt nhau.",
+    "tip": "Xe vẽ màu đỏ là loại xe bị cấm vượt: đỏ là ô tô con = cấm tất cả, đỏ là xe tải = chỉ cấm xe tải."
+  },
+  "313": {
+    "why": "Biển 2 vẽ mũi tên hình chữ U bị gạch chéo là “Cấm quay đầu xe” (P.124a). Biển 1 là “Cấm rẽ trái” (P.123a), theo quy chuẩn không có giá trị cấm quay đầu.",
+    "rule": "P.124a cấm các loại xe quay đầu kiểu chữ U; P.123a cấm rẽ trái nhưng không cấm quay đầu.",
+    "tip": "Mũi tên chữ U = quay đầu; mũi tên gấp khúc sang trái = rẽ trái."
+  },
+  "314": {
+    "why": "Biển 1 “Cấm rẽ trái” (P.123a) cấm các loại xe rẽ sang trái. Biển 2 “Cấm quay đầu xe” (P.124a) không có giá trị cấm rẽ trái sang hướng đường khác.",
+    "rule": "P.123a cấm xe cơ giới và thô sơ rẽ trái, trừ xe ưu tiên; P.124a không có giá trị cấm rẽ trái.",
+    "tip": "Mũi tên gấp khúc sang trái = rẽ trái; mũi tên chữ U = quay đầu."
+  },
+  "315": {
+    "why": "Biển 2 “Cấm quay đầu xe” chỉ cấm quay đầu, không có giá trị cấm rẽ trái nên xe vẫn được rẽ trái. Biển 1 “Cấm rẽ trái” thì không được rẽ trái.",
+    "rule": "P.124a cấm quay đầu kiểu chữ U, không có giá trị cấm rẽ trái để đi sang hướng đường khác.",
+    "tip": "Cấm quay đầu thì vẫn được rẽ trái; cấm rẽ trái thì vẫn được quay đầu."
+  },
+  "316": {
+    "why": "Biển 1 “Cấm rẽ trái” cấm mọi loại xe, gồm cả ô tô. Biển 2 có hình ô tô, mũi tên rẽ trái và chữ U là “Cấm ô tô rẽ trái và quay đầu xe” (P.124e). Cả hai đều cấm ô tô rẽ trái.",
+    "rule": "P.123a cấm các loại xe rẽ trái; P.124e cấm xe ô tô rẽ trái đồng thời cấm quay đầu.",
+    "tip": "Có hình ô tô trên mũi tên = chỉ cấm ô tô; không có hình xe = cấm mọi loại xe."
+  },
+  "317": {
+    "why": "Biển 1 “Cấm rẽ phải” (P.123b) và biển 2 “Cấm rẽ phải và quay đầu xe” (P.124d) đều cấm mọi phương tiện rẽ phải. Biển 3 có hình ô tô (P.124f) chỉ cấm xe ô tô, không cấm các phương tiện khác.",
+    "rule": "P.123b cấm các loại xe rẽ phải; P.124d cấm các loại xe rẽ phải và quay đầu; P.124f chỉ cấm ô tô rẽ phải và quay đầu.",
+    "tip": "Có hình ô tô trên mũi tên = chỉ cấm ô tô; không có hình xe = cấm mọi loại xe."
+  },
+  "318": {
+    "why": "Biển 1 “Cấm rẽ trái” (P.123a) và biển 2 “Cấm rẽ trái và quay đầu xe” (P.124c) đều cấm mọi phương tiện rẽ trái. Biển 3 có hình ô tô (P.124e) chỉ cấm xe ô tô, không cấm các phương tiện khác.",
+    "rule": "P.123a cấm các loại xe rẽ trái; P.124c cấm các loại xe rẽ trái và quay đầu; P.124e chỉ cấm ô tô rẽ trái và quay đầu.",
+    "tip": "Có hình ô tô trên mũi tên = chỉ cấm ô tô; không có hình xe = cấm mọi loại xe."
+  },
+  "319": {
+    "why": "Biển 1 có hình ô tô và mũi tên chữ U là “Cấm ô tô quay đầu xe” (P.124b), chỉ cấm quay đầu. Biển 2 cấm ô tô rẽ trái và quay đầu (P.124e), biển 3 cấm ô tô rẽ phải và quay đầu (P.124f).",
+    "rule": "P.124b cấm xe ô tô và xe máy 3 bánh (side car) quay đầu kiểu chữ U; không có giá trị cấm rẽ trái.",
+    "tip": "Chỉ có mũi tên chữ U = chỉ cấm quay đầu; có thêm mũi tên rẽ = cấm cả rẽ."
+  },
+  "320": {
+    "why": "Biển 2 có hình ô tô, mũi tên rẽ trái kèm chữ U là “Cấm ô tô rẽ trái và quay đầu xe” (P.124e). Biển 1 chỉ cấm ô tô quay đầu (P.124b), biển 3 cấm ô tô rẽ phải và quay đầu (P.124f).",
+    "rule": "P.124e cấm xe ô tô rẽ trái và đồng thời cấm quay đầu.",
+    "tip": "Nhìn hướng mũi tên rẽ: sang trái = cấm rẽ trái, sang phải = cấm rẽ phải."
+  },
+  "321": {
+    "why": "Biển 2 có chữ TAXI là “Cấm xe ô tô taxi” (P.107b), chỉ cấm taxi. Biển 1 “Cấm xe ô tô” cấm mọi loại ô tô nên cấm cả các phương tiện khác ngoài taxi.",
+    "rule": "P.107b cấm xe ô tô taxi đi lại; nếu cấm theo giờ thì đặt biển phụ ghi giờ cấm.",
+    "tip": "Có chữ TAXI trên hình xe = chỉ cấm taxi."
+  },
+  "322": {
+    "why": "Biển 1 tròn viền đỏ là “Cấm rẽ trái” nên không được rẽ trái. Biển 2 hình vuông nền xanh có mũi tên rẽ trái và quay đầu, chỉ dẫn xe được phép rẽ trái (và quay đầu).",
+    "rule": "Các biển hiệu lệnh, chỉ dẫn hướng đi có hiệu lực kể từ vị trí đặt biển.",
+    "tip": "Viền đỏ có gạch chéo = cấm; nền xanh = được phép, chỉ dẫn hướng đi."
+  },
+  "323": {
+    "why": "Biển 1 “Cấm rẽ trái” không có giá trị cấm quay đầu nên vẫn được quay đầu. Biển 2 nền xanh chỉ dẫn được rẽ trái và quay đầu. Vì vậy cả hai biển đều không cấm quay đầu.",
+    "rule": "P.123a cấm rẽ trái nhưng không có giá trị cấm quay đầu xe.",
+    "tip": "Cấm rẽ trái thì vẫn được quay đầu."
+  },
+  "324": {
+    "why": "Biển 1 “Cấm rẽ trái” cấm rẽ trái nhưng không cấm quay đầu, đúng yêu cầu câu hỏi. Biển 2 là biển hiệu lệnh tròn xanh buộc xe đi theo hướng rẽ trái, không cấm rẽ trái.",
+    "rule": "P.123a cấm các loại xe rẽ trái (trừ xe ưu tiên) và không có giá trị cấm quay đầu xe.",
+    "tip": "Tròn xanh mũi tên trắng = hướng đi bắt buộc; tròn viền đỏ gạch chéo = cấm."
+  },
+  "325": {
+    "why": "Biển 2 nền đỏ có vạch ngang trắng là “Cấm đi ngược chiều” (P.102). Biển 1 là “Đường cấm” (P.101), biển 3 là biển cấm đỗ xe.",
+    "rule": "P.102 cấm các loại xe (cơ giới và thô sơ) đi vào theo chiều đặt biển, trừ xe ưu tiên; người đi bộ được đi trên vỉa hè, lề đường.",
+    "tip": "Nền đỏ có gạch trắng ngang = cấm đi ngược chiều; tròn trắng viền đỏ để trống = đường cấm."
+  },
+  "326": {
+    "why": "Biển 1 “Đường cấm” (P.101) cấm mọi phương tiện đi lại cả hai hướng; biển 2 “Cấm đi ngược chiều” (P.102) cấm xe đi vào theo chiều đặt biển. Cả hai đều không cho phương tiện đi vào (trừ xe ưu tiên).",
+    "rule": "P.101 cấm các phương tiện đi lại cả hai hướng; P.102 cấm xe đi vào theo chiều đặt biển; cả hai đều trừ xe ưu tiên.",
+    "tip": "Biển 3 (nền xanh, một vạch chéo đỏ) là cấm đỗ, không cấm đi vào."
+  },
+  "327": {
+    "why": "Biển 1 “Cấm đỗ xe” (P.131a) cấm đỗ mọi ngày, kể cả ngày chẵn; biển 3 có hai vạch trắng (P.131c) cấm đỗ vào ngày chẵn. Biển 2 có một vạch (P.131b) chỉ cấm đỗ ngày lẻ.",
+    "rule": "P.131a cấm đỗ xe; P.131b cấm đỗ ngày lẻ; P.131c cấm đỗ ngày chẵn (ở phía đường có đặt biển).",
+    "tip": "Một vạch trắng = ngày lẻ, hai vạch trắng = ngày chẵn."
+  },
+  "328": {
+    "why": "Biển 1 “Cấm đỗ xe” (P.131a) cấm đỗ mọi ngày, kể cả ngày lẻ; biển 2 có một vạch trắng (P.131b) cấm đỗ vào ngày lẻ. Biển 3 có hai vạch (P.131c) chỉ cấm đỗ ngày chẵn.",
+    "rule": "P.131a cấm đỗ xe; P.131b cấm đỗ ngày lẻ; P.131c cấm đỗ ngày chẵn (ở phía đường có đặt biển).",
+    "tip": "Một vạch trắng = ngày lẻ, hai vạch trắng = ngày chẵn."
+  },
+  "329": {
+    "why": "Biển 2 là biển STOP “Dừng lại” (R.122): mọi xe, kể cả xe ưu tiên, phải dừng trước biển hoặc vạch dừng và chỉ đi khi có tín hiệu cho phép. Biển 1 (Đường cấm) và biển 3 (Cấm đi ngược chiều) đều trừ xe ưu tiên.",
+    "rule": "R.122 buộc xe cơ giới và thô sơ, kể cả xe ưu tiên, dừng lại và chỉ được đi khi có tín hiệu cho phép.",
+    "tip": "Biển bát giác đỏ chữ STOP: ai cũng phải dừng, kể cả xe ưu tiên."
+  },
+  "330": {
+    "why": "Biển 1 tròn trắng viền đỏ là “Đường cấm” (P.101): cấm mọi phương tiện đi lại cả hai hướng, trừ xe ưu tiên. Biển 2 là biển STOP buộc dừng lại, không phải biển cấm đi lại.",
+    "rule": "P.101 “Đường cấm”: cấm các loại phương tiện đi lại cả hai hướng, trừ xe ưu tiên.",
+    "tip": "Vòng tròn viền đỏ, bên trong trắng trống = đường cấm."
+  },
+  "331": {
+    "why": "Biển 3 vẽ xe chở thùng hàng màu cam là “Cấm xe chở hàng nguy hiểm” (P.106c). Biển 1 cấm ô tô tải (P.106a), biển 2 cấm ô tô tải có khối lượng chuyên chở lớn hơn 2,5 tấn (P.106b).",
+    "rule": "P.106c cấm các xe chở hàng nguy hiểm đi qua.",
+    "tip": "Thùng hàng màu cam = hàng nguy hiểm."
+  },
+  "332": {
+    "why": "Biển 1 và biển 2 cấm xe ba bánh có động cơ (xe lam, xe lôi máy...), nên xích lô đạp vẫn được vào. Biển 3 vẽ xích lô là “Cấm xe ba bánh loại không có động cơ” (P.111d).",
+    "rule": "P.111b/P.111c cấm xe ba bánh có động cơ; P.111d cấm xe ba bánh không có động cơ như xích lô, xe lôi đạp.",
+    "tip": "Hình xích lô đạp = cấm xe ba bánh không động cơ."
+  },
+  "333": {
+    "why": "Biển 3 chỉ cấm xe ba bánh không có động cơ (xích lô đạp), nên xe lam, xích lô máy được đi vào. Biển 1 và biển 2 cấm xe ba bánh có động cơ như xe lam, xe lôi máy.",
+    "rule": "P.111b/P.111c cấm xe ba bánh có động cơ (xe lam, xích lô máy, xe lôi máy); P.111d cấm xe ba bánh không có động cơ.",
+    "tip": "Hình xích lô đạp = chỉ cấm xe không động cơ."
+  },
+  "334": {
+    "why": "Biển vẽ xe do ngựa kéo bị gạch chéo là “Cấm xe vật nuôi kéo” (P.114): cấm súc vật vận tải hàng hóa hoặc hành khách, dù kéo xe hay chở trên lưng.",
+    "rule": "P.114 cấm súc vật vận tải hàng hóa hoặc hành khách, dù kéo xe hay chở trên lưng, đi qua.",
+    "tip": "Chọn đáp án đầy đủ nhất: cấm cả hàng hóa lẫn hành khách, kéo xe hay chở trên lưng."
+  },
+  "335": {
+    "why": "Biển có chữ “ĐÊM” và số 70, kèm biển phụ 22:00 – 5:00, là “Tốc độ tối đa cho phép về ban đêm” (P.127a): trong khung giờ ghi trên biển, xe không được chạy quá 70 km/h.",
+    "rule": "P.127a chỉ có hiệu lực trong thời gian ghi trên biển; tốc độ ghi trên biển không lớn hơn 80 km/h.",
+    "tip": "Tròn viền đỏ có số = tốc độ tối đa; tròn nền xanh có số = tốc độ tối thiểu."
+  },
+  "336": {
+    "why": "Ba biển là hạn chế chiều cao (P.117), hạn chế tải trọng trên trục xe (P.116) và hạn chế trọng tải toàn bộ xe (P.115). Các biển này có hiệu lực với cả xe ưu tiên, nên xe vượt quá trị số ghi trên biển không được đi qua.",
+    "rule": "P.115, P.116, P.117 cấm xe vượt quá trị số ghi trên biển đi qua, kể cả xe được ưu tiên.",
+    "tip": "Biển hạn chế tải trọng, kích thước xe áp dụng cả với xe ưu tiên."
+  },
+  "337": {
+    "why": "Biển 1 ghi 3,5 m với hai tam giác đen trên và dưới là “Hạn chế chiều cao” (P.117), tính cả xe và hàng. Biển 2 hạn chế tải trọng trên trục xe, biển 3 hạn chế trọng tải toàn bộ xe.",
+    "rule": "P.117 cấm xe có chiều cao (tính từ mặt đường đến điểm cao nhất của xe hoặc hàng) vượt trị số ghi trên biển, kể cả xe ưu tiên.",
+    "tip": "Tam giác đen ở trên-dưới = chiều cao; ở hai bên trái-phải = chiều ngang."
+  },
+  "338": {
+    "why": "Biển 2 ghi 7t với hình trục xe là “Hạn chế tải trọng trên trục xe” (P.116): xe có tải trọng phân bổ trên một trục bất kỳ từ 7 tấn trở xuống mới được đi qua; vượt quá thì bị cấm.",
+    "rule": "P.116 cấm xe có tải trọng trên một trục bất kỳ vượt quá trị số ghi trên biển, kể cả xe ưu tiên.",
+    "tip": "Có hình trục bánh xe dưới con số = tải trọng trục, không phải trọng tải toàn bộ."
+  },
+  "339": {
+    "why": "Biển 3 chỉ ghi 10t là “Hạn chế trọng tải toàn bộ xe” (P.115): cấm xe có trọng tải toàn bộ (xe cộng người và hàng) trên 10 tấn đi qua. Không phải hạn chế riêng khối lượng hàng hay tải trọng trục.",
+    "rule": "P.115 cấm xe có trọng tải toàn bộ (xe + người + hàng) vượt trị số ghi trên biển, kể cả xe ưu tiên.",
+    "tip": "Chỉ có số tấn, không có hình trục = trọng tải toàn bộ xe."
+  },
+  "340": {
+    "why": "Biển 1 “Cấm xe ô tô, máy kéo kéo rơ-moóc” (P.108) cấm cả máy kéo kéo rơ-moóc. Biển 2 “Cấm máy kéo” (P.109) cấm mọi máy kéo, nên máy kéo kéo rơ-moóc cũng bị cấm.",
+    "rule": "P.108 cấm xe cơ giới kéo rơ-moóc (kể cả máy kéo), trừ ô tô sơ-mi rơ-moóc và xe ưu tiên; P.109 cấm mọi loại máy kéo.",
+    "tip": "Đã cấm máy kéo thì máy kéo kéo moóc cũng bị cấm."
+  },
+  "341": {
+    "why": "Biển 1 là “Cấm xe ô tô, máy kéo kéo rơ-moóc” (P.108): chỉ cấm xe đang kéo theo rơ-moóc. Ô tô tải không kéo rơ-moóc vẫn được đi vào.",
+    "rule": "P.108 cấm các loại xe cơ giới kéo theo rơ-moóc, trừ ô tô sơ-mi rơ-moóc và xe ưu tiên.",
+    "tip": "Biển vẽ xe và rơ-moóc nối phía sau chỉ cấm xe đang kéo moóc."
+  },
+  "342": {
+    "why": "Biển 1 chỉ cấm xe kéo rơ-moóc (P.108), biển 2 chỉ cấm máy kéo (P.109), nên không áp dụng với ô tô tải không kéo moóc. Biển 3 “Cấm xe ô tô” cấm cả ô tô tải.",
+    "rule": "P.108 cấm xe cơ giới kéo rơ-moóc; P.109 cấm máy kéo; P.103a cấm các loại ô tô.",
+    "tip": "Biển vẽ xe kéo moóc không áp dụng với xe không kéo moóc."
+  },
+  "343": {
+    "why": "Biển 2 là “Cấm máy kéo” (P.109); biển 3 “Cấm xe ô tô tải” (P.106a) cũng có hiệu lực cấm máy kéo. Biển 1 chỉ cấm xe kéo rơ-moóc, máy kéo không kéo moóc vẫn được đi.",
+    "rule": "P.106a cấm ô tô tải và cả máy kéo, xe máy chuyên dùng; P.109 cấm mọi loại máy kéo.",
+    "tip": "Nhớ: biển cấm ô tô tải cũng cấm luôn máy kéo."
+  },
+  "344": {
+    "why": "Biển “Cấm xe ô tô và xe máy” (P.105) kèm biển phụ mũi tên hai chiều trái-phải: cấm ô tô và xe máy đi về phía trái và phía phải. Mô tô ba bánh chở hàng thuộc loại bị cấm nên không được rẽ trái, rẽ phải.",
+    "rule": "P.105 cấm các loại xe cơ giới và xe máy đi qua, trừ xe ưu tiên.",
+    "tip": "Biển phụ có mũi tên dưới biển cấm cho biết hướng mà lệnh cấm có hiệu lực."
+  },
+  "345": {
+    "why": "Biển “Cấm xe ô tô và xe máy” (P.105) cấm cả xe cơ giới và xe máy, nên có hiệu lực với xe mô tô hai bánh và ba bánh chở hàng (theo hướng trái, phải ở biển phụ).",
+    "rule": "P.105 cấm các loại xe cơ giới và xe máy đi qua, trừ xe ưu tiên.",
+    "tip": "Biển có cả hình ô tô và mô tô = cấm cả ô tô lẫn mọi loại xe máy."
+  },
+  "346": {
+    "why": "Biển chính “Cấm xe ô tô và xe máy” (P.105), biển phụ có mũi tên hai đầu chỉ sang trái và phải: lệnh cấm áp dụng với xe cơ giới, xe mô tô đi về bên trái và bên phải (trừ xe ưu tiên), không phải cấm đi thẳng.",
+    "rule": "P.105 cấm các loại xe cơ giới và xe máy đi qua, trừ xe ưu tiên.",
+    "tip": "Biển phụ có mũi tên dưới biển cấm cho biết hướng mà lệnh cấm có hiệu lực."
+  },
+  "347": {
+    "why": "Biển phụ ghi 500 m kẹp giữa hai mũi tên hướng lên là “Phạm vi tác dụng của biển” (S.501): lệnh cấm sử dụng còi có hiệu lực trên đoạn đường dài 500 m tính từ nơi đặt biển.",
+    "rule": "P.128 cấm các loại xe sử dụng còi; chiều dài có hiệu lực được báo bằng biển phụ S.501 đặt dưới biển chính.",
+    "tip": "Số mét có mũi tên hai bên = chiều dài đoạn áp dụng; không có mũi tên = khoảng cách tới chỗ áp dụng."
+  },
+  "348": {
+    "why": "Biển “Cấm sử dụng còi” (P.128) kèm biển phụ 500 m (S.501): trong đoạn 500 m tính từ nơi đặt biển, người lái xe không được bấm còi.",
+    "rule": "P.128 cấm các loại xe sử dụng còi; chiều dài có hiệu lực được báo bằng biển phụ S.501 đặt dưới biển chính.",
+    "tip": "Hình chiếc còi bị gạch chéo = cấm sử dụng còi."
+  },
+  "349": {
+    "why": "Ba biển là “Đường cấm” kèm biển phụ vẽ loại xe, nên chỉ cấm loại xe trên biển phụ. Biển 1 cấm ô tô, biển 3 cấm ô tô tải nên mô tô được vào; biển 2 cấm mô tô.",
+    "rule": "Biển phụ vẽ loại xe đặt dưới biển “Đường cấm” xác định loại xe bị cấm đi vào.",
+    "tip": "Nhìn hình xe trên biển phụ: xe nào được vẽ thì xe đó bị cấm."
+  },
+  "350": {
+    "why": "Biển 2 là “Đường cấm” kèm biển phụ hình xe mô tô, nên cấm mô tô đi vào. Biển 1 chỉ cấm ô tô, biển 3 chỉ cấm ô tô tải nên mô tô vẫn được vào.",
+    "rule": "Biển phụ vẽ loại xe đặt dưới biển “Đường cấm” xác định loại xe bị cấm đi vào.",
+    "tip": "Nhìn hình xe trên biển phụ: xe nào được vẽ thì xe đó bị cấm."
+  },
+  "351": {
+    "why": "Biển chính là “Đường cấm”, biển phụ bên dưới vẽ loại xe (ô tô, mô tô, ô tô tải). Biển phụ cho biết loại xe bị cấm, nên ba biển này cấm các loại xe vẽ ở biển phụ đi vào, không phải loại trừ chúng.",
+    "rule": "Biển phụ vẽ loại xe đặt dưới biển “Đường cấm” xác định loại xe bị cấm đi vào.",
+    "tip": "Biển phụ hình xe = đối tượng bị cấm, không phải đối tượng được miễn."
+  },
+  "352": {
+    "why": "Cả hai biển chính là “Cự ly tối thiểu giữa hai xe” (P.121) 8 m. Biển phụ ở biển 1 ghi 800 m giữa hai mũi tên cho biết chiều dài đoạn đường phải giữ cự ly; biển 2 ghi 200 m (không mũi tên) là khoảng cách tới nơi bắt đầu áp dụng.",
+    "rule": "P.121 cấm xe ô tô, kể cả xe ưu tiên, đi cách nhau nhỏ hơn cự ly (mét) ghi trên biển.",
+    "tip": "Biển phụ có mũi tên = chiều dài đoạn áp dụng; không mũi tên = khoảng cách tới nơi áp dụng."
+  },
+  "353": {
+    "why": "Biển 2 có biển phụ ghi 200 m, không có mũi tên, cho biết khoảng cách từ nơi đặt biển đến nơi phải giữ cự ly tối thiểu 8 m. Biển 1 (800 m có mũi tên) báo chiều dài đoạn đường áp dụng.",
+    "rule": "P.121 cấm xe ô tô, kể cả xe ưu tiên, đi cách nhau nhỏ hơn cự ly (mét) ghi trên biển.",
+    "tip": "Biển phụ có mũi tên = chiều dài đoạn áp dụng; không mũi tên = khoảng cách tới nơi áp dụng."
+  },
+  "354": {
+    "why": "Biển nền xanh viền đỏ có hai vạch đỏ chéo là “Cấm dừng xe và đỗ xe” (P.130); biển phụ mũi tên chỉ sang phải cho biết lệnh cấm có hiệu lực theo hướng bên phải.",
+    "rule": "P.130 cấm xe cơ giới dừng và đỗ ở phía đường có đặt biển, trừ xe ưu tiên.",
+    "tip": "Hai vạch chéo (dấu X) = cấm dừng và đỗ; một vạch chéo = chỉ cấm đỗ."
+  },
+  "355": {
+    "why": "Đây là biển “Cấm dừng xe và đỗ xe” (P.130) kèm biển phụ mũi tên chỉ sang phải: theo hướng bên phải không được dừng xe và cũng không được đỗ xe.",
+    "rule": "P.130 cấm xe cơ giới dừng và đỗ ở phía đường có đặt biển, trừ xe ưu tiên.",
+    "tip": "Hai vạch chéo (dấu X) = cấm dừng và đỗ; một vạch chéo = chỉ cấm đỗ."
+  },
+  "356": {
+    "why": "Biển vẽ ô tô kéo moóc và ghi 14 m là “Hạn chế chiều dài xe cơ giới kéo theo rơ-moóc hoặc sơ-mi rơ-moóc” (P.120). Xe sơ-mi rơ-moóc có tổng chiều dài (xe, moóc, hàng) lớn hơn 14 m không được đi vào.",
+    "rule": "P.120 cấm xe kéo moóc, kể cả ô tô sơ-mi rơ-moóc và xe ưu tiên, có chiều dài toàn bộ (xe, moóc, hàng) lớn hơn trị số trên biển.",
+    "tip": "Hình xe kéo moóc kèm mũi tên ngang ghi số mét = giới hạn chiều dài xe kéo moóc."
+  },
+  "357": {
+    "why": "Dù tổng chiều dài nhỏ hơn trị số trên biển, hàng nhô ra phía trước và phía sau thùng xe mỗi phía quá 10% chiều dài toàn bộ thân xe là đã xếp hàng vượt giới hạn cho phép, nên xe không được đi vào.",
+    "rule": "P.120 cấm xe kéo moóc có chiều dài toàn bộ (xe, moóc và hàng) lớn hơn trị số ghi trên biển.",
+    "tip": "Hàng nhô ra quá 10% chiều dài xe mỗi phía thì chọn “Không được phép”."
+  },
+  "358": {
+    "why": "Biển vẽ xe khách bị gạch chéo là “Cấm xe ô tô khách” (P.107a): cấm ô tô chở khách đi qua, trừ xe ưu tiên. Theo quy chuẩn, biển này không cấm xe buýt và không cấm ô tô con.",
+    "rule": "P.107a cấm ô tô chở khách đi qua, trừ xe ưu tiên; biển không cấm xe buýt.",
+    "tip": "Hình xe khách bị gạch = cấm ô tô khách, nhưng xe buýt vẫn được đi."
+  },
+  "359": {
+    "why": "Biển ghi 3,2 m với hai tam giác đen ở hai bên trái-phải là “Hạn chế chiều ngang xe” (P.118): cấm xe có chiều ngang (kể cả hàng) vượt quá 3,2 m đi qua.",
+    "rule": "P.118 cấm xe cơ giới và thô sơ, kể cả xe ưu tiên, có chiều ngang (kể cả xe và hàng) vượt trị số ghi trên biển.",
+    "tip": "Tam giác đen ở hai bên = chiều ngang; ở trên-dưới = chiều cao."
+  },
+  "360": {
+    "why": "Biển 1 có chữ “ĐÊM”, số 70 và khung giờ 22:00 – 5:00 là “Tốc độ tối đa cho phép về ban đêm” (P.127a). Biển 2 số 50 là tốc độ tối đa cho phép thông thường (P.127), áp dụng cả ngày.",
+    "rule": "P.127a chỉ có hiệu lực trong thời gian ghi trên biển; tốc độ ghi trên biển không lớn hơn 80 km/h.",
+    "tip": "Có chữ “ĐÊM” và khung giờ = tốc độ tối đa ban đêm."
+  },
+  "361": {
+    "why": "Biển 1 nền xanh vẽ hình nhà cửa là “Bắt đầu khu đông dân cư” (R.420); từ đây phải tuân theo các quy định áp dụng trong khu đông dân cư. Biển 2 có vạch đỏ chéo là “Hết khu đông dân cư” (R.421).",
+    "rule": "Đoạn đường qua khu đông dân cư bắt đầu bằng biển R.420 và kết thúc bằng biển R.421.",
+    "tip": "Hình nhà có gạch đỏ chéo = hết khu đông dân cư."
+  },
+  "362": {
+    "why": "Biển 2 tròn viền đỏ số 50 là “Tốc độ tối đa cho phép” (P.127): không được chạy quá 50 km/h. Biển 1 tròn nền xanh số 60 là tốc độ tối thiểu, không phải giới hạn tốc độ tối đa.",
+    "rule": "P.127 cấm xe cơ giới chạy quá tốc độ ghi trên biển, trừ xe ưu tiên.",
+    "tip": "Viền đỏ = tối đa (không được vượt); nền xanh = tối thiểu (không được chạy chậm hơn)."
+  },
+  "363": {
+    "why": "Biển 2 nền xanh lá, hình đường cao tốc có vạch đỏ chéo là “Hết đường cao tốc” (IE.453c). Biển 1 là hết đoạn đường ưu tiên, biển 3 là hết đường dành cho ô tô.",
+    "rule": "Để chỉ dẫn hết đường cao tốc, đặt biển IE.453c “Hết đường cao tốc”.",
+    "tip": "Biển chỉ dẫn nền xanh lá dùng cho đường cao tốc."
+  },
+  "364": {
+    "why": "Biển tròn viền đỏ có số 50 là “Tốc độ tối đa cho phép” (P.127): xe cơ giới không được chạy quá 50 km/h, trừ xe ưu tiên.",
+    "rule": "P.127 cấm xe cơ giới chạy với tốc độ vượt quá trị số ghi trên biển, trừ xe ưu tiên.",
+    "tip": "Viền đỏ nền trắng = tối đa; nền xanh = tối thiểu."
+  },
+  "365": {
+    "why": "Biển 2 nền xanh lá có tốc độ 120 (viền đỏ, tối đa) và 60 (nền xanh, tối thiểu) cùng mũi tên chỉ xuống từng làn: chỉ dẫn tốc độ trên từng làn của đường cao tốc. Biển 1 là tam giác vàng cảnh báo, không chỉ dẫn phân làn tốc độ.",
+    "rule": "P.127c: khi quy định tốc độ theo từng làn, phương tiện phải đi đúng làn và tuân thủ tốc độ của làn đó.",
+    "tip": "Mũi tên chỉ xuống từng làn = biển áp dụng theo làn đường."
+  },
+  "366": {
+    "why": "Biển tròn nền xanh có số 60 là “Tốc độ tối thiểu cho phép” (R.306): xe cơ giới không được chạy chậm hơn 60 km/h. Biển tốc độ tối đa có dạng tròn viền đỏ, nền trắng.",
+    "rule": "R.306 báo tốc độ tối thiểu cho phép các xe cơ giới chạy.",
+    "tip": "Nền xanh = hiệu lệnh tối thiểu; viền đỏ = giới hạn tối đa."
+  },
+  "367": {
+    "why": "Biển 1 tam giác vàng vẽ người đi trên vạch kẻ là “Đường người đi bộ cắt ngang” (W.224): xe phải giảm tốc độ, nhường ưu tiên cho người đi bộ. Biển 2 cấm người đi bộ, biển 3 là đường dành cho người đi bộ.",
+    "rule": "W.224: các xe phải giảm tốc độ, nhường ưu tiên cho người đi bộ và chỉ chạy khi không gây nguy hiểm cho họ.",
+    "tip": "Tam giác vàng hình người đi bộ trên vạch = sắp có lối qua đường, chuẩn bị nhường."
+  },
+  "368": {
+    "why": "Biển 3 tròn nền xanh hình người đi bộ là “Đường dành cho người đi bộ” (R.305): các loại xe không được đi vào, trừ khi cắt ngang qua và phải bảo đảm an toàn. Biển 1 cảnh báo người đi bộ cắt ngang, biển 2 cấm người đi bộ.",
+    "rule": "R.305: xe cơ giới và thô sơ (trừ xe đạp, xe lăn người khuyết tật), kể cả xe ưu tiên, không được đi vào, trừ khi cắt ngang qua.",
+    "tip": "Tròn xanh hình người đi bộ = đường dành riêng cho người đi bộ."
+  },
+  "369": {
+    "why": "Biển 1 tròn nền xanh vẽ xe đạp và xe vật kéo là “Đường dành cho xe thô sơ” (R.304). Biển 2 tròn viền đỏ là cấm xe đạp, biển 3 tam giác vàng là cảnh báo có người đi xe đạp.",
+    "rule": "R.304 bắt buộc xe thô sơ và người đi bộ dùng đường này; cấm xe cơ giới, kể cả xe gắn máy, xe ưu tiên đi vào (trừ khi cắt ngang).",
+    "tip": "Tròn xanh = bắt buộc/dành riêng; tròn viền đỏ = cấm; tam giác vàng = cảnh báo."
+  },
+  "370": {
+    "why": "Cả ba đều là biển báo nguy hiểm về nơi giao nhau: biển 1 giao nhau với đường sắt có rào chắn (W.210), biển 2 tam giác ngược là giao nhau với đường ưu tiên (W.208), biển 3 giao nhau có tín hiệu đèn (W.209).",
+    "rule": "Các biển W.205–W.211 báo trước sắp đến các loại nơi giao nhau để người lái giảm tốc, chú ý quan sát.",
+    "tip": "Tam giác viền đỏ nền vàng = biển báo nguy hiểm, cảnh báo."
+  },
+  "371": {
+    "why": "Biển 1 vẽ hình hàng rào (cần chắn) là “Giao nhau với đường sắt có rào chắn” (W.210). Biển 2 là giao nhau với đường ưu tiên, biển 3 là giao nhau có tín hiệu đèn.",
+    "rule": "W.210 báo trước sắp đến chỗ giao nhau giữa đường bộ và đường sắt có rào chắn (cần chắn hoặc giàn chắn).",
+    "tip": "Hình hàng rào = có rào chắn; hình đầu tàu hỏa = không có rào chắn."
+  },
+  "372": {
+    "why": "Biển 3 tam giác vàng vẽ cột đèn ba màu là “Giao nhau có tín hiệu đèn” (W.209). Biển 1 là giao nhau với đường sắt có rào chắn, biển 2 là giao nhau với đường ưu tiên.",
+    "rule": "W.209 báo trước nơi giao nhau có điều khiển giao thông bằng tín hiệu đèn khi người lái khó quan sát thấy đèn.",
+    "tip": "Hình cột đèn xanh-vàng-đỏ = sắp có nút giao có đèn tín hiệu."
+  },
+  "373": {
+    "why": "Biển 1 là “Giao nhau với đường sắt có rào chắn” (W.210); biển 3 hình chữ X viền đỏ (W.242) chỉ chỗ đường sắt giao vuông góc đường bộ. Biển 2 có hai mũi tên ngược chiều nằm ngang là giao nhau với đường hai chiều, không liên quan đường sắt.",
+    "rule": "W.210 báo giao nhau với đường sắt có rào chắn; W.242 bổ sung cho W.211, chỉ chỗ đường sắt giao vuông góc với đường bộ.",
+    "tip": "Hàng rào, đầu tàu hỏa hoặc chữ X viền đỏ đều là biển về đường sắt."
+  },
+  "374": {
+    "why": "Biển 2 vẽ đầu tàu hỏa là “Giao nhau với đường sắt không có rào chắn” (W.211); biển 3 hình chữ X (W.242) đặt bổ sung cho W.211 tại chỗ đường sắt giao vuông góc. Biển 1 là giao nhau với đường sắt có rào chắn.",
+    "rule": "W.211 báo chỗ giao với đường sắt không có rào chắn, không người điều khiển; W.242(a,b) đặt bổ sung cho W.211.",
+    "tip": "Hình hàng rào = có rào chắn; hình đầu tàu hỏa = không có rào chắn."
+  },
+  "375": {
+    "why": "Biển 1 vẽ đầu tàu hỏa là “Giao nhau với đường sắt không có rào chắn” (W.211), báo sắp đến chỗ giao giữa đường bộ và đường sắt. Biển 2 là giao nhau với đường ưu tiên, biển 3 vẽ tàu điện, không phải tàu hỏa.",
+    "rule": "W.211 báo trước sắp đến chỗ giao nhau giữa đường bộ và đường sắt không có rào chắn, không có người điều khiển giao thông.",
+    "tip": "Đầu tàu hỏa có ống khói = đường sắt; xe có cần lấy điện phía trên = tàu điện."
+  },
+  "376": {
+    "why": "Biển 2 vẽ cổng vòm là “Cửa chui” (W.218): báo sắp đến cổng chắn ngang, cầu vượt dạng vòm ảnh hưởng đến giao thông. Biển 1 báo cầu vồng, biển 3 là “Đường hầm” (W.240).",
+    "rule": "W.218 báo trước đường có cổng chắn ngang (kiểu cổng thành, cầu vượt dạng vòm...) ảnh hưởng đến giao thông.",
+    "tip": "Cửa chui: khối đen hình cổng vòm; đường hầm: cửa hầm có vệt đường bên trong."
+  },
+  "377": {
+    "why": "Hai biển hình chữ X viền đỏ (W.242a, W.242b) đặt bổ sung cho biển “Giao nhau với đường sắt không có rào chắn”, để chỉ chỗ đường sắt giao vuông góc với đường bộ (biển 1 một chữ X, biển 2 hai chữ X).",
+    "rule": "W.242(a,b) bổ sung cho W.211, chỉ chỗ đường sắt giao vuông góc với đường bộ.",
+    "tip": "Chữ X viền đỏ = đường sắt giao vuông góc; cột vạch đỏ chéo = giao không vuông góc."
+  },
+  "378": {
+    "why": "Biển 1 và biển 2 hình chữ X viền đỏ (W.242a, W.242b) báo nơi đường sắt giao vuông góc với đường bộ. Biển 3 là cột có vạch đỏ chéo (W.243), báo đường sắt giao không vuông góc.",
+    "rule": "W.242(a,b) chỉ chỗ đường sắt giao vuông góc đường bộ; W.243 báo nơi đường sắt giao không vuông góc với đường bộ.",
+    "tip": "Chữ X viền đỏ = giao vuông góc; cột vạch đỏ chéo = giao không vuông góc."
+  },
+  "379": {
+    "why": "Các cột hình chữ nhật có 1, 2, 3 vạch đỏ chéo là biển W.243 “Nơi đường sắt giao không vuông góc với đường bộ”: báo trước sắp đến chỗ giao cắt cùng mức, không vuông góc, không người gác, không rào chắn.",
+    "rule": "W.243 báo trước sắp đến vị trí đường bộ giao cắt đường sắt cùng mức, không vuông góc, không người gác, không rào chắn.",
+    "tip": "Cột vạch đỏ trắng chéo = giao không vuông góc; chữ X viền đỏ = giao vuông góc."
+  },
+  "380": {
+    "why": "Biển 3 hình thoi vàng có vạch đen chéo là “Hết đoạn đường ưu tiên” (I.402). Biển 1 là giao nhau với đường không ưu tiên, biển 2 là giao nhau với đường ưu tiên.",
+    "rule": "Đến hết đoạn đường quy định là ưu tiên, đặt biển I.402 “Hết đoạn đường ưu tiên”.",
+    "tip": "Hình thoi vàng = đường ưu tiên; có vạch đen chéo = hết đường ưu tiên."
+  },
+  "381": {
+    "why": "Biển 1 “Giao nhau với đường không ưu tiên” (W.207) đặt trên đường ưu tiên; biển 3 hình thoi vàng là biển đường ưu tiên. Xe trên đường có hai biển này được ưu tiên qua nơi giao nhau. Biển 2 (W.208) thì phải nhường đường.",
+    "rule": "W.207 đặt trên đường ưu tiên, báo trước sắp đến nơi giao nhau với đường không ưu tiên.",
+    "tip": "Đường nét to có nhánh nhỏ = bạn đang đi trên đường ưu tiên."
+  },
+  "382": {
+    "why": "Biển 1 vẽ đường chính nét to giao với nhánh nét nhỏ là “Giao nhau với đường không ưu tiên” (W.207), đặt trên đường ưu tiên. Biển 2 là giao nhau với đường ưu tiên, biển 3 là biển đường ưu tiên.",
+    "rule": "W.207 đặt trên đường ưu tiên, báo trước sắp đến nơi giao nhau với đường không ưu tiên.",
+    "tip": "Đường nét to có nhánh nhỏ = bạn đang đi trên đường ưu tiên."
+  },
+  "383": {
+    "why": "Biển 2 tam giác ngược viền đỏ là “Giao nhau với đường ưu tiên” (W.208): xe đi trên đường đặt biển phải nhường đường cho xe trên đường ưu tiên. Biển 1 là giao nhau với đường không ưu tiên, biển 3 là biển đường ưu tiên.",
+    "rule": "W.208 đặt trên đường không ưu tiên; xe phải nhường đường cho xe trên đường ưu tiên khi qua nơi giao nhau.",
+    "tip": "Tam giác lộn ngược (đỉnh chúc xuống) = bạn phải nhường đường."
+  },
+  "384": {
+    "why": "Biển 1 vẽ đường thu hẹp cả hai bên (W.203a), biển 2 vẽ đường thu hẹp một bên (W.203b/c), đều là “Đường bị thu hẹp”. Biển 3 vẽ đường cong là biển chỗ ngoặt nguy hiểm.",
+    "rule": "W.203a: đường hẹp cả hai bên; W.203b hoặc W.203c: đường hẹp về phía trái hoặc phía phải.",
+    "tip": "Hai vạch đen hẹp dần lại = đường bị thu hẹp."
+  },
+  "385": {
+    "why": "Biển 2 (hẹp một bên) và biển 3 (hẹp cả hai bên) là “Đường bị thu hẹp” (W.203): phải giảm tốc, chú ý xe ngược chiều, xe đi ở phía bị hẹp nhường đường cho xe ngược chiều. Biển 1 là biển kết thúc đường đôi.",
+    "rule": "Ở chỗ đường hẹp phải chú ý xe ngược chiều; xe đi ở chiều đường bị thu hẹp phải nhường đường cho xe đi ngược chiều.",
+    "tip": "Hai vạch đen hẹp dần lại = đường bị thu hẹp."
+  },
+  "386": {
+    "why": "Biển 3 tam giác ngược viền đỏ là “Giao nhau với đường ưu tiên” (W.208): bạn phải nhường đường cho xe trên đường ưu tiên. Biển 1 là đường giao nhau cùng cấp, biển 2 là giao nhau với đường không ưu tiên.",
+    "rule": "W.208 đặt trên đường không ưu tiên; xe phải nhường đường cho xe trên đường ưu tiên khi qua nơi giao nhau.",
+    "tip": "Tam giác lộn ngược (đỉnh chúc xuống) = bạn phải nhường đường."
+  },
+  "387": {
+    "why": "Biển 1 vẽ dấu cộng có các nhánh bằng nhau là “Đường giao nhau” (W.205) của các tuyến cùng cấp. Biển 2 (đường chính to, nhánh nhỏ) là giao nhau với đường không ưu tiên, biển 3 là giao nhau với đường ưu tiên.",
+    "rule": "W.205 báo trước nơi giao nhau cùng mức của các tuyến đường cùng cấp (không có đường nào ưu tiên).",
+    "tip": "Các nhánh nét đều nhau = đường cùng cấp; nét to nét nhỏ = có đường ưu tiên."
+  },
+  "388": {
+    "why": "Biển 2 vẽ đường chính nét to giao với nhánh nét nhỏ là “Giao nhau với đường không ưu tiên” (W.207). Biển 1 là đường giao nhau cùng cấp (W.205), biển 3 là giao nhau với đường ưu tiên (W.208).",
+    "rule": "W.207 đặt trên đường ưu tiên, báo trước sắp đến nơi giao nhau với đường không ưu tiên.",
+    "tip": "Các nhánh nét đều nhau = đường cùng cấp; nét to nét nhỏ = có đường ưu tiên."
+  },
+  "389": {
+    "why": "Biển 1 tam giác vàng có hai mũi tên ngược chiều là “Đường hai chiều” (W.204). Biển 2 tròn viền đỏ là nhường đường cho xe cơ giới đi ngược chiều qua đường hẹp (P.132), biển 3 vuông xanh là được ưu tiên qua đường hẹp (I.406).",
+    "rule": "W.204 báo trước đoạn đường có chiều đi và về đi chung (do sửa chữa, đường đôi tạm thời...).",
+    "tip": "Cùng hình hai mũi tên: tam giác vàng = cảnh báo, tròn đỏ = phải nhường, vuông xanh = được ưu tiên."
+  },
+  "390": {
+    "why": "Biển 2 tròn viền đỏ có hai mũi tên ngược chiều là P.132 “Nhường đường cho xe cơ giới đi ngược chiều qua đường hẹp”. Biển 1 chỉ cảnh báo đường hai chiều, biển 3 cho bạn được ưu tiên đi trước.",
+    "rule": "P.132 buộc các loại xe, kể cả xe ưu tiên, nhường đường cho xe cơ giới đi ngược chiều qua đường hẹp hoặc cầu hẹp.",
+    "tip": "Cùng hình hai mũi tên: tam giác vàng = cảnh báo, tròn đỏ = phải nhường, vuông xanh = được ưu tiên."
+  },
+  "391": {
+    "why": "Biển 3 hình vuông nền xanh có hai mũi tên ngược chiều là “Được ưu tiên qua đường hẹp” (I.406): xe đi theo chiều này được đi trước. Biển 2 thì ngược lại, bắt phải nhường đường; biển 1 chỉ cảnh báo đường hai chiều.",
+    "rule": "I.406 chỉ dẫn người lái xe cơ giới biết mình được quyền ưu tiên đi trước trên đoạn đường hẹp.",
+    "tip": "Cùng hình hai mũi tên: tam giác vàng = cảnh báo, tròn đỏ = phải nhường, vuông xanh = được ưu tiên."
+  },
+  "392": {
+    "why": "Biển 2 có dải phân cách ở phía trên, giữa hai mũi tên, là “Đường đôi” (W.235): sắp đến đoạn đường có chiều đi và về phân cách bằng dải phân cách cứng. Biển 3 là “Kết thúc đường đôi” (W.236), biển 1 là được ưu tiên qua đường hẹp.",
+    "rule": "W.235 báo trước đoạn đường có chiều đi và về phân biệt bằng dải phân cách cứng; W.236 báo sắp kết thúc đoạn đó.",
+    "tip": "Dải phân cách ở phía trên = bắt đầu đường đôi; ở phía dưới = kết thúc đường đôi."
+  }
+}

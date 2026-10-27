@@ -1,0 +1,452 @@
+{
+  "91": {
+    "why": "Xe đi từ đường không ưu tiên hoặc đường nhánh phải nhường cho xe trên đường ưu tiên, đường chính đến từ bất kỳ hướng nào, nên đáp án 3 đúng. Đáp án 1 và 2 chỉ nhường một phía nên sai.",
+    "rule": "Đường nhánh, đường không ưu tiên nhường xe trên đường chính, đường ưu tiên mọi hướng (Khoản 1 Điều 22 Luật TTATGTĐB 2024).",
+    "tip": "Từ đường nhánh ra đường chính: nhường mọi hướng."
+  },
+  "92": {
+    "why": "Tại nơi giao nhau có báo hiệu đi theo vòng xuyến, bạn phải nhường xe đi đến từ bên trái, tức xe đang chạy trong vòng xuyến. Đáp án 2 đúng.",
+    "rule": "Có báo hiệu vòng xuyến: nhường xe đến từ bên trái (Khoản 3 Điều 22 Luật TTATGTĐB 2024).",
+    "tip": "CÓ vòng xuyến nhường TRÁI; KHÔNG có vòng xuyến nhường PHẢI."
+  },
+  "93": {
+    "why": "Nơi giao nhau không có báo hiệu đi theo vòng xuyến thì phải nhường xe đến từ bên phải, nên đáp án 1 đúng. Xin đường trước không tạo quyền đi trước (đáp án 2 sai).",
+    "rule": "Không có báo hiệu vòng xuyến: nhường xe đến từ bên phải (Khoản 2 Điều 22 Luật TTATGTĐB 2024).",
+    "tip": "KHÔNG vòng xuyến nhường PHẢI; CÓ vòng xuyến nhường TRÁI."
+  },
+  "94": {
+    "why": "Chỉ xe ưu tiên đi làm nhiệm vụ (có tín hiệu ưu tiên) mới được nhường đường kiểu này, nên đáp án 2 đúng. Đáp án 1 ghi xe không có tín hiệu ưu tiên; đáp án 3 là xe diễu hành, không phải xe ưu tiên.",
+    "rule": "Khi có tín hiệu xe ưu tiên phải giảm tốc độ, đi sát lề phải hoặc dừng lại nhường đường (Khoản 5 Điều 27 Luật TTATGTĐB 2024).",
+    "tip": "Chọn đáp án có cụm đi làm nhiệm vụ và có đoàn xe tang."
+  },
+  "95": {
+    "why": "Xe ưu tiên (trừ đoàn xe tang) đi làm nhiệm vụ không bị hạn chế tốc độ, được đi không phụ thuộc đèn tín hiệu, được đi ngược chiều; trên cao tốc chỉ được đi ngược chiều ở làn dừng khẩn cấp. Cả ba ý đều đúng nên chọn đáp án 4.",
+    "rule": "Quyền của xe ưu tiên khi làm nhiệm vụ (Khoản 4 Điều 27 Luật TTATGTĐB 2024).",
+    "tip": ""
+  },
+  "96": {
+    "why": "Khi có tín hiệu của xe ưu tiên, bạn phải giảm tốc độ, đi sát lề đường bên phải hoặc dừng lại để nhường đường. Đáp án 1 đúng; tăng tốc (đáp án 2) hay đi sát lề trái (đáp án 3) đều sai.",
+    "rule": "Khoản 5 Điều 27 Luật TTATGTĐB 2024.",
+    "tip": "Nhường xe ưu tiên: giảm tốc + sát lề PHẢI."
+  },
+  "97": {
+    "why": "Xe Cảnh sát giao thông không phát tín hiệu ưu tiên thì được coi như xe thông thường, nên bạn được vượt khi bảo đảm an toàn (đáp án 3). Không được vượt ở phần đường dành cho người đi bộ qua đường (đáp án 2 sai).",
+    "rule": "Chỉ cấm vượt khi gặp xe ưu tiên (đang phát tín hiệu); vượt phải đủ điều kiện an toàn (Khoản 3, 6 Điều 14 Luật TTATGTĐB 2024).",
+    "tip": "Không phát tín hiệu ưu tiên thì vượt được khi an toàn."
+  },
+  "98": {
+    "why": "Xe cứu thương đang phát tín hiệu ưu tiên là xe ưu tiên, và luật cấm vượt khi gặp xe ưu tiên. Vì vậy đáp án 1 đúng; các đáp án cho phép vượt đều sai.",
+    "rule": "Không được vượt xe khi gặp xe ưu tiên (Điểm g khoản 6 Điều 14 Luật TTATGTĐB 2024).",
+    "tip": "Xe ưu tiên đang phát tín hiệu thì không được vượt."
+  },
+  "99": {
+    "why": "Đường ngang không có người gác, chắn, chuông, đèn thì bạn phải dừng lại bên phải đường mình, trước vạch dừng, quan sát hai phía; không có tàu tới mới được đi. Đáp án 1 đúng; đáp án 2 thiếu bước dừng, đáp án 3 không đúng quy định.",
+    "rule": "Khoản 2 Điều 24 Luật TTATGTĐB 2024.",
+    "tip": "Đường ngang: dừng bên phải, trước vạch dừng, nhìn hai phía."
+  },
+  "100": {
+    "why": "Khi có hiệu lệnh gác chắn, đèn đỏ nhấp nháy, chuông kêu hoặc chắn đang đóng, bạn phải dừng lại về bên phải đường của mình, trước vạch dừng xe. Đáp án 3 đúng.",
+    "rule": "Khoản 1 Điều 24 Luật TTATGTĐB 2024.",
+    "tip": "Đường ngang có báo hiệu: dừng bên PHẢI, trước vạch dừng."
+  },
+  "101": {
+    "why": "Xe hỏng hoặc tai nạn trên đường ngang mà không đưa ra khỏi phạm vi an toàn đường sắt ngay được thì người lái và người có mặt phải lập tức báo hiệu dừng tàu và thực hiện biện pháp an toàn. Đáp án 1 đúng; bỏ xe đi báo hay tự sửa đều nguy hiểm.",
+    "rule": "Khoản 3 Điều 24 Luật TTATGTĐB 2024.",
+    "tip": "Kẹt trên đường ray: báo hiệu dừng tàu ngay."
+  },
+  "102": {
+    "why": "Cả ba báo hiệu (hiệu lệnh nhân viên gác chắn; đèn đỏ nhấp nháy, chuông kêu; chắn đang dịch chuyển hoặc đã đóng) đều buộc bạn dừng lại bên phải đường, trước vạch dừng. Chọn đáp án 4.",
+    "rule": "Khoản 1 Điều 24 Luật TTATGTĐB 2024.",
+    "tip": ""
+  },
+  "103": {
+    "why": "Trong hầm đường bộ, xe cơ giới phải bật đèn chiếu gần, không dừng, đỗ xe trong hầm; nếu buộc phải dừng thì đưa vào vị trí dừng khẩn cấp và báo hiệu. Đáp án 1 đúng. Đáp án 2 sai vì bật đèn chiếu xa và cho dừng đỗ; đáp án 3 sai vì cho quay đầu, lùi xe.",
+    "rule": "Trong hầm: đèn chiếu gần, không dừng đỗ, không quay đầu, lùi xe (Điều 26 Luật TTATGTĐB 2024).",
+    "tip": "Trong hầm: bật đèn chiếu GẦN."
+  },
+  "104": {
+    "why": "Khi hệ thống hãm (phanh) của xe được kéo không còn hiệu lực, hai xe phải nối bằng thanh nối cứng để xe được kéo không lao vào xe kéo. Đáp án 3 đúng; dây cáp không giữ được khoảng cách khi phanh.",
+    "rule": "Điểm b khoản 1 Điều 29 Luật TTATGTĐB 2024.",
+    "tip": "Xe được kéo mất phanh: dùng thanh nối cứng."
+  },
+  "105": {
+    "why": "Xe kéo rơ moóc, xe ô tô đầu kéo chỉ được kéo rơ moóc, sơ mi rơ moóc phù hợp với thiết kế của xe và phải kết nối chắc chắn, an toàn. Đáp án 1 đúng; đáp án 2 và 3 không phải quy định của luật.",
+    "rule": "Khoản 2 Điều 29 Luật TTATGTĐB 2024.",
+    "tip": "Rơ moóc phải phù hợp thiết kế xe, nối chắc chắn."
+  },
+  "106": {
+    "why": "Một xe ô tô chỉ được kéo theo MỘT xe khi xe được kéo không tự chạy được, nên đáp án 1 (kéo nhiều xe) sai. Đáp án 2 nêu đúng các yêu cầu: có người lái, hệ thống lái còn hiệu lực, nối chắc chắn, mất phanh thì nối thanh cứng, có biển và đèn vàng nhấp nháy.",
+    "rule": "Một ô tô chỉ được kéo một xe ô tô hoặc xe máy chuyên dùng khác (Khoản 1 Điều 29 Luật TTATGTĐB 2024).",
+    "tip": "Kéo xe: chỉ kéo MỘT xe, không kéo nhiều xe."
+  },
+  "107": {
+    "why": "Cả ba trường hợp nêu trong các đáp án 1, 2, 3 đều thuộc danh sách phải quan sát, giảm tốc độ hoặc dừng lại để bảo đảm an toàn. Chọn đáp án 4.",
+    "rule": "Khoản 3 Điều 12 Luật TTATGTĐB 2024.",
+    "tip": ""
+  },
+  "108": {
+    "why": "Có chướng ngại vật phía trước hoặc xe trước đang có tín hiệu vượt xe khác thì không đủ điều kiện để vượt, nên đáp án 1 đúng. Đáp án 2 lại là điều kiện cho phép vượt (xe trước đã báo rẽ phải, tránh về bên phải).",
+    "rule": "Chỉ được vượt khi không có chướng ngại vật, xe trước không có tín hiệu vượt xe khác (Khoản 3, 6 Điều 14 Luật TTATGTĐB 2024).",
+    "tip": "Xe trước tránh về bên phải là được vượt; xe trước đang vượt thì không."
+  },
+  "109": {
+    "why": "Nguyên tắc là vượt bên trái; chỉ được vượt bên phải khi xe trước có tín hiệu rẽ trái hoặc đang rẽ trái, hoặc xe chuyên dùng đang làm việc mà không thể vượt bên trái. Đáp án 1 đúng.",
+    "rule": "Khoản 2 Điều 14 Luật TTATGTĐB 2024.",
+    "tip": "Vượt phải chỉ khi xe trước rẽ trái hoặc xe chuyên dùng đang làm việc."
+  },
+  "110": {
+    "why": "Khi đủ điều kiện an toàn cho xe sau vượt, bạn phải giảm tốc độ, bật tín hiệu rẽ phải và đi sát bên phải cho đến khi xe sau vượt qua. Đáp án 1 đúng; vào lề trái hay tăng tốc đều sai.",
+    "rule": "Khoản 4 Điều 14 Luật TTATGTĐB 2024.",
+    "tip": "Cho xe sau vượt: giảm tốc, xi nhan phải, đi sát phải."
+  },
+  "111": {
+    "why": "Không được đi trên cao tốc gồm xe máy chuyên dùng có tốc độ thiết kế nhỏ hơn tốc độ tối thiểu, xe bốn bánh có gắn động cơ, mô tô, xe gắn máy, xe thô sơ, người đi bộ. Đáp án 1 đúng; đáp án 2, 3 là các xe chạy đủ nhanh nên được đi.",
+    "rule": "Khoản 3 Điều 25 Luật TTATGTĐB 2024.",
+    "tip": "Cấm vào cao tốc: xe chậm hơn tốc độ tối thiểu, mô tô, xe gắn máy, xe thô sơ, người đi bộ."
+  },
+  "112": {
+    "why": "Xe ưu tiên làm nhiệm vụ khẩn cấp được đi ngược chiều, nhưng riêng trên đường cao tốc chỉ được đi ngược chiều trên làn dừng xe khẩn cấp. Đáp án 2 đúng.",
+    "rule": "Khoản 4 Điều 27 Luật TTATGTĐB 2024.",
+    "tip": "Cao tốc: xe ưu tiên chỉ ngược chiều ở làn khẩn cấp."
+  },
+  "113": {
+    "why": "Trên cao tốc, bạn không được dừng, đỗ xe trên phần đường xe chạy (trừ khi không thể đưa xe vào làn khẩn cấp) và không được lùi xe, quay đầu xe vì rất dễ gây tai nạn ở tốc độ cao. Cả hai ý đều đúng nên chọn đáp án 3.",
+    "rule": "Quy tắc giao thông trên đường cao tốc (Điều 25 Luật TTATGTĐB 2024).",
+    "tip": "Cao tốc: cấm dừng đỗ trên làn chạy, cấm lùi, cấm quay đầu."
+  },
+  "114": {
+    "why": "Xe gặp sự cố phải dừng ở làn dừng khẩn cấp cùng chiều và bật đèn khẩn cấp; nếu không vào được làn khẩn cấp thì bật đèn khẩn cấp, đặt biển hoặc đèn cảnh báo phía sau tối thiểu 150 m và báo cho CSGT hoặc cơ quan quản lý cao tốc. Đáp án 3 đúng.",
+    "rule": "Khoản 2 Điều 25 Luật TTATGTĐB 2024.",
+    "tip": "Sự cố trên cao tốc: làn khẩn cấp; cảnh báo phía sau tối thiểu 150 m."
+  },
+  "115": {
+    "why": "Trên cao tốc không được quay đầu xe hay lùi xe, kể cả trên lề đường. Nếu đã vượt quá lối ra, bạn phải tiếp tục đi và rẽ ở lối ra tiếp theo, nên đáp án 3 đúng.",
+    "rule": "Ra khỏi cao tốc phải chuyển dần sang làn bên phải theo biển chỉ dẫn (Điểm b khoản 1 Điều 25 Luật TTATGTĐB 2024).",
+    "tip": "Lỡ lối ra cao tốc: đi tiếp đến lối ra sau."
+  },
+  "116": {
+    "why": "Luật cấm cho xe chạy ở làn dừng xe khẩn cấp và phần lề đường cao tốc, kể cả khi ùn tắc. Làn này dành cho xe gặp sự cố và xe ưu tiên, nên đáp án 2 (Không) đúng.",
+    "rule": "Điểm c khoản 1 Điều 25 Luật TTATGTĐB 2024.",
+    "tip": "Làn khẩn cấp không dùng để chạy, kể cả khi tắc đường."
+  },
+  "117": {
+    "why": "Trước khi nhập vào cao tốc bạn phải có tín hiệu xin vào và nhường xe đang chạy, quan sát phía sau đủ khoảng cách an toàn rồi mới nhập vào làn sát bên phải, và nếu có làn tăng tốc thì phải chạy trên làn đó trước. Cả ba ý đúng, chọn đáp án 4.",
+    "rule": "Điểm a khoản 1 Điều 25 Luật TTATGTĐB 2024.",
+    "tip": ""
+  },
+  "118": {
+    "why": "Xe tải, ô tô chuyên dùng trên 3.500 kg đến 7.500 kg là xe thuộc giấy phép hạng C1. Người đủ 18 tuổi trở lên được cấp GPLX hạng C1, nên đáp án 1 đúng.",
+    "rule": "Đủ 18 tuổi được cấp GPLX hạng A1, A, B1, B, C1 (Điểm b khoản 1 Điều 59 Luật TTATGTĐB 2024).",
+    "tip": "A1, A, B1, B, C1: đủ 18 tuổi."
+  },
+  "119": {
+    "why": "Mô tô đến 125 cm3 là hạng A1; ô tô đến 8 chỗ và xe tải đến 3.500 kg là hạng B. Cả hai hạng này cấp cho người đủ 18 tuổi trở lên, nên đáp án 3 đúng.",
+    "rule": "Điểm b khoản 1 Điều 59 Luật TTATGTĐB 2024.",
+    "tip": "A1, A, B1, B, C1: đủ 18 tuổi."
+  },
+  "120": {
+    "why": "Xe chở người trên 29 chỗ, xe giường nằm là xe thuộc hạng D. Người đủ 27 tuổi trở lên mới được cấp GPLX hạng D, nên đáp án 3 đúng.",
+    "rule": "Đủ 27 tuổi được cấp GPLX hạng D, D1E, D2E, DE (Điểm đ khoản 1 Điều 59 Luật TTATGTĐB 2024).",
+    "tip": "Hạng D (trên 29 chỗ): 27 tuổi."
+  },
+  "121": {
+    "why": "Tuổi tối đa của người lái xe chở người trên 29 chỗ, xe giường nằm là đủ 57 tuổi với nam và đủ 55 tuổi với nữ. Đáp án 3 đúng.",
+    "rule": "Điểm e khoản 1 Điều 59 Luật TTATGTĐB 2024.",
+    "tip": "Tuổi tối đa lái xe trên 29 chỗ: nam 57, nữ 55."
+  },
+  "122": {
+    "why": "Xe chở người trên 16 đến 29 chỗ là xe thuộc hạng D2. Người đủ 24 tuổi trở lên mới được cấp GPLX hạng D2, nên đáp án 2 đúng.",
+    "rule": "Đủ 24 tuổi được cấp GPLX hạng D1, D2, C1E, CE (Điểm d khoản 1 Điều 59 Luật TTATGTĐB 2024).",
+    "tip": "D1, D2: 24 tuổi; D: 27 tuổi."
+  },
+  "123": {
+    "why": "Người đủ 16 tuổi được điều khiển xe gắn máy; mô tô hạng A1 và ô tô hạng B phải đủ 18 tuổi. Vì vậy người từ 16 đến dưới 18 tuổi chỉ được lái xe gắn máy, đáp án 2 đúng.",
+    "rule": "Đủ 16 tuổi được điều khiển xe gắn máy (Điểm a khoản 1 Điều 59 Luật TTATGTĐB 2024).",
+    "tip": "16 tuổi: chỉ xe gắn máy."
+  },
+  "124": {
+    "why": "GPLX hạng A1 chỉ dành cho mô tô hai bánh đến 125 cm3 hoặc động cơ điện đến 11 kW. Xe mô tô ba bánh không thuộc hạng A1 nên người có A1 không được lái, đáp án 2 đúng.",
+    "rule": "Hạng A1: mô tô hai bánh đến 125 cm3 hoặc điện đến 11 kW (Điểm a khoản 1 Điều 57 Luật TTATGTĐB 2024).",
+    "tip": "A1 chỉ mô tô HAI bánh; ba bánh thì không."
+  },
+  "125": {
+    "why": "GPLX hạng A1 theo luật mới cấp cho người lái mô tô hai bánh có dung tích xi-lanh đến 125 cm3 hoặc công suất điện đến 11 kW. Mô tô ba bánh không thuộc hạng này, nên đáp án 1 đúng.",
+    "rule": "Điểm a khoản 1 Điều 57 Luật TTATGTĐB 2024.",
+    "tip": "A1 chỉ mô tô HAI bánh đến 125 cm3 / 11 kW."
+  },
+  "126": {
+    "why": "Hạng A cấp cho mô tô hai bánh trên 125 cm3 hoặc trên 11 kW và cả các loại xe của hạng A1. Vì vậy người có hạng A lái được cả hai loại, đáp án 3 đúng.",
+    "rule": "Điểm b khoản 1 Điều 57 Luật TTATGTĐB 2024.",
+    "tip": "Hạng cao hơn bao gồm hạng thấp hơn: A gồm cả A1."
+  },
+  "127": {
+    "why": "Hạng B cấp cho người lái ô tô chở người đến 08 chỗ (không kể chỗ người lái) và ô tô tải, ô tô chuyên dùng có khối lượng toàn bộ theo thiết kế đến 3.500 kg. Cả hai ý đúng, chọn đáp án 3.",
+    "rule": "Điểm d khoản 1 Điều 57 Luật TTATGTĐB 2024.",
+    "tip": "Hạng B: đến 8 chỗ, tải đến 3.500 kg."
+  },
+  "128": {
+    "why": "Hạng C1 dành cho ô tô tải, ô tô chuyên dùng trên 3.500 kg đến 7.500 kg (và kéo rơ moóc đến 750 kg). Xe trên 7.500 kg thuộc hạng C, nên đáp án 2 đúng.",
+    "rule": "Điểm đ khoản 1 Điều 57 Luật TTATGTĐB 2024.",
+    "tip": "C1: 3.500–7.500 kg; C: trên 7.500 kg."
+  },
+  "129": {
+    "why": "Hạng C cấp cho xe tải trên 7.500 kg và bao gồm cả các loại xe của hạng B và C1. Vì vậy người có hạng C lái được cả hai loại, đáp án 3 đúng.",
+    "rule": "Điểm e khoản 1 Điều 57 Luật TTATGTĐB 2024.",
+    "tip": "C bao gồm cả C1 và B."
+  },
+  "130": {
+    "why": "Hạng D1 cấp cho xe chở người trên 08 đến 16 chỗ (không kể chỗ người lái). Xe trên 16 đến 29 chỗ thuộc hạng D2, nên đáp án 2 đúng.",
+    "rule": "Điểm g khoản 1 Điều 57 Luật TTATGTĐB 2024.",
+    "tip": "D1: 8–16 chỗ; D2: 16–29 chỗ; D: trên 29 chỗ."
+  },
+  "131": {
+    "why": "Hạng D2 cấp cho xe chở người trên 16 đến 29 chỗ và bao gồm cả các xe của hạng D1 (trên 8 đến 16 chỗ). Cả hai ý đúng, chọn đáp án 3.",
+    "rule": "Điểm h khoản 1 Điều 57 Luật TTATGTĐB 2024.",
+    "tip": "D2 bao gồm cả D1."
+  },
+  "132": {
+    "why": "Hạng D cấp cho xe trên 29 chỗ, xe giường nằm và bao gồm cả xe của hạng D2 (16–29 chỗ), nên ý 1 và ý 2 đúng. Ý 3 là xe của hạng CE, không thuộc hạng D, vì vậy chọn đáp án 4.",
+    "rule": "Điểm i khoản 1 Điều 57 Luật TTATGTĐB 2024.",
+    "tip": "Hạng D gồm D2, D1 nhưng không gồm xe kéo rơ moóc trên 750 kg."
+  },
+  "133": {
+    "why": "Hạng BE cấp cho người lái các xe hạng B kéo rơ moóc có khối lượng toàn bộ theo thiết kế trên 750 kg. Đáp án 2 đúng; đáp án 1 là hạng D, đáp án 3 là hạng D2.",
+    "rule": "Điểm k khoản 1 Điều 57 Luật TTATGTĐB 2024.",
+    "tip": "Hạng có chữ E = xe hạng đó kéo rơ moóc trên 750 kg."
+  },
+  "134": {
+    "why": "Hạng CE cấp cho xe hạng C kéo rơ moóc trên 750 kg và ô tô đầu kéo kéo sơ mi rơ moóc. Đáp án 1 đúng; xe D1 kéo rơ moóc thuộc hạng D1E.",
+    "rule": "Điểm m khoản 1 Điều 57 Luật TTATGTĐB 2024.",
+    "tip": "CE: xe C kéo rơ moóc trên 750 kg, đầu kéo sơ mi rơ moóc."
+  },
+  "135": {
+    "why": "Hạng DE cấp cho xe hạng D kéo rơ moóc trên 750 kg và xe ô tô chở khách nối toa. Đáp án 1 đúng; đáp án 2 là xe của hạng CE.",
+    "rule": "Điểm p khoản 1 Điều 57 Luật TTATGTĐB 2024.",
+    "tip": "DE: xe D kéo rơ moóc trên 750 kg, xe khách nối toa."
+  },
+  "136": {
+    "why": "Người tập lái ô tô phải thực hành trên xe tập lái, trên tuyến đường tập lái và có giáo viên bảo trợ tay lái. Luật không quy định giấy phép xe tập lái mang theo người học, nên đáp án 1 đúng.",
+    "rule": "Khoản 5 Điều 56 Luật TTATGTĐB 2024.",
+    "tip": "Tập lái: xe tập lái + tuyến tập lái + giáo viên bảo trợ."
+  },
+  "137": {
+    "why": "Người lái xe phải đủ tuổi, đủ sức khỏe và có GPLX còn điểm, còn hiệu lực, phù hợp loại xe (trừ xe gắn máy). Luật không yêu cầu người lái phải đứng tên đăng ký xe, nên đáp án 1 đúng.",
+    "rule": "Khoản 1 Điều 56 Luật TTATGTĐB 2024.",
+    "tip": "Không cần đứng tên xe mới được lái."
+  },
+  "138": {
+    "why": "Khi lái xe phải mang đăng ký xe (hoặc bản sao có chứng thực khi xe thế chấp), GPLX, chứng nhận kiểm định và bảo hiểm bắt buộc; nếu giấy tờ đã tích hợp vào tài khoản định danh điện tử thì có thể xuất trình qua tài khoản đó. Cả ba ý đúng, chọn đáp án 4.",
+    "rule": "Giấy tờ người lái xe phải mang theo (Điều 56 Luật TTATGTĐB 2024).",
+    "tip": ""
+  },
+  "139": {
+    "why": "GPLX bị thu hồi khi người được cấp không đủ sức khỏe, khi GPLX cấp sai quy định, hoặc khi quá thời hạn tạm giữ mà người vi phạm không đến nhận không có lý do chính đáng. Cả ba ý đúng, chọn đáp án 4.",
+    "rule": "Khoản 5 Điều 62 Luật TTATGTĐB 2024.",
+    "tip": ""
+  },
+  "140": {
+    "why": "GPLX chưa bị trừ hết điểm, nếu không bị trừ điểm trong 12 tháng kể từ ngày bị trừ điểm gần nhất thì được phục hồi đủ 12 điểm. Đáp án 2 đúng.",
+    "rule": "Khoản 2 Điều 58 Luật TTATGTĐB 2024.",
+    "tip": "Chưa hết điểm: 12 tháng không bị trừ thì đủ lại 12 điểm."
+  },
+  "141": {
+    "why": "GPLX bị trừ hết điểm thì sau ít nhất 06 tháng, người có GPLX được tham gia kiểm tra kiến thức pháp luật do CSGT tổ chức; đạt yêu cầu thì được phục hồi đủ 12 điểm. Đáp án 2 đúng; chỉ chờ không vi phạm (đáp án 1) là không đủ.",
+    "rule": "Khoản 3 Điều 58 Luật TTATGTĐB 2024.",
+    "tip": "Hết điểm: chờ ít nhất 6 tháng rồi thi kiểm tra kiến thức."
+  },
+  "142": {
+    "why": "Người đứng tên trong giấy đăng ký xe vẫn tiếp tục chịu trách nhiệm của chủ xe khi chưa làm thủ tục thu hồi đăng ký, biển số, kể cả đã bán hay cho xe. Đáp án 1 đúng.",
+    "rule": "Điểm c khoản 1 Điều 43 Luật TTATGTĐB 2024.",
+    "tip": "Bán xe mà chưa thu hồi đăng ký, biển số: vẫn chịu trách nhiệm."
+  },
+  "143": {
+    "why": "Xe ô tô kinh doanh vận tải phải lắp thiết bị giám sát hành trình; xe chở người từ 08 chỗ trở lên kinh doanh vận tải, xe đầu kéo, xe cứu thương còn phải lắp thêm thiết bị ghi nhận hình ảnh người lái. Cả hai ý đúng, chọn đáp án 3.",
+    "rule": "Khoản 2 Điều 35 Luật TTATGTĐB 2024.",
+    "tip": ""
+  },
+  "144": {
+    "why": "Xe máy chuyên dùng, xe gắn máy và các loại xe tương tự khi tham gia giao thông có tốc độ khai thác tối đa 40 km/h. Đáp án 2 đúng.",
+    "rule": "Điều 7 Thông tư 38/2024/TT-BGTVT.",
+    "tip": "Xe gắn máy, xe máy chuyên dùng: tối đa 40 km/h."
+  },
+  "145": {
+    "why": "Trong khu vực đông dân cư, trên đường đôi hoặc đường một chiều có từ hai làn xe cơ giới trở lên, tốc độ tối đa của xe cơ giới (trừ xe gắn máy, xe máy chuyên dùng...) là 60 km/h. Đáp án 1 đúng.",
+    "rule": "Khu đông dân cư: đường đôi 60 km/h, đường hai chiều 50 km/h (Khoản 1 Điều 6 Thông tư 38/2024/TT-BGTVT).",
+    "tip": "Trong đô thị: đường đôi 60, đường hai chiều 50."
+  },
+  "146": {
+    "why": "Trong khu vực đông dân cư, trên đường hai chiều hoặc đường một chiều có một làn xe cơ giới, tốc độ tối đa của xe cơ giới là 50 km/h. Đáp án 2 đúng.",
+    "rule": "Khoản 1 Điều 6 Thông tư 38/2024/TT-BGTVT.",
+    "tip": "Trong đô thị: đường đôi 60, đường hai chiều 50."
+  },
+  "147": {
+    "why": "Trong khu đông dân cư, mọi xe cơ giới (kể cả ô tô tải, xe trên 28 chỗ) đi đường hai chiều được tối đa 50 km/h, nên đáp án 1 đúng. Xe gắn máy, xe máy chuyên dùng chỉ được tối đa 40 km/h nên đáp án 2 sai.",
+    "rule": "Khoản 1 Điều 6 và Điều 7 Thông tư 38/2024/TT-BGTVT.",
+    "tip": "Xe gắn máy, xe máy chuyên dùng luôn tối đa 40 km/h."
+  },
+  "148": {
+    "why": "Trong khu đông dân cư, ô tô tải, xe trên 28 chỗ đi đường đôi được tối đa 60 km/h, nên đáp án 1 đúng. Xe gắn máy, xe máy chuyên dùng tối đa chỉ 40 km/h nên đáp án 2 sai.",
+    "rule": "Khoản 1 Điều 6 và Điều 7 Thông tư 38/2024/TT-BGTVT.",
+    "tip": "Xe gắn máy, xe máy chuyên dùng luôn tối đa 40 km/h."
+  },
+  "149": {
+    "why": "Ngoài khu đông dân cư, trên đường đôi, xe chở người đến 28 chỗ (trừ xe buýt) và ô tô tải đến 3,5 tấn được tối đa 90 km/h. Đáp án 1 đúng; các nhóm xe lớn hơn có tốc độ tối đa thấp hơn.",
+    "rule": "Khoản 2 Điều 6 Thông tư 38/2024/TT-BGTVT.",
+    "tip": "Ngoài đô thị, đường đôi: 90 – 80 – 70 – 60 theo xe nhỏ đến xe kéo."
+  },
+  "150": {
+    "why": "Ngoài khu đông dân cư, trên đường đôi, xe chở người trên 28 chỗ (trừ xe buýt) và ô tô tải trên 3,5 tấn (trừ xi téc) được tối đa 80 km/h. Đáp án 2 đúng.",
+    "rule": "Khoản 2 Điều 6 Thông tư 38/2024/TT-BGTVT.",
+    "tip": "Ngoài đô thị, đường đôi: 90 – 80 – 70 – 60 theo xe nhỏ đến xe kéo."
+  },
+  "151": {
+    "why": "Ngoài khu đông dân cư, trên đường đôi, nhóm xe buýt, đầu kéo sơ mi rơ moóc (trừ xi téc), xe mô tô, ô tô chuyên dùng (trừ xe trộn) được tối đa 70 km/h. Đáp án 3 đúng.",
+    "rule": "Khoản 2 Điều 6 Thông tư 38/2024/TT-BGTVT.",
+    "tip": "Ngoài đô thị, đường đôi: 90 – 80 – 70 – 60 theo xe nhỏ đến xe kéo."
+  },
+  "152": {
+    "why": "Ngoài khu đông dân cư, trên đường đôi, nhóm ô tô kéo rơ moóc, kéo xe khác, xe trộn vữa, trộn bê tông, xe xi téc được tối đa 60 km/h, thấp nhất trong bảng. Đáp án 4 đúng.",
+    "rule": "Khoản 2 Điều 6 Thông tư 38/2024/TT-BGTVT.",
+    "tip": "Xe kéo, xe xi téc, xe trộn: nhóm chậm nhất."
+  },
+  "153": {
+    "why": "Ngoài khu đông dân cư, trên đường hai chiều, xe chở người đến 28 chỗ (trừ xe buýt) và ô tô tải đến 3,5 tấn được tối đa 80 km/h. Đáp án 1 đúng.",
+    "rule": "Khoản 2 Điều 6 Thông tư 38/2024/TT-BGTVT.",
+    "tip": "Đường hai chiều thấp hơn đường đôi 10 km/h: 80 – 70 – 60 – 50."
+  },
+  "154": {
+    "why": "Ngoài khu đông dân cư, trên đường hai chiều, xe chở người trên 28 chỗ (trừ xe buýt) và ô tô tải trên 3,5 tấn (trừ xi téc) được tối đa 70 km/h. Đáp án 2 đúng.",
+    "rule": "Khoản 2 Điều 6 Thông tư 38/2024/TT-BGTVT.",
+    "tip": "Đường hai chiều thấp hơn đường đôi 10 km/h: 80 – 70 – 60 – 50."
+  },
+  "155": {
+    "why": "Ngoài khu đông dân cư, trên đường hai chiều, nhóm xe buýt, đầu kéo sơ mi rơ moóc (trừ xi téc), xe mô tô, ô tô chuyên dùng (trừ xe trộn) được tối đa 60 km/h. Đáp án 3 đúng.",
+    "rule": "Khoản 2 Điều 6 Thông tư 38/2024/TT-BGTVT.",
+    "tip": "Đường hai chiều thấp hơn đường đôi 10 km/h: 80 – 70 – 60 – 50."
+  },
+  "156": {
+    "why": "Ngoài khu đông dân cư, trên đường hai chiều, nhóm ô tô kéo rơ moóc, kéo xe khác, xe trộn, xe xi téc được tối đa 50 km/h. Đáp án 4 đúng.",
+    "rule": "Khoản 2 Điều 6 Thông tư 38/2024/TT-BGTVT.",
+    "tip": "Xe kéo, xe xi téc, xe trộn: nhóm chậm nhất."
+  },
+  "157": {
+    "why": "Xe chở hàng bốn bánh có gắn động cơ, khi chạy trong phạm vi và thời gian cho phép, có tốc độ khai thác tối đa 50 km/h. Đáp án 3 đúng; xe máy chuyên dùng, xe gắn máy chỉ được 40 km/h.",
+    "rule": "Khoản 2 Điều 8 Thông tư 38/2024/TT-BGTVT.",
+    "tip": "Bốn bánh chở HÀNG: 50 km/h."
+  },
+  "158": {
+    "why": "Khi chạy trên 80 km/h đến 100 km/h trong điều kiện bình thường, khoảng cách an toàn tối thiểu với xe phía trước là 70 m. Đáp án 3 đúng.",
+    "rule": "Điểm a khoản 2 Điều 11 Thông tư 38/2024/TT-BGTVT.",
+    "tip": "Tốc độ 60 / 80 / 100 / 120 tương ứng 35 / 55 / 70 / 100 m."
+  },
+  "159": {
+    "why": "Khi chạy trên 100 km/h đến 120 km/h trong điều kiện bình thường, khoảng cách an toàn tối thiểu với xe phía trước là 100 m. Đáp án 3 đúng.",
+    "rule": "Điểm a khoản 2 Điều 11 Thông tư 38/2024/TT-BGTVT.",
+    "tip": "Tốc độ 60 / 80 / 100 / 120 tương ứng 35 / 55 / 70 / 100 m."
+  },
+  "160": {
+    "why": "Khi chạy trên 60 km/h đến 80 km/h trong điều kiện bình thường, khoảng cách an toàn tối thiểu với xe phía trước là 55 m. Đáp án 1 đúng.",
+    "rule": "Điểm a khoản 2 Điều 11 Thông tư 38/2024/TT-BGTVT.",
+    "tip": "Tốc độ 60 / 80 / 100 / 120 tương ứng 35 / 55 / 70 / 100 m."
+  },
+  "161": {
+    "why": "Khi chạy với tốc độ 60 km/h trong điều kiện bình thường, khoảng cách an toàn tối thiểu với xe phía trước là 35 m. Đáp án 1 đúng.",
+    "rule": "Điểm a khoản 2 Điều 11 Thông tư 38/2024/TT-BGTVT.",
+    "tip": "Tốc độ 60 / 80 / 100 / 120 tương ứng 35 / 55 / 70 / 100 m."
+  },
+  "162": {
+    "why": "Dưới 60 km/h không có con số cố định: bạn phải chủ động giữ khoảng cách an toàn phù hợp với xe chạy liền trước, tùy mật độ phương tiện và tình hình giao thông thực tế. Cả hai ý đúng, chọn đáp án 3.",
+    "rule": "Điểm a khoản 2 Điều 11 Thông tư 38/2024/TT-BGTVT.",
+    "tip": "Dưới 60 km/h: tự chủ động giữ khoảng cách phù hợp."
+  },
+  "163": {
+    "why": "Gặp biển báo nguy hiểm và cảnh báo nghĩa là phía trước có tình huống nguy hiểm, nên bạn phải giảm tốc độ, quan sát và chuẩn bị xử lý. Đáp án 1 đúng; biển chỉ dẫn, biển hết lệnh cấm, hết hạn chế tốc độ không đòi hỏi việc này.",
+    "rule": "Phải giảm tốc độ khi có báo hiệu cảnh báo nguy hiểm (Điểm b khoản 3 Điều 12 Luật TTATGTĐB 2024).",
+    "tip": "Biển báo nguy hiểm: giảm tốc độ."
+  },
+  "164": {
+    "why": "Xe đưa đón trẻ em mầm non, học sinh được ưu tiên trong phân luồng, điều tiết giao thông và bố trí nơi dừng, đỗ xe tại trường học và trên lộ trình đưa đón. Luật không quy định bố trí xe dẫn đường, nên đáp án 1 đúng.",
+    "rule": "Khoản 6 Điều 46 Luật TTATGTĐB 2024.",
+    "tip": "Xe đưa đón học sinh: ưu tiên phân luồng, chỗ dừng đỗ; không có xe dẫn đường."
+  },
+  "165": {
+    "why": "Nơi có vạch hoặc người đi bộ qua đường; nơi giao nhau, đường hẹp, đường vòng, đèo dốc; khu vực trường học, bệnh viện, chợ, khu đông dân cư... đều là trường hợp phải quan sát, giảm tốc độ hoặc dừng lại. Chọn đáp án 4.",
+    "rule": "Khoản 3 Điều 12 Luật TTATGTĐB 2024.",
+    "tip": ""
+  },
+  "166": {
+    "why": "Không có biển báo hạn chế tốc độ hay khoảng cách không có nghĩa là được chạy tùy ý; bạn vẫn phải chấp hành quy định chung về tốc độ và khoảng cách an toàn tối thiểu. Đáp án 3 đúng.",
+    "rule": "Khoản 1 Điều 12 Luật TTATGTĐB 2024.",
+    "tip": "Không có biển vẫn phải theo quy định tốc độ, khoảng cách."
+  },
+  "167": {
+    "why": "Xe buýt đang dừng đón trả khách là nơi có người lên xuống, có thể có người băng qua đường. Bạn phải quan sát, giảm tốc độ hoặc dừng lại, nên đáp án 2 đúng; tăng tốc vượt là nguy hiểm.",
+    "rule": "Phải giảm tốc độ tại điểm dừng có khách lên, xuống xe (Điểm i khoản 3 Điều 12 Luật TTATGTĐB 2024).",
+    "tip": "Gặp xe buýt đón trả khách: giảm tốc, quan sát."
+  },
+  "168": {
+    "why": "Xe chở khách phải đón, trả khách đúng nơi quy định, không được đón trả theo yêu cầu của khách ở bất kỳ đâu. Đây là điểm khác giữa hai phương án, nên đáp án 1 đúng.",
+    "rule": "Khoản 1 Điều 45 Luật TTATGTĐB 2024.",
+    "tip": "Đón, trả khách ĐÚNG NƠI QUY ĐỊNH."
+  },
+  "169": {
+    "why": "Vận chuyển hàng cấm lưu hành, vận chuyển trái phép hoặc không đủ quy định về hàng nguy hiểm, vận chuyển động vật hoang dã đều là hành vi bị nghiêm cấm. Cả ba ý đúng, chọn đáp án 4.",
+    "rule": "Khoản 14 Điều 9 Luật TTATGTĐB 2024.",
+    "tip": ""
+  },
+  "170": {
+    "why": "Bị nghiêm cấm là đe dọa, xúc phạm, tranh giành, lôi kéo, cưỡng ép khách, chuyển tải hoặc xuống khách để trốn kiểm tra quá tải. Cạnh tranh hay giảm giá là hoạt động kinh doanh bình thường, nên chỉ đáp án 3 đúng.",
+    "rule": "Khoản 15 Điều 9 Luật TTATGTĐB 2024.",
+    "tip": "Cạnh tranh, giảm giá không bị cấm."
+  },
+  "171": {
+    "why": "Người lái xe ô tô không được lái xe liên tục quá 04 giờ, để tránh mệt mỏi gây tai nạn. Đáp án 1 đúng.",
+    "rule": "Lái liên tục không quá 4 giờ; không quá 10 giờ/ngày, 48 giờ/tuần (Khoản 1 Điều 64 Luật TTATGTĐB 2024).",
+    "tip": "Liên tục 4 giờ – ngày 10 giờ – tuần 48 giờ."
+  },
+  "172": {
+    "why": "Thời gian lái xe của người lái ô tô không quá 10 giờ trong một ngày và không quá 48 giờ trong một tuần. Đáp án 3 đúng.",
+    "rule": "Khoản 1 Điều 64 Luật TTATGTĐB 2024.",
+    "tip": "Liên tục 4 giờ – ngày 10 giờ – tuần 48 giờ."
+  },
+  "173": {
+    "why": "Trước khi xe khởi hành, người lái và nhân viên phục vụ phải kiểm tra điều kiện an toàn của xe và hướng dẫn khách về an toàn, thoát hiểm. Kiểm tra nhân thân, hành lý của khách không thuộc trách nhiệm này, nên chọn đáp án 4.",
+    "rule": "Điểm b khoản 2 Điều 45 Luật TTATGTĐB 2024.",
+    "tip": "Không kiểm tra nhân thân hành khách."
+  },
+  "174": {
+    "why": "Xe chở trẻ em mầm non, học sinh phải có thiết bị ghi hình trẻ em, chống bỏ quên trẻ, niên hạn không quá 20 năm, màu sơn theo quy định; có dây đai hoặc ghế phù hợp lứa tuổi; và đáp ứng điều kiện chung như đăng ký, kiểm định, thiết bị giám sát hành trình. Cả ba ý đúng, chọn đáp án 4.",
+    "rule": "Khoản 1 Điều 46 Luật TTATGTĐB 2024.",
+    "tip": ""
+  },
+  "175": {
+    "why": "Vận chuyển động vật sống phải mang đủ giấy tờ, phương tiện có kết cấu phù hợp loại động vật, và chấp hành quy định về an toàn giao thông, vệ sinh dịch tễ, môi trường. Cả ba ý đúng, chọn đáp án 4.",
+    "rule": "Khoản 1 Điều 50 Luật TTATGTĐB 2024.",
+    "tip": ""
+  },
+  "176": {
+    "why": "Vận chuyển hàng nguy hiểm phải có giấy phép vận chuyển, và khi cần thiết đơn vị vận chuyển phải bố trí người áp tải. Đáp án 2 sai vì loại trừ hẳn việc áp tải, nên đáp án 1 đúng.",
+    "rule": "Khoản 2 Điều 51 Luật TTATGTĐB 2024.",
+    "tip": "Hàng nguy hiểm: có giấy phép, khi cần có người áp tải."
+  },
+  "177": {
+    "why": "Xe nước ngoài tay lái bên phải, xe du lịch nước ngoài phải chấp hành luật Việt Nam (trừ điều ước quốc tế quy định khác), đi đúng phạm vi, tuyến, thời gian được cấp phép, và xe tay lái bên phải phải đi theo đoàn có hỗ trợ dẫn đường. Cả ba ý đúng, chọn đáp án 4.",
+    "rule": "Khoản 3 Điều 55 Luật TTATGTĐB 2024.",
+    "tip": ""
+  },
+  "178": {
+    "why": "Dùng xe mô tô, xe gắn máy, xe thô sơ chở khách, chở hàng phải kiểm tra an toàn xe, mang đủ giấy tờ, sắp xếp hàng an toàn và không chở quá số người, quá tải, quá khổ. Cả hai ý đúng, chọn đáp án 3.",
+    "rule": "Khoản 1 Điều 47 Luật TTATGTĐB 2024.",
+    "tip": ""
+  },
+  "179": {
+    "why": "Xe chở hàng siêu trường, siêu trọng phải chạy đúng tốc độ trong giấy phép và có báo hiệu kích thước hàng; chỉ khi cần thiết mới phải có người, phương tiện hỗ trợ. Đáp án 2 thiếu báo hiệu kích thước và bắt buộc hỗ trợ trong mọi trường hợp, nên đáp án 1 đúng.",
+    "rule": "Khoản 4 Điều 53 Luật TTATGTĐB 2024.",
+    "tip": "Có cụm báo hiệu kích thước của hàng là đáp án đúng."
+  },
+  "180": {
+    "why": "Xe cứu hộ phải có dấu hiệu nhận diện, niêm yết thông tin, lắp thiết bị giám sát hành trình và ghi hình người lái, đồng thời phải tuân thủ khối lượng chuyên chở và khối lượng xe được cứu hộ ghi trên chứng nhận kiểm định. Cả hai ý đúng, chọn đáp án 3.",
+    "rule": "Khoản 2 Điều 54 Luật TTATGTĐB 2024.",
+    "tip": ""
+  }
+}

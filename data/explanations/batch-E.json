@@ -1,0 +1,467 @@
+{
+  "393": {
+    "why": "Biển 3 vẽ hai mũi tên ngược chiều đi hai bên một dải phân cách nằm ở phía trên: đó là biển “Đường đôi”, báo sắp vào đoạn đường có chiều đi và về tách bằng dải phân cách cứng. Biển 1 là “Đường hai chiều”, biển 2 là “Giao nhau với đường hai chiều”.",
+    "rule": "W.235 “Đường đôi”: báo trước sắp đến đoạn đường có chiều đi và chiều về phân biệt bằng dải phân cách cứng.",
+    "tip": "Dải phân cách ở phía trên hình = bắt đầu đường đôi; nằm ở phía dưới = kết thúc đường đôi."
+  },
+  "394": {
+    "why": "Biển 3 có dải phân cách nằm ở phía dưới, hai luồng xe phía trên nhập lại đi chung: đó là “Kết thúc đường đôi”. Biển 2 (dải phân cách ở phía trên) là “Đường đôi”, biển 1 là “Đường hai chiều”.",
+    "rule": "W.236 “Kết thúc đường đôi”: báo trước sắp kết thúc đoạn đường có chiều đi và chiều về phân biệt bằng dải phân cách cứng.",
+    "tip": "Dải phân cách ở phía trên hình = bắt đầu đường đôi; nằm ở phía dưới = kết thúc đường đôi."
+  },
+  "395": {
+    "why": "Biển 1 vẽ hai mũi tên nằm ngang ngược chiều, báo bạn (đang đi trên đường một chiều) sắp đến nơi giao nhau với đường hai chiều. Biển 2 là “Đường đôi”, biển 3 là “Đường giao nhau”.",
+    "rule": "W.234 “Giao nhau với đường hai chiều”: đặt trên đường một chiều để báo trước sắp đến vị trí giao nhau với đường hai chiều.",
+    "tip": "Hai mũi tên nằm ngang = giao nhau với đường hai chiều; hai mũi tên dọc = đường hai chiều."
+  },
+  "396": {
+    "why": "Biển 2 có hai mũi tên thẳng đứng ngược chiều, báo đoạn đường phía trước xe hai chiều đi chung. Biển 1 là “Đường giao nhau”, biển 3 là “Kết thúc đường đôi”.",
+    "rule": "W.204 “Đường hai chiều”: báo đoạn đường phải cho xe cả hai chiều đi chung (do sửa chữa, có trở ngại, đường đôi tạm thời...).",
+    "tip": "Hai mũi tên dọc ngược chiều = đường hai chiều; hai mũi tên ngang = giao nhau với đường hai chiều."
+  },
+  "397": {
+    "why": "Biển 2 có hai mũi tên nằm ngang ngược chiều, là biển “Giao nhau với đường hai chiều”, đặt trên đường một chiều. Biển 1 (mũi tên dọc) là “Đường hai chiều”, biển 3 là “Đường giao nhau”.",
+    "rule": "W.234 “Giao nhau với đường hai chiều”: đặt trên đường một chiều để báo trước sắp đến vị trí giao nhau với đường hai chiều.",
+    "tip": "Hai mũi tên nằm ngang = giao nhau với đường hai chiều; hai mũi tên dọc = đường hai chiều."
+  },
+  "398": {
+    "why": "Biển 2 (mũi tên vòng tránh ra hai bên vật cản) và biển 3 (mũi tên vòng tránh sang bên trái vật cản) đều là biển “Chú ý chướng ngại vật”. Biển 1 có mũi tên đi xuống là “Kết thúc đường đôi”, nên đáp án là biển 2 và biển 3.",
+    "rule": "W.246 (a,b,c): báo phía trước có chướng ngại vật, xe giảm tốc độ và vòng tránh theo chỉ dẫn trên biển (ra hai bên, sang trái hoặc sang phải).",
+    "tip": "Mọi mũi tên đều đi lên quanh vật cản = chướng ngại vật; có mũi tên đi xuống = đường đôi."
+  },
+  "399": {
+    "why": "Biển 2 (nền xanh) vẽ lối rẽ dẫn vào làn có rào chắn ca rô đỏ trắng, kèm cự ly 2 km: chỉ dẫn vị trí và khoảng cách đến làn cứu nạn. Biển 1 (nền vàng) là biển chỉ dẫn đường đi vòng tránh, không liên quan đến làn cứu nạn.",
+    "rule": "I.448: gồm 4 cặp biển ở cự ly 2 km, 1 km, 300 m và tại chỗ rẽ, chỉ dẫn vị trí và khoảng cách đến làn cứu nạn.",
+    "tip": "Rào chắn ca rô đỏ trắng ở cuối nhánh rẽ = làn cứu nạn (làn thoát xe khẩn cấp)."
+  },
+  "400": {
+    "why": "Biển 2 vẽ cửa hầm có các vạch đèn bên trong, là biển “Đường hầm” nhắc bạn chuẩn bị đi vào hầm đường bộ. Biển 1 là “Cửa chui” (cổng chắn ngang đường), biển 3 là biển cảnh báo cầu vồng.",
+    "rule": "W.240 “Đường hầm”: nhắc lái xe chú ý chuẩn bị đi vào hầm đường bộ.",
+    "tip": "Cửa vòm có vạch đèn bên trong = đường hầm; khối cổng đen có lỗ vòm = cửa chui."
+  },
+  "401": {
+    "why": "Biển 2 vẽ hai mép cầu thắt hẹp lại ở giữa, là biển “Cầu hẹp”. Biển 1 là cầu tạm, biển 3 (nhịp cầu bị nâng chéo lên trên mặt nước) là “Cầu quay - cầu cất”.",
+    "rule": "W.212 “Cầu hẹp”: cầu có phần xe chạy rộng ≤ 4,50 m; phải đi chậm, quan sát, nhường nhau và dừng chờ ở hai đầu cầu.",
+    "tip": "Hai mép thắt vào giữa = cầu hẹp; nhịp cầu nâng chéo lên = cầu quay - cầu cất."
+  },
+  "402": {
+    "why": "Biển 3 vẽ nhịp cầu được nâng chéo lên phía trên mặt nước, là biển “Cầu quay - cầu cất”: cầu có lúc cắt giao thông đường bộ để tàu thuyền qua. Biển 1 là cầu tạm, biển 2 là “Cầu hẹp”.",
+    "rule": "W.214 “Cầu quay - cầu cất”: cầu định kỳ quay hoặc nâng nhịp cho tàu thuyền qua; xe đi trên đường bộ phải dừng lại chờ.",
+    "tip": "Hai mép thắt vào giữa = cầu hẹp; nhịp cầu nâng chéo lên = cầu quay - cầu cất."
+  },
+  "403": {
+    "why": "Biển 1 vẽ xe chúi đầu về phía trước, rơi khỏi mép kè xuống mặt nước, báo vực sâu hoặc sông suối ở ngay phía trước. Biển 2 và biển 3 là kè, vực sâu ở bên đường (phải hoặc trái).",
+    "rule": "W.215a “Kè, vực sâu phía trước”; W.215b bên đường phía phải; W.215c bên đường phía trái: đề phòng rơi xuống vực sâu, sông suối.",
+    "tip": "Xe chúi đầu xuống = vực ở phía trước; mặt nước nằm ở bên nào của xe = vực ở bên đó."
+  },
+  "404": {
+    "why": "Ở biển 3, khối kè nằm bên phải còn mặt nước ở phía bên trái xe, nên đây là “Kè, vực sâu bên đường phía bên trái”. Biển 1 là vực sâu phía trước, biển 2 là vực sâu bên đường phía bên phải.",
+    "rule": "W.215c “Kè, vực sâu bên đường phía bên trái”: cảnh báo đường đi sát vực sâu, sông suối ở phía trái.",
+    "tip": "Nhìn mặt nước so với chiếc xe: nước bên trái = vực bên trái, nước bên phải = vực bên phải."
+  },
+  "405": {
+    "why": "Ở biển 2, khối kè nằm bên trái còn mặt nước ở phía bên phải xe, nên đây là “Kè, vực sâu bên đường phía bên phải”. Biển 1 là vực sâu phía trước, biển 3 là vực sâu bên đường phía bên trái.",
+    "rule": "W.215b “Kè, vực sâu bên đường phía bên phải”: cảnh báo đường đi sát vực sâu, sông suối ở phía phải.",
+    "tip": "Nhìn mặt nước so với chiếc xe: nước bên trái = vực bên trái, nước bên phải = vực bên phải."
+  },
+  "406": {
+    "why": "Biển 2 vẽ chiếc xe với vệt bánh uốn lượn phía sau, là biển “Đường trơn”. Biển 1 cảnh báo chỗ ngoặt có nguy cơ lật xe, biển 3 là “Bến phà”.",
+    "rule": "W.222a “Đường trơn”: đoạn đường dễ trơn trượt, nhất là khi thời tiết xấu, mưa phùn; phải giảm tốc độ và thận trọng.",
+    "tip": "Vệt bánh xe uốn lượn phía sau xe = đường trơn."
+  },
+  "407": {
+    "why": "Biển 2 vẽ xe bị lệch một bên bánh xuống phần lề thấp hơn mặt đường, là biển “Lề đường nguy hiểm”. Biển 1 (có mặt nước bên dưới) là kè, vực sâu bên đường; biển 3 cảnh báo chỗ ngoặt có nguy cơ lật xe.",
+    "rule": "",
+    "tip": "Xe trượt bánh xuống lề, không có nước = lề đường nguy hiểm; có sóng nước bên dưới = kè, vực sâu."
+  },
+  "408": {
+    "why": "Biển 1 vẽ người đang cầm xẻng làm việc, là biển “Công trường” báo sắp tới đoạn đường đang thi công sửa chữa. Biển 2 là “Đá lở”, biển 3 là “Sỏi đá bắn lên”.",
+    "rule": "W.227 “Công trường”: đoạn đường đang thi công có người, máy móc làm việc; phải giảm tốc độ, không gây nguy hiểm cho họ.",
+    "tip": "Người cầm xẻng = công trường; đá rơi từ sườn dốc = đá lở; đá văng từ bánh xe = sỏi đá bắn lên."
+  },
+  "409": {
+    "why": "Biển 2 vẽ hai xe va chạm nhau kèm dấu chấm than, là biển “Đoạn đường hay xảy ra tai nạn”. Biển 1 (nhiều xe nối đuôi) là “Ùn tắc giao thông”, biển 3 cảnh báo chỗ ngoặt có nguy cơ lật xe.",
+    "rule": "W.244 “Đoạn đường hay xảy ra tai nạn”: cảnh báo đoạn đường phía trước thường xảy ra tai nạn, lái xe cần đặc biệt chú ý.",
+    "tip": "Xe đâm nhau + dấu chấm than = hay xảy ra tai nạn; nhiều xe nối đuôi = ùn tắc."
+  },
+  "410": {
+    "why": "Biển 2 vẽ nhiều xe nối đuôi nhau, là biển “Ùn tắc giao thông”. Biển 1 là “Đường hầm”, biển 3 (xe va chạm, dấu chấm than) là “Đoạn đường hay xảy ra tai nạn”.",
+    "rule": "W.241 “Ùn tắc giao thông”: báo đoạn đường phía trước hay xảy ra ùn tắc.",
+    "tip": "Nhiều xe nối đuôi = ùn tắc; xe đâm nhau + dấu chấm than = hay xảy ra tai nạn."
+  },
+  "411": {
+    "why": "Biển 2 vẽ hai trẻ em đang chạy, là biển “Trẻ em”: gặp biển này bạn phải đi chậm, thận trọng đề phòng trẻ em bất ngờ xuất hiện. Biển 1 (người đi trên vạch kẻ) là “Đường người đi bộ cắt ngang”.",
+    "rule": "W.225 “Trẻ em”: đặt gần nhà trẻ, trường học...; phải đi chậm, thận trọng đề phòng trẻ em xuất hiện, di chuyển bất ngờ.",
+    "tip": "Hai trẻ em đang chạy = trẻ em; một người đi trên vạch kẻ = người đi bộ cắt ngang."
+  },
+  "412": {
+    "why": "Biển 2 hình vuông nền xanh vẽ người đi bộ, thuộc nhóm biển chỉ dẫn, báo nơi bắt đầu đoạn đường dành cho người đi bộ. Biển 1 (“Đường người đi bộ cắt ngang”) và biển 3 (“Trẻ em”) là biển tam giác cảnh báo nguy hiểm.",
+    "rule": "Trên đường dành cho người đi bộ, xe cơ giới và thô sơ (trừ xe đạp, xe lăn của người khuyết tật) không được đi vào, trừ khi cắt ngang qua.",
+    "tip": "Vuông/chữ nhật xanh = chỉ dẫn; tam giác vàng viền đỏ = cảnh báo nguy hiểm."
+  },
+  "413": {
+    "why": "Biển 2 vẽ hai trẻ em đang chạy, là biển “Trẻ em” báo gần đến đoạn đường thường có trẻ em đi ngang qua hoặc tụ tập. Biển 1 là “Đường người đi bộ cắt ngang”, biển 3 (người đi xe đạp) cảnh báo đường người đi xe đạp cắt ngang.",
+    "rule": "W.225 “Trẻ em”: đặt gần vườn trẻ, trường học, câu lạc bộ...; phải đi chậm và thận trọng.",
+    "tip": "Hai trẻ em đang chạy = trẻ em; một người đi trên vạch kẻ = người đi bộ cắt ngang."
+  },
+  "414": {
+    "why": "Biển 1 vẽ túi gió bị thổi căng, là biển “Gió ngang”: bạn cần điều chỉnh tốc độ cho thích hợp, đề phòng gió mạnh gây lật xe. Biển 2 cảnh báo chỗ ngoặt có nguy cơ lật xe, không liên quan đến gió.",
+    "rule": "W.232 “Gió ngang”: đoạn đường thường có gió ngang thổi mạnh; phải điều chỉnh tốc độ, đề phòng gió thổi mạnh gây lật xe.",
+    "tip": "Túi gió sọc đỏ trắng = gió ngang."
+  },
+  "415": {
+    "why": "Biển 1 có mặt dốc cao ở bên trái, thấp dần về bên phải (ghi 10%), là “Dốc xuống nguy hiểm”. Biển 2 có mặt dốc thấp bên trái, cao dần về bên phải, là “Dốc lên nguy hiểm”.",
+    "rule": "W.219 “Dốc xuống nguy hiểm”: báo trước sắp tới đoạn đường xuống dốc nguy hiểm.",
+    "tip": "Đọc biển từ trái sang phải như hướng xe chạy: mặt dốc đi xuống = dốc xuống, đi lên = dốc lên."
+  },
+  "416": {
+    "why": "Biển 2 có mặt dốc thấp ở bên trái, cao dần về bên phải (ghi 9%), là “Dốc lên nguy hiểm”. Biển 1 có mặt dốc từ cao xuống thấp theo chiều trái sang phải, là “Dốc xuống nguy hiểm”.",
+    "rule": "W.220 “Dốc lên nguy hiểm”: báo trước sắp tới đoạn đường lên dốc nguy hiểm.",
+    "tip": "Đọc biển từ trái sang phải như hướng xe chạy: mặt dốc đi xuống = dốc xuống, đi lên = dốc lên."
+  },
+  "417": {
+    "why": "Biển vẽ xe tải nghiêng đổ kèm mũi tên cong vòng sang trái: đây là biển chỗ ngoặt nguy hiểm, đường cong vòng sang trái và xe có nguy cơ bị lật về phía bên phải. Bạn cần giảm tốc độ trước khi vào cua.",
+    "rule": "W.201c: chỗ ngoặt nguy hiểm có nguy cơ lật xe bên phải khi đường cong vòng sang trái.",
+    "tip": "Mũi tên chỉ hướng đường cong; xe bị lật về phía ngược lại (cong trái thì lật phải)."
+  },
+  "418": {
+    "why": "Biển vẽ chiếc ô tô đặt trên phà nổi trên mặt nước, là biển “Bến phà” báo trước sắp đến bến phà. Biển gió ngang có hình túi gió, còn biển đường trơn có vệt bánh xe uốn lượn.",
+    "rule": "W.217 “Bến phà”: báo trước sắp đến bến phà; người tham gia giao thông phải tuân theo nội quy bến phà.",
+    "tip": "Xe nằm trên phà giữa sóng nước = bến phà."
+  },
+  "419": {
+    "why": "Biển vẽ mặt đường có nhiều chỗ nhô lên, lõm xuống liên tiếp, là biển “Đường lồi lõm” báo mặt đường gập ghềnh, ổ gà. Biển gồ giảm tốc chỉ vẽ một gờ nhô lên duy nhất.",
+    "rule": "W.221a “Đường lồi lõm”: đường đang tốt đột ngột chuyển sang đoạn lồi lõm, gập ghềnh, ổ gà; xe chạy nhanh sẽ nguy hiểm.",
+    "tip": "Nhiều chỗ lồi = đường lồi lõm; một gờ duy nhất = gồ giảm tốc."
+  },
+  "420": {
+    "why": "Biển vẽ một gờ nhô lên duy nhất trên mặt đường, báo phía trước có gồ giảm tốc, bạn cần giảm tốc độ. Biển đường lồi lõm (ổ gà) vẽ nhiều chỗ lồi lõm liên tiếp.",
+    "rule": "Thuộc nhóm biển W.221 (a,b) cảnh báo mặt đường không bằng phẳng; xe chạy tốc độ cao qua đoạn này sẽ nguy hiểm.",
+    "tip": "Nhiều chỗ lồi = đường lồi lõm; một gờ duy nhất = gồ giảm tốc."
+  },
+  "421": {
+    "why": "Biển có dấu chấm than phía trên các đường gợn sóng, là biển “Nền đường yếu”: đoạn nền đường yếu, đang theo dõi lún, chạy tốc độ cao có thể nguy hiểm. Biển đá lở vẽ đá rơi từ sườn dốc, biển sỏi đá bắn lên vẽ đá văng từ bánh xe.",
+    "rule": "W.228d “Nền đường yếu”: cảnh báo đoạn nền đường yếu, đang theo dõi lún; lái xe cần chú ý giảm tốc độ hợp lý.",
+    "tip": "Dấu chấm than trên nền gợn sóng = nền đường yếu."
+  },
+  "422": {
+    "why": "Cả hai biển đều vẽ đất đá rơi từ sườn dốc (ta luy) xuống mặt đường, là biển “Đá lở” với hai kiểu sườn dốc ở hai phía, báo đoạn đường có đất đá sụt lở bất ngờ.",
+    "rule": "W.228 (a,b) “Đá lở”: báo trước đoạn đường có đất đá từ trên ta luy dương sụt lở bất ngờ, nguy hiểm cho xe và người.",
+    "tip": "Đá rơi từ sườn núi = đá lở; đá văng ra từ bánh xe = sỏi đá bắn lên."
+  },
+  "423": {
+    "why": "Biển vẽ đá sỏi văng ra từ bánh xe đang chạy, là biển “Sỏi đá bắn lên”: mặt đường có kết cấu rời rạc, xe đi qua làm đá sỏi bắn lên gây nguy hiểm cho người và phương tiện.",
+    "rule": "W.228c “Sỏi đá bắn lên”: nơi kết cấu mặt đường rời rạc, xe đi qua làm viên đá, sỏi bắn lên gây mất an toàn.",
+    "tip": "Đá văng ra từ bánh xe = sỏi đá bắn lên; đá rơi từ sườn núi = đá lở."
+  },
+  "424": {
+    "why": "Biển vẽ con bò, là biển “Gia súc” báo đoạn đường thường có gia súc thả rông hoặc lùa qua đường. Bạn phải đi chậm, quan sát và dừng lại để gia súc qua đường an toàn; bấm còi to rồi phóng nhanh dễ làm gia súc hoảng và gây tai nạn.",
+    "rule": "W.230 “Gia súc”: người tham gia giao thông phải đi chậm, quan sát và dừng lại bảo đảm gia súc qua đường không bị nguy hiểm.",
+    "tip": ""
+  },
+  "425": {
+    "why": "Biển vẽ tia điện hình chữ “Z” (ký hiệu điện), là biển “Đường cáp điện ở phía trên”, báo có đường dây điện cắt ngang phía trên tuyến đường, không phải khu vực hay có sét đánh.",
+    "rule": "W.239a “Đường cáp điện ở phía trên”, đặt kèm biển S.509a “Chiều cao an toàn” ở phía dưới.",
+    "tip": "Tia điện trên biển cảnh báo = dây điện vắt ngang đường, không phải sét."
+  },
+  "426": {
+    "why": "Biển 2 chia làn, mỗi làn có hình loại xe được đi và tốc độ tối đa riêng: các xe phải đi đúng làn quy định và tuân thủ tốc độ tối đa của làn đó. Biển 1 chỉ quy định tốc độ tối đa theo làn, không quy định loại xe đi trên làn.",
+    "rule": "P.127c: tốc độ tối đa cho phép theo phương tiện trên từng làn; xe phải đi đúng làn và tuân thủ tốc độ tối đa của làn đó.",
+    "tip": "Có hình loại xe trong từng làn = quy định cả làn theo loại xe lẫn tốc độ."
+  },
+  "427": {
+    "why": "Cả hai biển đều ghi tốc độ tối đa riêng cho từng làn đường: biển 1 ghi tốc độ theo làn, biển 2 ghi thêm loại xe được đi trên mỗi làn. Vì vậy cả hai đều yêu cầu tuân thủ tốc độ tối đa trên từng làn.",
+    "rule": "P.127c quy định tốc độ tối đa theo phương tiện trên từng làn: xe phải đi đúng làn và không vượt tốc độ tối đa của làn đó.",
+    "tip": ""
+  },
+  "428": {
+    "why": "Biển 1 (chữ nhật xanh, hình xe ô tô) là “Đường dành cho xe ô tô”, báo bắt đầu đường dành cho các loại ô tô. Biển 2 có vạch đỏ chéo là biển hết đoạn đường dành cho xe ô tô.",
+    "rule": "R.403a “Đường dành cho xe ô tô”: các phương tiện khác không được đi vào đoạn đường có đặt biển.",
+    "tip": "Thêm vạch đỏ chéo = hết đoạn đường dành riêng đó."
+  },
+  "429": {
+    "why": "Biển 2 có hình xe ô tô bị gạch chéo đỏ, là biển “Hết đoạn đường dành cho xe ô tô”. Biển 1 không có vạch chéo là biển bắt đầu “Đường dành cho xe ô tô”.",
+    "rule": "R.404a “Hết đoạn đường dành cho xe ô tô”: đặt ở nơi hết đoạn đường dành cho ô tô đi lại.",
+    "tip": "Thêm vạch đỏ chéo = hết đoạn đường dành riêng đó."
+  },
+  "430": {
+    "why": "Biển 1 có hình ô tô và mô tô, là biển “Đường dành cho xe ô tô, xe máy”: chỉ hai loại xe này được đi vào, các phương tiện khác không được đi. Biển 2 có vạch đỏ chéo là biển hết đoạn đường đó.",
+    "rule": "R.403b “Đường dành cho xe ô tô, xe máy”; ngoài phương tiện ghi trên biển, các phương tiện khác không được đi vào.",
+    "tip": "Thêm vạch đỏ chéo = hết đoạn đường dành riêng đó."
+  },
+  "431": {
+    "why": "Biển chia làn bằng vạch đứt, mỗi làn có mũi tên chỉ hướng riêng (rẽ trái, đi thẳng, rẽ phải). Đây là biển báo số lượng làn đường và hướng đi trên mỗi làn phải theo.",
+    "rule": "R.411: báo số lượng làn và hướng đi trên mỗi làn theo vạch kẻ đường; dùng phối hợp với vạch mũi tên chỉ hướng trên mặt đường.",
+    "tip": "Biển chữ nhật xanh chia nhiều ô có mũi tên = hướng đi trên từng làn."
+  },
+  "432": {
+    "why": "Cả hai biển là biển hiệu lệnh “Hướng đi phải theo”: biển 1 chỉ cho đi thẳng, biển 2 chỉ cho rẽ trái hoặc rẽ phải. Xe bắt buộc đi đúng hướng mũi tên, nên không biển nào cho phép rẽ sang hướng khác ngoài hướng đã chỉ.",
+    "rule": "R.301 “Hướng đi phải theo”: biển hiệu lệnh có hiệu lực kể từ vị trí đặt biển; xe chỉ được đi theo hướng mũi tên.",
+    "tip": "Tròn xanh mũi tên trắng = hiệu lệnh, bắt buộc đi theo hướng mũi tên."
+  },
+  "433": {
+    "why": "Biển 1 hình tròn nền xanh, mũi tên thẳng đứng, là biển hiệu lệnh “Hướng đi thẳng phải theo”. Biển 2 hình vuông nền xanh là biển chỉ dẫn “Đường một chiều”.",
+    "rule": "R.301 “Hướng đi phải theo”: biển hiệu lệnh, xe phải đi theo hướng mũi tên kể từ vị trí đặt biển.",
+    "tip": "Tròn xanh = hiệu lệnh phải theo; vuông xanh mũi tên to = đường một chiều."
+  },
+  "434": {
+    "why": "Biển 2 hình vuông nền xanh, mũi tên trắng hướng lên, là biển chỉ dẫn “Đường một chiều”: xe chỉ được đi theo chiều mũi tên. Biển 1 hình tròn là biển hiệu lệnh “Hướng đi thẳng phải theo”.",
+    "rule": "I.407 “Đường một chiều”: chỉ cho xe đi theo chiều mũi tên, cấm quay đầu ngược lại (trừ xe được quyền ưu tiên).",
+    "tip": "Tròn xanh = hiệu lệnh phải theo; vuông xanh mũi tên to = đường một chiều."
+  },
+  "435": {
+    "why": "Biển 1 (tròn nền trắng, số 50 bị gạch chéo đen) là “Hết tốc độ tối đa cho phép”. Biển 2 là “Hết tất cả các lệnh cấm”, biển 3 (tròn xanh, số 60 gạch đỏ) là “Hết hạn chế tốc độ tối thiểu”.",
+    "rule": "DP.134 “Hết tốc độ tối đa cho phép”: báo hiệu lực của biển P.127 hết tác dụng.",
+    "tip": "Nền trắng gạch đen = hết lệnh cấm; nền xanh gạch đỏ = hết hiệu lệnh (tốc độ tối thiểu)."
+  },
+  "436": {
+    "why": "Biển 1 “Hết tốc độ tối đa cho phép” và biển 2 “Hết tất cả các lệnh cấm” đều chấm dứt hiệu lực biển tốc độ tối đa. Biển 3 (nền xanh) là hết tốc độ tối thiểu, không liên quan đến tốc độ tối đa.",
+    "rule": "DP.134 làm hết hiệu lực biển P.127; DP.135 đặt ở nơi hết đoạn đường mà nhiều biển báo cấm cùng hết hiệu lực.",
+    "tip": "Biển chỉ có gạch chéo (hết mọi lệnh cấm) xóa luôn cả hạn chế tốc độ tối đa."
+  },
+  "437": {
+    "why": "Biển 3 hình tròn nền xanh, số 60 bị gạch chéo đỏ, là “Hết hạn chế tốc độ tối thiểu”: từ đây xe được chạy chậm hơn 60 km/h nhưng không gây cản trở xe khác. Biển 1 là hết tốc độ tối đa, biển 2 là hết mọi lệnh cấm.",
+    "rule": "R.307 “Hết hạn chế tốc độ tối thiểu”: báo hiệu lực biển R.306 hết tác dụng.",
+    "tip": "Nền trắng gạch đen = hết lệnh cấm; nền xanh gạch đỏ = hết hiệu lệnh (tốc độ tối thiểu)."
+  },
+  "438": {
+    "why": "Biển 3 (hình hai xe con bị gạch chéo) là “Hết cấm vượt”; biển 2 “Hết tất cả các lệnh cấm” cũng chấm dứt lệnh cấm vượt. Biển 1 chỉ là hết tốc độ tối đa cho phép.",
+    "rule": "DP.133 “Hết cấm vượt”: hiệu lực biển P.125, P.126 hết tác dụng; DP.135 báo nhiều lệnh cấm cùng hết hiệu lực.",
+    "tip": "Biển chỉ có gạch chéo (hết mọi lệnh cấm) cũng xóa lệnh cấm vượt."
+  },
+  "439": {
+    "why": "Biển 2 hình tròn nền trắng, chỉ có các vạch đen chéo, là biển “Hết tất cả các lệnh cấm”. Biển 1 là hết tốc độ tối đa, biển 3 (nền xanh) là hết hạn chế tốc độ tối thiểu.",
+    "rule": "DP.135 “Hết tất cả các lệnh cấm”: đặt ở nơi hết đoạn đường mà nhiều biển báo cấm cùng hết hiệu lực.",
+    "tip": "Chỉ có gạch chéo, không kèm hình hay số = hết mọi lệnh cấm."
+  },
+  "440": {
+    "why": "Biển 3 (tròn xanh) là biển hiệu lệnh cho phép đi thẳng hoặc rẽ trái tại nơi giao nhau. Theo bộ đề, đây là biển cho phép xe quay đầu đi theo hướng ngược lại; biển 1 (chỉ rẽ trái) và biển 2 (rẽ trái hoặc rẽ phải) không phải đáp án.",
+    "rule": "R.301 “Hướng đi phải theo”: xe chỉ được đi theo các hướng mũi tên chỉ trên biển, kể từ vị trí đặt biển.",
+    "tip": ""
+  },
+  "441": {
+    "why": "Biển 1 chỉ có mũi tên rẽ trái, nghĩa là xe chỉ được rẽ trái nên không được rẽ phải. Biển 2 cho rẽ trái hoặc rẽ phải, biển 3 cho đi thẳng hoặc rẽ phải.",
+    "rule": "R.301 “Hướng đi phải theo”: xe chỉ được đi theo hướng mũi tên trên biển, kể từ vị trí đặt biển.",
+    "tip": "Với biển hướng đi phải theo, hướng nào không có mũi tên là hướng không được đi."
+  },
+  "442": {
+    "why": "Biển 1 (chỉ rẽ trái) và biển 2 (rẽ trái hoặc rẽ phải) không có mũi tên đi thẳng, nên tại nơi giao nhau xe phải rẽ sang hướng khác. Biển 3 có mũi tên đi thẳng nên xe vẫn được đi thẳng.",
+    "rule": "R.301 “Hướng đi phải theo”: xe chỉ được đi theo hướng mũi tên trên biển, kể từ vị trí đặt biển.",
+    "tip": "Với biển hướng đi phải theo, hướng nào không có mũi tên là hướng không được đi."
+  },
+  "443": {
+    "why": "Biển 1 (mũi tên quay ngược hình chữ U) là “Chỗ quay xe”, biển 2 là “Khu vực quay xe” mô tả cách thức quay xe. Cả hai đều là biển chỉ dẫn nơi được phép quay đầu xe.",
+    "rule": "I.409 “Chỗ quay xe”: chỉ vị trí được phép quay đầu; I.410 “Khu vực quay xe”: chỉ khu vực được quay đầu, mô tả cách quay.",
+    "tip": "Vuông xanh có mũi tên chữ U = được quay xe; tròn viền đỏ có chữ U = cấm quay đầu."
+  },
+  "444": {
+    "why": "Biển 3 nền xanh chữ trắng ghi ký hiệu AH112 là biển tên đường dùng cho các tuyến đường đối ngoại. Biển 1 và biển 2 (chữ ZONE, hình cấm đỗ) là biển khu vực cấm đỗ xe và cấm đỗ xe theo giờ trong khu vực.",
+    "rule": "I.449 “Biển tên đường”: báo tên đường cho các tuyến đường đối ngoại.",
+    "tip": "Ký hiệu AH (tuyến đường châu Á) trên nền xanh = tên tuyến đường đối ngoại."
+  },
+  "445": {
+    "why": "Biển 1 có chữ ZONE, hình cấm đỗ xe kèm khung giờ 6:00 - 18:00 và bị gạch chéo đen, nên báo hết cấm đỗ xe theo giờ trong khu vực. Biển 2 là hết khu vực cấm đỗ xe, biển 3 (chữ P) là hết khu vực đỗ xe.",
+    "rule": "R.E.10b “Hết cấm đỗ xe theo giờ trong khu vực”.",
+    "tip": "Biển ZONE bị gạch chéo đen = hết hiệu lực khu vực; có ghi giờ = áp dụng theo khung giờ."
+  },
+  "446": {
+    "why": "Biển 3 có chữ ZONE và hình tròn viền đỏ số 50, là biển hạn chế tốc độ tối đa trong khu vực (50 km/h). Biển 1 là khu vực cấm đỗ xe, biển 2 (chữ P bị gạch chéo) là hết khu vực đỗ xe.",
+    "rule": "Biển ZONE có hiệu lực trong cả khu vực; khi ra khỏi khu vực sẽ gặp biển R.E.10d “Hết hạn chế tốc độ tối đa trong khu vực”.",
+    "tip": "ZONE + vòng tròn đỏ có số = tốc độ tối đa cho cả khu vực."
+  },
+  "447": {
+    "why": "Biển 2 chia hai phần: bên trái có hình xe khách và mũi tên đi xuống, bên phải mũi tên đi lên, báo đường phía trước có làn dành cho ô tô khách đi theo chiều ngược lại. Biển 3 là biển rẽ ra đường có làn ô tô khách, biển 1 là biển làn đường dành cho ô tô.",
+    "rule": "I.413a: chỉ dẫn đường phía trước có làn đường dành riêng cho ô tô khách theo chiều ngược lại.",
+    "tip": "Xe khách cạnh mũi tên dọc = đường phía trước; cạnh mũi tên ngang = rẽ ra đường có làn xe khách."
+  },
+  "448": {
+    "why": "Biển 3 có mũi tên ngang chỉ hướng rẽ, phần dưới có hình xe khách: báo ở nơi giao nhau, rẽ theo hướng này là ra đường có làn dành cho ô tô khách. Biển 2 là “Đường phía trước có làn đường dành cho ô tô khách”.",
+    "rule": "I.413b, I.413c: chỉ dẫn ở nơi giao nhau rẽ phải hoặc rẽ trái là rẽ ra đường có làn đường dành riêng cho ô tô khách.",
+    "tip": "Xe khách cạnh mũi tên dọc = đường phía trước; cạnh mũi tên ngang = rẽ ra đường có làn xe khách."
+  },
+  "449": {
+    "why": "Biển 1 và biển 2 vẽ đường chính có nhánh rẽ bị chặn bằng vạch đỏ, chỉ lối rẽ vào đường cụt (phía phải hoặc phía trái), đặt trên đường chính trước nơi giao nhau. Biển 3 báo chính đoạn đường phía trước là đường cụt.",
+    "rule": "I.405 (a,b): chỉ lối rẽ vào đường cụt, đặt trên đường chính trước khi đến nơi đường giao nhau để rẽ vào đường cụt.",
+    "tip": "Vạch đỏ chặn ở nhánh bên cạnh = lối rẽ vào đường cụt; chặn ngay phía trước = đường cụt."
+  },
+  "450": {
+    "why": "Biển 1 vẽ người đang bước lên bậc thang, chỉ dẫn người đi bộ sử dụng cầu vượt qua đường. Biển 2 vẽ người bước xuống bậc thang là biển hầm chui qua đường cho người đi bộ.",
+    "rule": "I.424 (a,b) “Cầu vượt qua đường cho người đi bộ”; I.424 (c,d) “Hầm chui qua đường cho người đi bộ”.",
+    "tip": "Bước lên cầu thang = cầu vượt; bước xuống cầu thang = hầm chui."
+  },
+  "451": {
+    "why": "Biển 2 vẽ người đang bước xuống bậc thang, chỉ dẫn người đi bộ sử dụng hầm chui qua đường. Biển 1 (bước lên bậc thang) là biển cầu vượt qua đường cho người đi bộ.",
+    "rule": "I.424 (c,d) “Hầm chui qua đường cho người đi bộ”: chọn kiểu biển theo hướng thực tế người đi bộ qua hầm.",
+    "tip": "Bước lên cầu thang = cầu vượt; bước xuống cầu thang = hầm chui."
+  },
+  "452": {
+    "why": "Biển 2 hình vuông nền xanh vẽ người ngồi xe lăn, chỉ dẫn nơi đỗ xe dành cho người khuyết tật. Biển 1 (tròn xanh, xe đạp và xe ngựa) là “Đường dành cho xe thô sơ”, biển 3 (tròn xanh, người đi bộ) là “Đường dành cho người đi bộ”.",
+    "rule": "",
+    "tip": "Hình xe lăn = dành cho người khuyết tật; tròn xanh là hiệu lệnh, vuông xanh là chỉ dẫn."
+  },
+  "453": {
+    "why": "Biển có chữ P kèm hình xe đỗ lệch một bên bánh lên hè, là biển “Nơi đỗ xe một phần trên hè phố”: bạn đỗ sao cho từ 1/2 thân xe trở lên nằm trên hè phố, các bánh phía ghế phụ đặt trên hè.",
+    "rule": "I.408a “Nơi đỗ xe một phần trên hè phố”: chỉ nơi được đỗ xe một phần trên hè phố rộng; bánh xe phía ghế phụ đặt trên hè.",
+    "tip": "Chữ P + hình xe đỗ lệch lên vỉa hè = đỗ một phần trên hè phố."
+  },
+  "454": {
+    "why": "Biển ghi CSGT - POLICE là biển “Trạm cảnh sát giao thông”. Khi đi qua khu vực này, bạn phải giảm tốc độ đến mức an toàn và không được vượt; biển không bắt buộc mọi xe phải dừng lại.",
+    "rule": "I.436 “Trạm cảnh sát giao thông”: phương tiện phải giảm tốc độ đến mức an toàn và không được vượt khi đi qua khu vực này.",
+    "tip": "Thấy biển CSGT/POLICE: giảm tốc, không vượt."
+  },
+  "455": {
+    "why": "Biển tròn nền xanh có các mũi tên nối nhau thành vòng tròn là biển hiệu lệnh về nơi giao nhau chạy theo vòng xuyến. Xe muốn chuyển hướng bắt buộc phải chạy vòng quanh đảo an toàn theo chiều mũi tên.",
+    "rule": "Tại nơi giao nhau có đảo an toàn ở giữa, các loại xe phải đi vòng xuyến quanh đảo theo chiều mũi tên (biển cảnh báo tương ứng là W.206).",
+    "tip": "Tròn nền xanh = biển hiệu lệnh, bắt buộc chấp hành."
+  },
+  "456": {
+    "why": "Biển 2 ghi “Địa phận Hà Nam” kèm lý trình km, là biển chỉ dẫn địa giới hành chính giữa các tỉnh, thành phố, huyện. Biển 1 chỉ hướng đi tới các địa danh kèm khoảng cách, biển 3 chỉ ghi tên một địa danh.",
+    "rule": "I.419 (a,b) “Chỉ dẫn địa giới”: chỉ dẫn địa giới hành chính giữa các thành phố, tỉnh, huyện.",
+    "tip": "Có chữ “Địa phận” = biển chỉ dẫn địa giới hành chính."
+  },
+  "457": {
+    "why": "Biển 1 và biển 3 (chữ nhật xanh) vẽ sơ đồ quốc lộ có nhánh vòng nối lên cầu vượt để đi sang các hướng, là biển báo hiệu cầu vượt liên thông. Biển 2 (tròn xanh) là biển hiệu lệnh chỉ hướng đi tại tuyến đường cầu vượt cắt qua.",
+    "rule": "",
+    "tip": "Chữ nhật xanh có sơ đồ nhánh vòng lên cầu = cầu vượt liên thông; tròn xanh có mũi tên = hướng đi phải theo."
+  },
+  "458": {
+    "why": "Biển 1 (chữ nhật xanh) có sơ đồ quốc lộ với nhánh vòng nối lên cầu vượt sang các hướng, là biển báo hiệu cầu vượt liên thông. Hai biển tròn xanh (biển 2, biển 3) mới là biển chỉ hướng đi tại tuyến đường cầu vượt cắt qua.",
+    "rule": "",
+    "tip": "Chữ nhật xanh có sơ đồ nhánh vòng lên cầu = cầu vượt liên thông; tròn xanh có mũi tên = hướng đi phải theo."
+  },
+  "459": {
+    "why": "Biển 1 và biển 2 (tròn xanh) vẽ mũi tên đi thẳng kết hợp nhánh rẽ, báo hiệu “Tuyến đường cầu vượt cắt qua” và các hướng xe phải đi. Biển 3 (tam giác vàng) là biển cảnh báo cầu vồng.",
+    "rule": "",
+    "tip": "Tròn nền xanh = hiệu lệnh, bắt buộc đi theo hướng mũi tên."
+  },
+  "460": {
+    "why": "Biển nền xanh vẽ lối rẽ dẫn vào làn có rào chắn ca rô đỏ trắng, kèm cự ly 300 m: chỉ dẫn khoảng cách đến làn cứu nạn (làn thoát xe khẩn cấp), không phải đường cụt, nút giao hay trạm dừng nghỉ.",
+    "rule": "I.448: gồm 4 cặp biển ở cự ly 2 km, 1 km, 300 m và tại chỗ rẽ, chỉ dẫn vị trí và khoảng cách đến làn cứu nạn.",
+    "tip": "Rào ca rô đỏ trắng ở cuối nhánh rẽ = làn cứu nạn."
+  },
+  "461": {
+    "why": "Biển làn đường dành riêng cho từng loại xe quy định loại xe đi trên mỗi làn, nhưng khi đến gần nơi đường bộ giao nhau, xe được phép chuyển sang làn khác để đi theo hành trình mong muốn, miễn là chuyển làn đúng quy định.",
+    "rule": "Khi đến gần nơi đường bộ giao nhau, xe được phép chuyển làn để đi theo hành trình mong muốn; việc chuyển làn phải theo đúng quy định.",
+    "tip": ""
+  },
+  "462": {
+    "why": "Biển vẽ xe ô tô nhìn chính diện là biển “Đường dành cho xe ô tô”, áp dụng cho các loại ô tô nói chung, nên xe tải và xe khách được phép đi vào.",
+    "rule": "R.403a “Đường dành cho xe ô tô”: báo bắt đầu đường dành cho các loại ô tô đi lại.",
+    "tip": "Ô tô nhìn chính diện = mọi loại ô tô; ô tô con nhìn ngang = chỉ ô tô con."
+  },
+  "463": {
+    "why": "Biển vẽ xe ô tô con nhìn ngang là biển “Đường dành cho xe ô tô con”: chỉ ô tô con được đi, các phương tiện khác như xe tải, xe khách không được đi vào.",
+    "rule": "R.403d “Đường dành cho xe ô tô con”; các phương tiện không ghi trên biển không được đi vào đoạn đường này.",
+    "tip": "Ô tô nhìn chính diện = mọi loại ô tô; ô tô con nhìn ngang = chỉ ô tô con."
+  },
+  "464": {
+    "why": "Biển 2 nền xanh lá ghi tên tuyến cao tốc kèm dòng “KẾT THÚC - END”, là biển “Hết đường cao tốc”. Biển 1 (hình thoi vàng bị gạch) là “Hết đoạn đường ưu tiên”, biển 3 là “Hết đoạn đường dành cho xe ô tô”.",
+    "rule": "IE.453c “Hết đường cao tốc”: chỉ dẫn hết đường cao tốc.",
+    "tip": "Biển chỉ dẫn cao tốc có nền xanh lá; chữ “KẾT THÚC/END” = hết đường cao tốc."
+  },
+  "465": {
+    "why": "Biển nền xanh lá vẽ nhánh xe nhập vào dòng chính (mũi tên vàng), ghi “NHẬP LÀN - MERGE LANE” và cự ly 250 m: báo vị trí nhập làn xe ở phía trước cách 250 m, không liên quan đến trạm thu phí.",
+    "rule": "IE.467a chỉ dẫn vị trí nhập làn xe tại nút giao có lưu lượng lớn; IE.467b báo trước sắp đến vị trí nhập làn xe.",
+    "tip": "Mũi tên vàng chéo nhập vào làn chính = nhập làn; số mét = khoảng cách."
+  },
+  "466": {
+    "why": "Cả hai biển đều ghi “NHẬP LÀN - MERGE LANE” và vẽ nhánh xe nhập vào dòng chính: biển 1 chỉ dẫn vị trí nhập làn, biển 2 có thêm cự ly 250 m để báo trước sắp đến vị trí nhập làn.",
+    "rule": "IE.467a chỉ dẫn vị trí nhập làn xe; IE.467b báo trước sắp đến vị trí nhập làn xe.",
+    "tip": ""
+  },
+  "467": {
+    "why": "Biển nền xanh lá có biểu tượng đường cao tốc, tên tuyến TP. HCM - Trung Lương, ký hiệu CT.01 và hai biển tốc độ 100 (tối đa) và 60 (tối thiểu). Vì vậy biển vừa báo bắt đầu đường cao tốc, vừa cho biết tên, ký hiệu và tốc độ tối đa, tối thiểu.",
+    "rule": "",
+    "tip": "Vòng tròn viền đỏ = tốc độ tối đa; tròn nền xanh = tốc độ tối thiểu."
+  },
+  "468": {
+    "why": "Trên biển trạm dừng nghỉ, các biểu tượng lần lượt là: cột bơm xăng (xăng dầu), dao dĩa (ăn uống), chữ “i” (thông tin) và cờ lê (sửa chữa xe).",
+    "rule": "I.431 “Trạm dừng nghỉ”: chỉ dẫn nơi có dịch vụ cho khách đi đường; biểu tượng bố trí tùy dịch vụ có tại trạm.",
+    "tip": "Chữ “i” luôn là thông tin (information)."
+  },
+  "469": {
+    "why": "Biển ghi “TRẠM KTTT - WEIGH STATION” kèm cự ly 750 m, chỉ dẫn khoảng cách đến trạm kiểm tra tải trọng xe còn 750 m. Biển không có mũi tên nên không phải biển chỉ hướng rẽ vào trạm.",
+    "rule": "IE.463a chỉ dẫn khoảng cách đến công trình kiểm soát tải trọng xe; IE.463b chỉ hướng rẽ vào; IE.463c chỉ lối vào.",
+    "tip": "Có số mét = khoảng cách; có mũi tên = hướng rẽ."
+  },
+  "470": {
+    "why": "Ba biển sọc vàng đen là biển chỉ dẫn chướng ngại vật trên đường cao tốc. Biển 1 có sọc chéo chỉ dẫn vòng tránh sang bên trái; biển 2 sọc hình chữ V cho đi cả hai bên; biển 3 sọc chéo ngược lại chỉ dẫn đi bên phải.",
+    "rule": "IE.468a chỉ dẫn đi theo hướng bên trái; IE.468b đi được cả hai hướng; IE.468c đi theo hướng bên phải.",
+    "tip": "Sọc chữ V đối xứng = đi được cả hai bên."
+  },
+  "471": {
+    "why": "Biển 3 có sọc vàng đen chéo theo chiều ngược với biển 1, chỉ dẫn lái xe vòng tránh chướng ngại vật sang bên phải. Biển 1 chỉ hướng bên trái, biển 2 (sọc chữ V) cho đi cả hai hướng.",
+    "rule": "IE.468a chỉ dẫn đi theo hướng bên trái; IE.468b đi được cả hai hướng; IE.468c đi theo hướng bên phải.",
+    "tip": "Sọc chữ V đối xứng = đi được cả hai bên."
+  },
+  "472": {
+    "why": "Biển 2 có sọc vàng đen xếp hình chữ V đối xứng, chỉ dẫn lái xe có thể vòng tránh chướng ngại vật về bên trái hoặc bên phải. Biển 1 chỉ hướng bên trái, biển 3 chỉ hướng bên phải.",
+    "rule": "IE.468b: chỉ dẫn chướng ngại vật phía trước, xe đi được cả hai hướng.",
+    "tip": "Sọc chữ V đối xứng = đi được cả hai bên."
+  },
+  "473": {
+    "why": "Biển 1 và biển 3 (chữ nhật vàng có mũi tên đen hình chữ V nằm ngang) là tiêu phản quang chỉ hướng rẽ, nhắc lái xe đổi hướng khi sắp vào đường cong nguy hiểm. Biển 2 (cột sọc chữ V dựng đứng) là biển chỉ dẫn chướng ngại vật, đi được cả hai hướng.",
+    "rule": "IE.469 (tiêu phản quang): nhắc chuẩn bị đổi hướng khi sắp vào đường cong nguy hiểm bán kính nhỏ; đặt ở phía lưng đường cong.",
+    "tip": "Mũi chữ V nằm ngang = hướng cua; sọc chữ V dựng đứng = chướng ngại vật."
+  },
+  "474": {
+    "why": "Biển 2 (cột sọc vàng đen hình chữ V dựng đứng) chỉ dẫn chướng ngại vật phía trước, xe đi được cả hai hướng. Biển 1 (mũi chữ V nằm ngang) là tiêu phản quang chỉ hướng rẽ vào đường cong.",
+    "rule": "IE.468b: chỉ dẫn chướng ngại vật phía trước, xe đi được cả hai hướng.",
+    "tip": "Mũi chữ V nằm ngang = hướng cua; sọc chữ V dựng đứng = chướng ngại vật."
+  },
+  "475": {
+    "why": "Biển chữ nhật vàng có mũi tên đen hình chữ V nằm ngang là tiêu phản quang chỉ hướng rẽ, nhắc lái xe chuẩn bị đổi hướng khi sắp vào đường cong nguy hiểm có bán kính nhỏ, không phải biển chỉ dẫn chướng ngại vật.",
+    "rule": "IE.469: đặt ở phía lưng đường cong, cách mép lề đường 0,5 m hoặc trên dải phân cách giữa của đường hai chiều riêng biệt.",
+    "tip": "Mũi chữ V nằm ngang = hướng cua; sọc chữ V dựng đứng = chướng ngại vật."
+  },
+  "476": {
+    "why": "Vạch 3 có mũi tên đi thẳng kèm nhánh rẽ phải, cho phép xe đi thẳng và rẽ phải. Vạch 2 là đi thẳng và rẽ trái; vạch 1 là mũi tên chếch sang phải, không phải tổ hợp đi thẳng và rẽ phải.",
+    "rule": "Vạch mũi tên chỉ hướng trên mặt đường dùng để chỉ hướng xe phải đi trong làn.",
+    "tip": "Mỗi đầu mũi tên là một hướng được đi trên làn đó."
+  },
+  "477": {
+    "why": "Vạch 1 (trắng nét đứt) và vạch 2 (trắng nét liền) đều là vạch phân chia các làn xe cùng chiều. Vạch 3 là vạch vàng kép, dùng để phân chia hai chiều xe chạy ngược chiều.",
+    "rule": "Vạch 2.1 phân chia làn cùng chiều, được chuyển làn qua vạch; vạch 2.2 phân chia làn cùng chiều, không được lấn làn, đè vạch.",
+    "tip": "Trắng = phân làn cùng chiều; vàng = phân chia hai chiều ngược nhau (tim đường)."
+  },
+  "478": {
+    "why": "Vạch 2 là vạch vàng nét liền đơn, phân chia hai chiều xe chạy (vạch tim đường); xe không được lấn làn, không được đè lên vạch. Vạch 1 và vạch 3 màu trắng là vạch phân chia các làn xe cùng chiều.",
+    "rule": "Vạch 1.2 phân chia hai chiều xe chạy ngược chiều; xe không được lấn làn, không được đè lên vạch.",
+    "tip": "Vàng liền = tim đường, không được đè; trắng = phân làn cùng chiều."
+  },
+  "479": {
+    "why": "Vạch 1 (vàng nét đứt) và vạch 3 (vàng nét liền) đều là vạch tim đường, phân chia hai chiều xe chạy. Vạch 2 màu trắng nét đứt là vạch phân chia các làn xe cùng chiều.",
+    "rule": "Vạch tim đường (vạch phân cách hai chiều xe chạy) có thể là vạch 1.1 hoặc vạch 1.2.",
+    "tip": "Trắng = phân làn cùng chiều; vàng = phân chia hai chiều ngược nhau (tim đường)."
+  },
+  "480": {
+    "why": "Các vạch đều màu vàng (nét đứt, nét liền đơn, nét liền kép), là các dạng vạch tim đường, dùng để phân chia hai chiều xe chạy ngược chiều nhau.",
+    "rule": "Vạch 1.1, 1.2 là vạch tim đường; vạch 1.2 và 1.3 phân chia hai chiều ngược nhau, xe không được lấn làn, không được đè lên vạch.",
+    "tip": "Màu vàng = phân chia hai chiều xe chạy ngược nhau."
+  },
+  "481": {
+    "why": "Hai vạch màu trắng (nét đứt và nét liền) là vạch phân chia các làn xe chạy cùng chiều nhau. Vạch đứt cho phép chuyển làn, vạch liền không cho phép chuyển làn.",
+    "rule": "Vạch 2.1 cho phép chuyển làn qua vạch; vạch 2.2 không cho chuyển làn, xe không được lấn làn, không được đè lên vạch.",
+    "tip": "Màu trắng = phân làn cùng chiều."
+  },
+  "482": {
+    "why": "Vạch 1 (vàng nét đứt) và vạch 3 (trắng nét đứt) là vạch đứt nét, xe được phép đè vạch, cắt qua khi cần thiết. Vạch 2 trắng nét liền: xe không được lấn làn, không được đè lên vạch.",
+    "rule": "Vạch đứt nét cho phép xe cắt qua (vạch 2.1 cho chuyển làn); vạch liền nét thì không được lấn làn, không được đè lên vạch.",
+    "tip": "Đứt được đè, liền không được đè (bất kể màu vàng hay trắng)."
+  },
+  "483": {
+    "why": "Các cặp vạch hình chữ V lặp lại theo cự ly cố định (50 m) trên làn đường là vạch xác định khoảng cách, giúp lái xe giữ cự ly an toàn với xe chạy phía trước.",
+    "rule": "Vạch 7.8: xác định khoảng cách trên đường; thường dùng trên cao tốc ở nơi hay xảy ra tai nạn do vượt xe hoặc đâm va từ phía sau.",
+    "tip": "Chuỗi chữ V lặp đều trên làn = vạch giữ khoảng cách."
+  },
+  "484": {
+    "why": "Vạch hình thoi (quả trám) kẻ trên làn đường, trước vạch đi bộ khoảng 30–50 m, báo hiệu sắp đến chỗ có vạch đi bộ qua đường; lái xe cần chuẩn bị nhường đường cho người đi bộ.",
+    "rule": "Vạch 7.6: báo sắp đến chỗ có vạch đi bộ qua đường, nhất là vạch đi bộ ở giữa đoạn đường nối hai nút.",
+    "tip": "Hình thoi trên mặt đường = sắp tới vạch đi bộ qua đường."
+  },
+  "485": {
+    "why": "Vạch zíc zắc màu vàng sát mép đường là vạch quy định vị trí dừng xe của phương tiện vận tải hành khách công cộng như xe buýt, xe taxi. Phương tiện khác không được dừng, đỗ trong phạm vi kẻ vạch.",
+    "rule": "Vạch 9.2: xe khác và người đi bộ không được dừng, đỗ trong phạm vi vạch và trong 15 m về hai phía theo phương dọc đường.",
+    "tip": "Zíc zắc vàng sát lề = điểm dừng xe buýt, taxi."
+  }
+}

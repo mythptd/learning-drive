@@ -1,0 +1,452 @@
+{
+  "1": {
+    "why": "Đáp án 2 đúng: phần đường xe chạy là phần của đường bộ dùng cho phương tiện đi lại. Đáp án 1 sai vì lề đường không phải chỗ cho xe chạy; đáp án 3 không phải khái niệm trong luật.",
+    "rule": "Khoản 5 Điều 2 Luật TTATGTĐB 2024: phần đường xe chạy là phần của đường bộ dùng cho phương tiện giao thông đi lại.",
+    "tip": "Hỏi phần đường cho xe đi lại → chọn \"phần đường xe chạy\"."
+  },
+  "2": {
+    "why": "Đáp án 2 đúng vì làn đường không chỉ là phần được chia theo chiều dọc mà còn phải có đủ chiều rộng cho xe chạy an toàn. Đáp án 1 thiếu yếu tố an toàn, đáp án 3 sai vì làn đường không dùng để dừng, đỗ.",
+    "rule": "Khoản 6 Điều 2 Luật TTATGTĐB 2024: làn đường được chia theo chiều dọc, có đủ chiều rộng cho xe chạy an toàn.",
+    "tip": "Làn đường: nhớ cụm \"đủ chiều rộng cho xe chạy an toàn\"."
+  },
+  "3": {
+    "why": "Đáp án 1 đúng vì khổ giới hạn tính cả chiều rộng lẫn chiều cao, áp dụng cho xe kể cả hàng hóa xếp trên xe. Đáp án 2 chỉ nói chiều rộng, đáp án 3 chỉ nói chiều cao nên thiếu.",
+    "rule": "Khoản 2 Điều 27 Luật Đường bộ 2024: khổ giới hạn là khoảng trống giới hạn về chiều rộng, chiều cao để xe và hàng đi qua an toàn.",
+    "tip": "Khổ giới hạn = cả chiều rộng VÀ chiều cao."
+  },
+  "4": {
+    "why": "Đáp án 2 đúng: dải phân cách chia phần đường xe chạy thành hai chiều riêng biệt, hoặc tách xe cơ giới với xe thô sơ, hoặc các loại xe khác nhau trên cùng một chiều. Đáp án 1 sai vì đường cao tốc không có xe thô sơ.",
+    "rule": "Khoản 7 Điều 24 Luật Đường bộ 2024.",
+    "tip": "Chọn đáp án có cụm \"hai chiều riêng biệt\"."
+  },
+  "5": {
+    "why": "Đáp án 2 đúng theo định nghĩa của luật: vạch kẻ đường chỉ sự phân chia làn đường, vị trí hoặc hướng đi, vị trí dừng lại. Các ý 1 và 3 mô tả chức năng của loại báo hiệu khác nên không chọn.",
+    "rule": "Khoản 6 Điều 11 Luật TTATGTĐB 2024.",
+    "tip": "Vạch kẻ đường: phân làn, hướng đi, vị trí dừng."
+  },
+  "6": {
+    "why": "Đáp án 1 đúng: người điều khiển phương tiện gồm người điều khiển xe cơ giới, xe thô sơ và xe máy chuyên dùng. Người hướng dẫn giao thông (ý 2) là người điều khiển giao thông, không phải người điều khiển phương tiện.",
+    "rule": "Khoản 9 Điều 2 Luật TTATGTĐB 2024.",
+    "tip": "Điều khiển phương tiện = cầm lái xe; hướng dẫn giao thông là khái niệm khác."
+  },
+  "7": {
+    "why": "Đáp án 1 đúng: luật gọi người điều khiển xe cơ giới là người lái xe. Người điều khiển xe thô sơ hay xe máy chuyên dùng không được gọi là người lái xe.",
+    "rule": "Khoản 9 Điều 2 Luật TTATGTĐB 2024: người điều khiển xe cơ giới (gọi là người lái xe).",
+    "tip": "Người lái xe = người điều khiển xe cơ giới."
+  },
+  "8": {
+    "why": "Đáp án 2 đúng vì liệt kê đúng các loại xe cơ giới theo luật. Đáp án 1 sai vì lẫn xe đạp, xe đạp máy, xe đạp điện (là xe thô sơ) và xe máy chuyên dùng (nhóm riêng).",
+    "rule": "Khoản 1 Điều 34 Luật TTATGTĐB 2024: xe cơ giới gồm ô tô, rơ moóc, sơ mi rơ moóc, xe bốn bánh có gắn động cơ, mô tô, gắn máy và xe tương tự.",
+    "tip": "Nhóm nào có xe đạp, xe đạp điện thì không phải xe cơ giới."
+  },
+  "9": {
+    "why": "Đáp án 1 đúng: xe thô sơ gồm xe đạp (kể cả xe đạp máy, xe đạp điện), xích lô, xe lăn cho người khuyết tật, xe vật nuôi kéo. Đáp án 2 lẫn xe gắn máy, xe máy chuyên dùng; đáp án 3 toàn xe cơ giới.",
+    "rule": "Khoản 2 Điều 34 Luật TTATGTĐB 2024.",
+    "tip": "Xe đạp điện, xe đạp máy vẫn là xe thô sơ."
+  },
+  "10": {
+    "why": "Đáp án 3 đúng: phương tiện giao thông đường bộ gồm cả xe cơ giới, xe thô sơ, xe máy chuyên dùng và các loại xe tương tự, nên cả hai ý đều đúng.",
+    "rule": "Khoản 2 Điều 2 Luật TTATGTĐB 2024.",
+    "tip": ""
+  },
+  "11": {
+    "why": "Đáp án 3 đúng: người tham gia giao thông gồm người điều khiển, người được chở trên phương tiện, người điều khiển hoặc dẫn dắt vật nuôi và người đi bộ trên đường bộ.",
+    "rule": "Khoản 8 Điều 2 Luật TTATGTĐB 2024.",
+    "tip": "Ai có mặt trên đường, kể cả người đi bộ, đều là người tham gia giao thông."
+  },
+  "12": {
+    "why": "Đáp án 3 đúng: người điều khiển phương tiện gồm người điều khiển xe cơ giới, xe thô sơ và cả xe máy chuyên dùng, nên cả hai ý đều đúng.",
+    "rule": "Khoản 9 Điều 2 Luật TTATGTĐB 2024.",
+    "tip": ""
+  },
+  "13": {
+    "why": "Đáp án 2 đúng: người điều khiển giao thông là Cảnh sát giao thông và người được giao nhiệm vụ hướng dẫn giao thông. Đáp án 1 và 3 nói về người lái xe hoặc người tham gia giao thông, là khái niệm khác.",
+    "rule": "Khoản 10 Điều 2 Luật TTATGTĐB 2024.",
+    "tip": "Người điều khiển GIAO THÔNG = CSGT và người hướng dẫn giao thông."
+  },
+  "14": {
+    "why": "Đáp án 2 đúng: dừng xe là đứng yên tạm thời trong thời gian cần thiết; khi dừng không được tắt máy, không rời vị trí lái (trừ các trường hợp luật cho phép). Đáp án 1 và 3 nói không giới hạn thời gian, đó là đỗ xe.",
+    "rule": "Khoản 1 Điều 18 Luật TTATGTĐB 2024.",
+    "tip": "Dừng = tạm thời; đỗ = không giới hạn thời gian."
+  },
+  "15": {
+    "why": "Đáp án 2 đúng: đỗ xe là đứng yên không giới hạn thời gian; chỉ được rời xe khi đã dùng phanh đỗ hoặc biện pháp an toàn khác, đỗ trên dốc phải đánh lái về phía lề và chèn bánh. Đáp án 1 mô tả dừng xe.",
+    "rule": "Khoản 2 Điều 18 Luật TTATGTĐB 2024.",
+    "tip": "Đỗ xe: \"không giới hạn thời gian\"."
+  },
+  "16": {
+    "why": "Đáp án 1 đúng: đường cao tốc là một cấp kỹ thuật của đường bộ, có dải phân cách, không giao cùng mức, chỉ ra vào ở điểm nhất định, có hàng rào bảo vệ. Đáp án 2 mô tả quốc lộ.",
+    "rule": "Khoản 1 Điều 44 Luật Đường bộ 2024.",
+    "tip": "Cao tốc: không giao nhau cùng mức, ra vào ở điểm nhất định."
+  },
+  "17": {
+    "why": "Đáp án 1 đúng: thiết bị an toàn cho trẻ em giữ trẻ ở tư thế ngồi hoặc nằm, giảm chấn thương khi va chạm hoặc xe giảm tốc đột ngột. Đáp án 2 sai vì nói tư thế đứng và lưu thông bình thường.",
+    "rule": "Khoản 13 Điều 2 Luật TTATGTĐB 2024.",
+    "tip": "Nhớ: ngồi hoặc nằm, va chạm hoặc giảm tốc đột ngột."
+  },
+  "18": {
+    "why": "Đáp án 1 đúng vì liệt kê đầy đủ các loại đường theo chức năng. Đáp án 2 thiếu \"đường bên\", đáp án 3 thiếu \"đường nội bộ\".",
+    "rule": "Điều 9 Luật Đường bộ 2024: đường chính, nhánh, gom, bên, giao thông công cộng, nội bộ, dành riêng cho đi bộ, xe đạp và đường khác.",
+    "tip": "Đáp án đúng có đủ cả \"đường bên\" và \"đường nội bộ\"."
+  },
+  "19": {
+    "why": "Đáp án 2 đúng: rải vật sắc nhọn, đổ chất gây trơn trượt trên đường là hành vi bị nghiêm cấm. Đi xe đạp trên quốc lộ không bị cấm nên đáp án 1 và 3 sai.",
+    "rule": "Khoản 20 Điều 9 Luật TTATGTĐB 2024.",
+    "tip": ""
+  },
+  "20": {
+    "why": "Đáp án 3 đúng: xe không có chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường, hoặc đã hết niên hạn sử dụng, đều không đủ điều kiện tham gia giao thông nên cả hai ý đều bị cấm.",
+    "rule": "Khoản 8 Điều 9 Luật TTATGTĐB 2024: cấm đưa xe không bảo đảm an toàn kỹ thuật, bảo vệ môi trường tham gia giao thông.",
+    "tip": ""
+  },
+  "21": {
+    "why": "Đáp án 3 đúng: luật chỉ cấm đua xe, tổ chức đua xe trái phép, nên muốn tổ chức đua xe phải được cơ quan có thẩm quyền cấp phép. Đường vắng hay được người dân ủng hộ đều không thay thế được giấy phép.",
+    "rule": "Khoản 5 Điều 9 Luật TTATGTĐB 2024: nghiêm cấm đua xe, tổ chức đua xe trái phép.",
+    "tip": "Tổ chức đua xe → phải được cấp phép."
+  },
+  "22": {
+    "why": "Đáp án 2 đúng: đua xe trái phép có thể bị xử phạt hành chính (kể cả tịch thu phương tiện) hoặc truy cứu trách nhiệm hình sự nếu gây thiệt hại hoặc tái phạm. Không có chuyện chỉ nhắc nhở.",
+    "rule": "Khoản 3 Điều 35 Nghị định 168/2024/NĐ-CP (tịch thu phương tiện); Điều 266 Bộ luật Hình sự (tội đua xe trái phép).",
+    "tip": ""
+  },
+  "23": {
+    "why": "Đáp án 3 đúng: người lái ô tô mà trong cơ thể có chất ma túy bị phạt tiền và bị tước quyền sử dụng giấy phép lái xe, nên cả hai ý đều đúng.",
+    "rule": "Điểm c khoản 11 và điểm c khoản 15 Điều 6 Nghị định 168/2024/NĐ-CP: phạt 30–40 triệu đồng, tước GPLX 22–24 tháng.",
+    "tip": "Ma túy khi lái xe → vừa phạt tiền vừa tước GPLX."
+  },
+  "24": {
+    "why": "Đáp án 1 đúng: luật nghiêm cấm điều khiển phương tiện khi trong máu hoặc hơi thở có nồng độ cồn, không phân biệt mức nhẹ hay nặng.",
+    "rule": "Khoản 2 Điều 9 Luật TTATGTĐB 2024.",
+    "tip": "Đã uống rượu bia thì không lái xe, dù nồng độ thấp."
+  },
+  "25": {
+    "why": "Đáp án 3 đúng: người lái ô tô có nồng độ cồn bị phạt tiền và có thể bị tước giấy phép lái xe, nên cả hai ý đều đúng.",
+    "rule": "Điều 6 Nghị định 168/2024/NĐ-CP: nồng độ cồn vượt 80 mg/100 ml máu hoặc 0,4 mg/1 lít khí thở bị phạt 30–40 triệu và tước GPLX 22–24 tháng.",
+    "tip": "Nồng độ cồn khi lái xe → phạt tiền kèm tước GPLX."
+  },
+  "26": {
+    "why": "Đáp án 1 đúng: Luật Phòng, chống tác hại của rượu, bia cấm người điều khiển phương tiện có nồng độ cồn. Người được chở không điều khiển xe nên không thuộc đối tượng bị cấm.",
+    "rule": "Khoản 5 Điều 5 Luật Phòng, chống tác hại của rượu, bia 2019: cấm điều khiển phương tiện mà trong máu hoặc hơi thở có nồng độ cồn.",
+    "tip": "Cấm người cầm lái, không cấm người ngồi sau."
+  },
+  "27": {
+    "why": "Đáp án 4 đúng: người chưa đủ tuổi, không có giấy phép lái xe, hoặc đã bị trừ hết 12 điểm đều không đủ điều kiện điều khiển xe, nên giao xe cho cả ba đối tượng đều bị cấm.",
+    "rule": "Khoản 7 Điều 9 Luật TTATGTĐB 2024: cấm giao xe cho người không đủ điều kiện điều khiển xe.",
+    "tip": ""
+  },
+  "28": {
+    "why": "Đáp án 3 đúng: lạng lách, đánh võng, rú ga liên tục và việc xúc phạm, chống đối, không chấp hành yêu cầu của người thi hành công vụ đều bị nghiêm cấm.",
+    "rule": "Khoản 4 và khoản 5 Điều 9 Luật TTATGTĐB 2024.",
+    "tip": ""
+  },
+  "29": {
+    "why": "Đáp án 2 đúng: cải tạo trái phép, can thiệp sai lệch đồng hồ công-tơ-mét, đục sửa số khung, số máy đều bị cấm. Ý 1 là cải tạo phục vụ quốc phòng, an ninh, không phải hành vi bị cấm.",
+    "rule": "Khoản 11 Điều 9 Luật TTATGTĐB 2024.",
+    "tip": "Có chữ \"trái phép\", \"làm sai lệch\" → bị cấm."
+  },
+  "30": {
+    "why": "Đáp án 3 đúng: lắp đặt, sử dụng thiết bị âm thanh, ánh sáng gây mất an toàn, cũng như cản trở hoặc ném vật vào người, phương tiện đang tham gia giao thông đều bị cấm.",
+    "rule": "Khoản 16 và khoản 21 Điều 9 Luật TTATGTĐB 2024.",
+    "tip": ""
+  },
+  "31": {
+    "why": "Đáp án 2 đúng: sản xuất, sử dụng, mua, bán trái phép biển số xe bị nghiêm cấm trong mọi trường hợp.",
+    "rule": "Khoản 17 Điều 9 Luật TTATGTĐB 2024.",
+    "tip": "Biển số trái phép → luôn bị nghiêm cấm."
+  },
+  "32": {
+    "why": "Đáp án 3 đúng: lạng lách, đánh võng, rú ga liên tục là hành vi bị nghiêm cấm. Thay đổi tốc độ nhiều lần hay lái xe sau 23 giờ không bị cấm.",
+    "rule": "Khoản 5 Điều 9 Luật TTATGTĐB 2024.",
+    "tip": "Thấy \"lạng lách, đánh võng\" → chọn ngay."
+  },
+  "33": {
+    "why": "Đáp án 3 đúng: biển báo hiệu đường bộ gồm 5 nhóm: biển báo cấm, biển báo nguy hiểm, biển hiệu lệnh, biển chỉ dẫn và biển phụ. Đáp án 1 và 2 thiếu nhóm.",
+    "rule": "Khoản 5 Điều 11 Luật TTATGTĐB 2024.",
+    "tip": "5 nhóm: cấm, nguy hiểm, hiệu lệnh, chỉ dẫn, phụ."
+  },
+  "34": {
+    "why": "Đáp án 2 đúng: tại vạch kẻ đường cho người đi bộ hoặc nơi người đi bộ, xe lăn đang qua đường, bạn phải quan sát, giảm tốc độ hoặc dừng lại. Đáp án 1 thiếu ý dừng lại, đáp án 3 tăng tốc là nguy hiểm.",
+    "rule": "Điểm a khoản 3 Điều 12 Luật TTATGTĐB 2024.",
+    "tip": "Gặp người đi bộ qua đường: quan sát, giảm tốc hoặc dừng."
+  },
+  "35": {
+    "why": "Đáp án 4 đúng: đường hẹp, đường vòng, đèo dốc; cầu cống hẹp, đập tràn, hầm; trời mưa, sương, mặt đường trơn trượt đều là trường hợp phải quan sát, giảm tốc độ hoặc dừng lại.",
+    "rule": "Khoản 3 Điều 12 Luật TTATGTĐB 2024 (điểm d, đ, m).",
+    "tip": ""
+  },
+  "36": {
+    "why": "Trong hình, CSGT đứng trên bục, hai tay dang ngang. Tư thế này báo hiệu người ở phía trước và phía sau CSGT phải dừng lại; người ở bên phải và bên trái được đi, nên đáp án 4 đúng.",
+    "rule": "Điểm b khoản 3 Điều 11 Luật TTATGTĐB 2024: tay dang ngang, phía trước và sau dừng, hai bên được đi.",
+    "tip": "Tay dang ngang: trước, sau dừng; hai bên trái, phải được đi."
+  },
+  "37": {
+    "why": "Trong hình, CSGT giơ tay phải cầm gậy thẳng đứng. Tư thế này báo hiệu người tham gia giao thông ở tất cả các hướng phải dừng lại; xe đã ở trong khu vực giao nhau thì được đi tiếp để giải phóng nút giao, nên đáp án 3 đúng.",
+    "rule": "Điểm a khoản 3 Điều 11 Luật TTATGTĐB 2024: tay phải giơ thẳng đứng, tất cả các hướng phải dừng lại.",
+    "tip": "Tay giơ thẳng đứng → tất cả các hướng dừng."
+  },
+  "38": {
+    "why": "Đáp án 1 đúng: hiệu lệnh của người điều khiển giao thông có thứ tự ưu tiên cao nhất, trên cả đèn tín hiệu và biển báo.",
+    "rule": "Khoản 2 Điều 11 Luật TTATGTĐB 2024: thứ tự ưu tiên là người điều khiển giao thông, đèn tín hiệu, biển báo, vạch kẻ đường…",
+    "tip": "Người điều khiển giao thông > đèn > biển > vạch."
+  },
+  "39": {
+    "why": "Đáp án 2 đúng: khi biển cố định và biển tạm thời có ý nghĩa khác nhau, bạn phải chấp hành biển tạm thời vì nó phản ánh tình huống thực tế hiện tại.",
+    "rule": "Khoản 12 Điều 11 Luật TTATGTĐB 2024.",
+    "tip": "Biển tạm thời ưu tiên hơn biển cố định."
+  },
+  "40": {
+    "why": "Đáp án 1 đúng: đèn vàng phải dừng trước vạch dừng; nếu đã ở trên hoặc qua vạch dừng thì được đi tiếp; đèn vàng nhấp nháy được đi nhưng phải quan sát, giảm tốc hoặc nhường đường. Tăng tốc vượt qua là sai.",
+    "rule": "Điểm b khoản 4 Điều 11 Luật TTATGTĐB 2024.",
+    "tip": "Đèn vàng: dừng trước vạch; đã qua vạch thì đi tiếp."
+  },
+  "41": {
+    "why": "Đáp án 3 đúng: người lái xe phải chấp hành quy định về tốc độ, tức là không được vượt tốc độ tối đa cho phép, bất kể đường vắng hay ban đêm.",
+    "rule": "Khoản 1 Điều 12 Luật TTATGTĐB 2024: người lái xe phải chấp hành quy định về tốc độ.",
+    "tip": "Không có ngoại lệ nào cho phép chạy quá tốc độ tối đa."
+  },
+  "42": {
+    "why": "Đáp án 1 đúng: trẻ dưới 10 tuổi và cao dưới 1,35 m không được ngồi cùng hàng ghế với người lái (trừ xe chỉ có một hàng ghế), và người lái phải dùng thiết bị an toàn phù hợp cho trẻ.",
+    "rule": "Khoản 3 Điều 10 Luật TTATGTĐB 2024.",
+    "tip": "Trẻ dưới 10 tuổi, dưới 1,35 m: không ngồi hàng ghế lái."
+  },
+  "43": {
+    "why": "Đáp án 2 đúng: xe đi chậm hơn phải đi về bên phải theo chiều đi của mình để xe nhanh hơn có thể đi bên trái.",
+    "rule": "Khoản 1 Điều 13 Luật TTATGTĐB 2024.",
+    "tip": "Chậm thì đi bên phải."
+  },
+  "44": {
+    "why": "Đáp án 2 đúng: trên một chiều đường có vạch phân làn, xe cơ giới, xe máy chuyên dùng đi làn bên trái; làn bên phải trong cùng dành cho xe thô sơ.",
+    "rule": "Khoản 3 Điều 13 Luật TTATGTĐB 2024.",
+    "tip": "Xe thô sơ bên phải trong cùng; xe cơ giới bên trái."
+  },
+  "45": {
+    "why": "Đáp án 3 đúng: khi xe sau xin vượt và đủ điều kiện an toàn, xe trước phải giảm tốc độ, bật tín hiệu rẽ phải và đi sát bên phải cho đến khi xe sau vượt qua.",
+    "rule": "Khoản 4 Điều 14 Luật TTATGTĐB 2024.",
+    "tip": "Xe sau xin vượt, đủ an toàn → giảm tốc, xi nhan phải, đi sát phải."
+  },
+  "46": {
+    "why": "Đáp án 1 đúng: vượt xe là tình huống trên đường mỗi chiều chỉ có một làn cho xe cơ giới, xe sau chuyển sang bên trái để lên trước. Đáp án 2 mô tả việc đi theo làn trên đường nhiều làn, không gọi là vượt xe.",
+    "rule": "Khoản 1 Điều 14 Luật TTATGTĐB 2024.",
+    "tip": "Vượt xe: mỗi chiều chỉ một làn, xe sau sang trái."
+  },
+  "47": {
+    "why": "Đáp án 2 đúng: không được vượt xe trên cầu hẹp có một làn đường và trên đường cong có tầm nhìn bị hạn chế, dù đường vắng hay có việc gấp.",
+    "rule": "Điểm b, c khoản 6 Điều 14 Luật TTATGTĐB 2024.",
+    "tip": "Cầu hẹp một làn, đường cong khuất tầm nhìn → cấm vượt."
+  },
+  "48": {
+    "why": "Đáp án 3 đúng: xe xin vượt phải báo hiệu bằng nháy đèn chiếu sáng phía trước hoặc còi. Bấm còi liên tục hay rú ga liên tục là hành vi bị cấm.",
+    "rule": "Khoản 5 Điều 14 Luật TTATGTĐB 2024.",
+    "tip": "Xin vượt: nháy đèn hoặc còi, không \"liên tục\"."
+  },
+  "49": {
+    "why": "Đáp án 2 đúng: trong khu đông dân cư, khu vực cơ sở khám bệnh, chữa bệnh, không được dùng còi từ 22 giờ đến 05 giờ hôm sau, nên chỉ được dùng còi từ 05 giờ đến 22 giờ.",
+    "rule": "Khoản 2 Điều 21 Luật TTATGTĐB 2024 (trừ xe ưu tiên).",
+    "tip": "Còi trong khu dân cư: 5 giờ đến 22 giờ."
+  },
+  "50": {
+    "why": "Đáp án 1 đúng: chỉ được dùng còi để báo hiệu khi có tình huống có thể mất an toàn hoặc báo hiệu chuẩn bị vượt xe. Ý 2 là khung giờ cấm dùng còi trong khu dân cư, bệnh viện.",
+    "rule": "Khoản 1 Điều 21 Luật TTATGTĐB 2024.",
+    "tip": ""
+  },
+  "51": {
+    "why": "Đáp án 3 đúng: khi đi qua khu đông dân cư có hệ thống chiếu sáng đang hoạt động, bạn chỉ được bật đèn chiếu gần (đèn cốt) để không làm lóa mắt người khác.",
+    "rule": "Điểm b khoản 2 Điều 20 Luật TTATGTĐB 2024.",
+    "tip": "Khu dân cư có đèn đường → chỉ đèn cốt."
+  },
+  "52": {
+    "why": "Đáp án 1 đúng: dùng tay cầm và sử dụng điện thoại hoặc thiết bị điện tử khi đang điều khiển xe di chuyển là hành vi bị cấm. Ý 2 nêu trường hợp được phép chở người trên thùng xe, không phải hành vi bị cấm.",
+    "rule": "Khoản 6 Điều 9 Luật TTATGTĐB 2024.",
+    "tip": "Cầm điện thoại khi lái xe → bị cấm."
+  },
+  "53": {
+    "why": "Đáp án 1 đúng: không được vượt trên cầu hẹp một làn, nơi đường giao nhau, nơi giao cùng mức với đường sắt và khi gặp xe ưu tiên. Cầu từ 2 làn trở lên hay vạch nét đứt không phải trường hợp cấm vượt.",
+    "rule": "Khoản 6 Điều 14 Luật TTATGTĐB 2024.",
+    "tip": ""
+  },
+  "54": {
+    "why": "Đáp án 3 đúng: cả hai ý đều là nơi cấm quay đầu xe: phần đường cho người đi bộ, cầu, đầu cầu, gầm cầu vượt, ngầm; nơi giao với đường sắt, đường hẹp, dốc, cong khuất, cao tốc, hầm, đường một chiều.",
+    "rule": "Khoản 4 Điều 15 Luật TTATGTĐB 2024.",
+    "tip": ""
+  },
+  "55": {
+    "why": "Đáp án 1 đúng vì liệt kê đúng các nơi cấm quay đầu xe. Đáp án 2 sai: phía trước, phía sau phần đường cho người đi bộ và trên quốc lộ không phải nơi luật cấm quay đầu.",
+    "rule": "Khoản 4 Điều 15 Luật TTATGTĐB 2024.",
+    "tip": "Cấm quay đầu NGAY TRÊN phần đường người đi bộ, không phải trước/sau nó."
+  },
+  "56": {
+    "why": "Đáp án 4 đúng: trước khi chuyển hướng phải quan sát, giữ khoảng cách an toàn với xe sau, giảm tốc độ, bật tín hiệu, chuyển dần sang làn gần hướng rẽ và chỉ rẽ khi an toàn. Cả ba ý đều là bước bắt buộc.",
+    "rule": "Khoản 2 Điều 15 Luật TTATGTĐB 2024.",
+    "tip": ""
+  },
+  "57": {
+    "why": "Đáp án 2 đúng: khi chuyển làn phải có tín hiệu báo trước, tức là bật xi nhan trước khi thay đổi làn để xe khác kịp biết.",
+    "rule": "Khoản 2 Điều 13 Luật TTATGTĐB 2024: khi chuyển làn đường phải có tín hiệu báo trước.",
+    "tip": "Xi nhan TRƯỚC rồi mới chuyển làn."
+  },
+  "58": {
+    "why": "Đáp án 4 đúng: không được lùi xe ở đường một chiều, khu vực cấm dừng, phần đường cho người đi bộ, nơi giao nhau, nơi giao với đường sắt, nơi khuất tầm nhìn, trong hầm và trên cao tốc. Cả ba ý đều đúng.",
+    "rule": "Khoản 2 Điều 16 Luật TTATGTĐB 2024.",
+    "tip": ""
+  },
+  "59": {
+    "why": "Đáp án 3 đúng: không được dừng, đỗ trên miệng cống, miệng hầm điện thoại, điện cao thế, chỗ xe chữa cháy lấy nước, và cũng không được dừng, đỗ trong phạm vi an toàn của đường sắt.",
+    "rule": "Điểm m, o khoản 4 Điều 18 Luật TTATGTĐB 2024.",
+    "tip": ""
+  },
+  "60": {
+    "why": "Đáp án 1 đúng: trên đường phố, dừng, đỗ xe sát lề hoặc vỉa hè bên phải, bánh xe gần nhất cách lề không quá 0,25 mét.",
+    "rule": "Khoản 6 Điều 18 Luật TTATGTĐB 2024.",
+    "tip": "Đỗ xe trên phố: cách lề tối đa 0,25 m."
+  },
+  "61": {
+    "why": "Đáp án 3 đúng: trên đường phố hẹp, không được dừng, đỗ cách xe ô tô đang đỗ ngược chiều dưới 20 mét, nên khoảng cách tối thiểu là 20 mét.",
+    "rule": "Điểm e khoản 4 Điều 18 Luật TTATGTĐB 2024: dưới 20 m trên phố hẹp, dưới 40 m trên đường một làn xe cơ giới mỗi chiều.",
+    "tip": "Phố hẹp 20 m; đường một làn mỗi chiều 40 m."
+  },
+  "62": {
+    "why": "Đáp án 2 đúng: không được dừng, đỗ song song với xe khác đang dừng đỗ, trên đường cong hoặc gần đầu dốc khuất tầm nhìn, bên trái đường một chiều. Lề rộng hoặc khu đất ngoài phần đường xe chạy là nơi nên dừng, đỗ.",
+    "rule": "Điểm a, b, đ khoản 4 Điều 18 Luật TTATGTĐB 2024.",
+    "tip": ""
+  },
+  "63": {
+    "why": "Đáp án 4 đúng: người lái xe mô tô, xe gắn máy không được dùng xe để kéo, đẩy xe khác, vật khác trong mọi trường hợp.",
+    "rule": "Điểm đ khoản 3 Điều 33 Luật TTATGTĐB 2024.",
+    "tip": "Xe máy kéo, đẩy xe khác → không được phép."
+  },
+  "64": {
+    "why": "Đáp án 1 đúng: buông cả hai tay, đứng hoặc nằm trên xe để điều khiển, dùng chân chống quệt xuống đường khi xe chạy đều bị cấm. Ý 2 là trường hợp được phép chở tối đa hai người.",
+    "rule": "Điểm d, e khoản 3 Điều 33 Luật TTATGTĐB 2024.",
+    "tip": ""
+  },
+  "65": {
+    "why": "Đáp án 1 đúng: buông cả hai tay, dùng xe kéo đẩy xe khác hoặc vật khác, dùng chân chống quệt xuống đường khi xe chạy đều bị cấm. Các ý 2, 3, 4 là hành vi bình thường hoặc được phép.",
+    "rule": "Điểm d, đ, e khoản 3 Điều 33 Luật TTATGTĐB 2024.",
+    "tip": ""
+  },
+  "66": {
+    "why": "Đáp án 4 đúng: người ngồi sau xe máy không được mang vác vật cồng kềnh và không được bám, kéo, đẩy phương tiện khác. Ý 3 (cầm điện thoại) không nằm trong danh sách hành vi cấm đối với người được chở.",
+    "rule": "Điểm a, c khoản 4 Điều 33 Luật TTATGTĐB 2024.",
+    "tip": ""
+  },
+  "67": {
+    "why": "Đáp án 4 đúng: người được chở trên xe mô tô, xe gắn máy không được bám, kéo hoặc đẩy phương tiện khác, kể cả khi xe mình hay xe kia bị hỏng.",
+    "rule": "Điểm c khoản 4 Điều 33 Luật TTATGTĐB 2024.",
+    "tip": "Bám, kéo, đẩy xe khác → không được phép."
+  },
+  "68": {
+    "why": "Đáp án 1 đúng: cả người lái và người được chở trên xe mô tô, xe gắn máy đều phải đội mũ bảo hiểm đúng quy chuẩn và cài quai đúng quy cách.",
+    "rule": "Khoản 2 Điều 33 Luật TTATGTĐB 2024.",
+    "tip": "Cả người lái và người ngồi sau: đội mũ, cài quai."
+  },
+  "69": {
+    "why": "Đáp án 1 đúng: xe mô tô hai bánh, xe gắn máy chỉ được chở tối đa hai người khi chở người bệnh đi cấp cứu, áp giải người vi phạm pháp luật, trẻ em dưới 12 tuổi, người già yếu hoặc người khuyết tật.",
+    "rule": "Khoản 1 Điều 33 Luật TTATGTĐB 2024.",
+    "tip": "Chở 2 người: cấp cứu, áp giải, trẻ dưới 12 tuổi, già yếu, khuyết tật."
+  },
+  "70": {
+    "why": "Đáp án 4 đúng: dàn hàng ngang, buông hai tay, kéo đẩy xe khác, chở vật cồng kềnh, ngồi một bên, đứng nằm trên xe, quệt chân chống… đều là hành vi người lái xe máy không được làm.",
+    "rule": "Khoản 3 Điều 33 Luật TTATGTĐB 2024.",
+    "tip": ""
+  },
+  "71": {
+    "why": "Đáp án 3 đúng: đi xe dàn hàng ngang, đi vào phần đường dành cho người đi bộ và phương tiện khác, sử dụng ô và thiết bị âm thanh (trừ thiết bị trợ thính) đều bị cấm.",
+    "rule": "Điểm a, b, c khoản 3 Điều 33 Luật TTATGTĐB 2024.",
+    "tip": ""
+  },
+  "72": {
+    "why": "Đáp án 2 đúng: đi xe dàn hàng ngang và đi vào phần đường dành cho người đi bộ là hành vi bị cấm. Ý 1 là việc chấp hành đúng quy tắc giao thông.",
+    "rule": "Điểm a, b khoản 3 Điều 33 Luật TTATGTĐB 2024.",
+    "tip": ""
+  },
+  "73": {
+    "why": "Đáp án 3 đúng: người được chở trên xe mô tô, xe gắn máy không được sử dụng ô, kể cả khi trời mưa hay không có áo mưa.",
+    "rule": "Điểm b khoản 4 Điều 33 Luật TTATGTĐB 2024.",
+    "tip": "Ngồi xe máy → không được dùng ô."
+  },
+  "74": {
+    "why": "Đáp án 2 đúng: người được chở trên xe mô tô không được bám, kéo hoặc đẩy phương tiện khác, nên không được kéo người đi xe đạp trong mọi trường hợp.",
+    "rule": "Điểm c khoản 4 Điều 33 Luật TTATGTĐB 2024.",
+    "tip": ""
+  },
+  "75": {
+    "why": "Đáp án 4 đúng: người được chở không đội mũ bảo hiểm hoặc không cài quai thì bị xử phạt, đồng thời người lái cũng bị phạt vì chở người không đội mũ (trừ các trường hợp ngoại lệ nêu trong câu hỏi).",
+    "rule": "Điểm i khoản 4 Điều 7 Nghị định 168/2024/NĐ-CP: phạt người điều khiển chở người không đội mũ bảo hiểm.",
+    "tip": "Người ngồi sau không đội mũ → phạt cả hai."
+  },
+  "76": {
+    "why": "Đáp án 1 đúng: người lái mô tô luôn phải đội mũ bảo hiểm đúng quy chuẩn, cài quai đúng cách và không sử dụng ô, điện thoại, thiết bị âm thanh (trừ thiết bị trợ thính). Đội mũ không phụ thuộc thời tiết hay quãng đường.",
+    "rule": "Khoản 2 và điểm c khoản 3 Điều 33 Luật TTATGTĐB 2024.",
+    "tip": "Mũ bảo hiểm bắt buộc mọi lúc, không phụ thuộc thời tiết hay quãng đường."
+  },
+  "77": {
+    "why": "Đáp án 2 đúng: khi xuống phà, xe cơ giới, xe máy chuyên dùng xuống trước, xe thô sơ và người đi bộ xuống sau.",
+    "rule": "Điểm b khoản 3 Điều 23 Luật TTATGTĐB 2024: xuống phà xe cơ giới xuống trước; lên bến người đi bộ lên trước.",
+    "tip": "Xuống phà: xe cơ giới trước, người đi bộ sau."
+  },
+  "78": {
+    "why": "Đáp án 2 đúng: trên đường nhiều làn cùng chiều, xe phải đi trong một làn, chỉ chuyển làn ở nơi cho phép, mỗi lần sang một làn liền kề, có tín hiệu báo trước và quan sát đảm bảo khoảng cách an toàn.",
+    "rule": "Khoản 2 Điều 13 Luật TTATGTĐB 2024.",
+    "tip": "Mỗi lần chỉ chuyển sang một làn liền kề."
+  },
+  "79": {
+    "why": "Đáp án 2 đúng: trên một chiều đường có vạch phân làn, xe thô sơ đi làn bên phải trong cùng, xe cơ giới và xe máy chuyên dùng đi làn bên trái.",
+    "rule": "Khoản 3 Điều 13 Luật TTATGTĐB 2024.",
+    "tip": "Xe thô sơ bên phải trong cùng; xe cơ giới bên trái."
+  },
+  "80": {
+    "why": "Đáp án 3 đúng: trong đô thị và khu đông dân cư từ 22 giờ đến 05 giờ hôm sau, xe xin vượt chỉ được báo hiệu bằng đèn, không được dùng còi.",
+    "rule": "Khoản 5 Điều 14 Luật TTATGTĐB 2024.",
+    "tip": "Ban đêm (22h–5h) trong khu dân cư: xin vượt chỉ bằng đèn."
+  },
+  "81": {
+    "why": "Đáp án 2 đúng: khi xe sau xin vượt và đủ điều kiện an toàn, xe trước phải giảm tốc độ, bật tín hiệu rẽ phải, đi sát bên phải cho đến khi xe sau vượt qua. Tăng tốc hay đi sát bên trái là sai.",
+    "rule": "Khoản 4 Điều 14 Luật TTATGTĐB 2024.",
+    "tip": "Cho vượt: giảm tốc, xi nhan phải, đi sát phải."
+  },
+  "82": {
+    "why": "Đáp án 1 đúng: nếu có chướng ngại vật hoặc không đủ điều kiện an toàn, xe trước bật tín hiệu rẽ trái để báo xe sau biết là chưa được vượt. Tăng tốc để báo hiệu là nguy hiểm.",
+    "rule": "Khoản 4 Điều 14 Luật TTATGTĐB 2024.",
+    "tip": "Chưa cho vượt → xi nhan trái."
+  },
+  "83": {
+    "why": "Đáp án 1 đúng: khi chuyển hướng, bạn phải nhường đường cho người đi bộ, xe thô sơ, xe đi ngược chiều và chỉ chuyển hướng khi không gây trở ngại hay nguy hiểm cho người khác. Nhanh chóng chuyển hướng hay bắt xe khác dừng là sai.",
+    "rule": "Khoản 2 Điều 15 Luật TTATGTĐB 2024: chỉ được chuyển hướng khi bảo đảm an toàn, không gây trở ngại cho người và phương tiện khác.",
+    "tip": ""
+  },
+  "84": {
+    "why": "Đáp án 2 đúng: trước khi chuyển hướng phải quan sát, giữ khoảng cách với xe sau, giảm tốc độ, bật tín hiệu liên tục, chuyển dần sang làn gần hướng rẽ và chỉ rẽ khi an toàn. Đáp án 1 và 3 thiếu bước và có ý tăng tốc, sai.",
+    "rule": "Khoản 2 Điều 15 Luật TTATGTĐB 2024.",
+    "tip": "Chuyển hướng phải giảm tốc, không bao giờ tăng tốc."
+  },
+  "85": {
+    "why": "Đáp án 3 đúng: khi lùi xe phải quan sát cả hai bên và phía sau, có tín hiệu lùi và chỉ lùi khi bảo đảm an toàn. Đáp án 1 thiếu tín hiệu, đáp án 2 lùi nhanh là sai.",
+    "rule": "Khoản 1 Điều 16 Luật TTATGTĐB 2024.",
+    "tip": "Lùi xe: quan sát hai bên và sau, có tín hiệu, lùi khi an toàn."
+  },
+  "86": {
+    "why": "Đáp án 3 đúng: nơi tầm nhìn bị che khuất là khu vực luật cấm lùi xe, nên lùi chậm hay bấm còi cũng không được phép.",
+    "rule": "Khoản 2 Điều 16 Luật TTATGTĐB 2024: không được lùi xe nơi tầm nhìn bị che khuất.",
+    "tip": "Tầm nhìn bị che khuất → không được lùi."
+  },
+  "87": {
+    "why": "Đáp án 1 đúng: trên đường không có dải phân cách hai chiều, khi tránh xe ngược chiều, mỗi xe phải giảm tốc độ và đi về bên phải theo chiều của mình. Tăng tốc là sai, và không bắt buộc một xe phải dừng.",
+    "rule": "Khoản 1 Điều 17 Luật TTATGTĐB 2024.",
+    "tip": "Tránh xe ngược chiều: giảm tốc, đi về bên phải."
+  },
+  "88": {
+    "why": "Đáp án 4 đúng: xe gần chỗ tránh hơn phải vào tránh; xe xuống dốc nhường xe lên dốc; xe có chướng ngại vật phía trước nhường xe không có chướng ngại vật. Cả ba ý đều đúng.",
+    "rule": "Khoản 2 Điều 17 Luật TTATGTĐB 2024.",
+    "tip": ""
+  },
+  "89": {
+    "why": "Đáp án 2 đúng: khi tránh nhau trên dốc, xe xuống dốc phải nhường đường cho xe lên dốc, không cần chờ xe lên dốc ra tín hiệu.",
+    "rule": "Điểm b khoản 2 Điều 17 Luật TTATGTĐB 2024.",
+    "tip": "Xuống dốc nhường lên dốc."
+  },
+  "90": {
+    "why": "Đáp án 1 đúng: trên đường cong tầm nhìn bị hạn chế, bạn phải quan sát, giảm tốc độ hoặc dừng lại. Lấn sang làn ngược chiều hay vượt bên phải đều rất nguy hiểm và trái quy định.",
+    "rule": "Điểm c khoản 3 Điều 12 Luật TTATGTĐB 2024.",
+    "tip": "Tầm nhìn hạn chế: quan sát, giảm tốc hoặc dừng."
+  }
+}
