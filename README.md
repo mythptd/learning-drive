@@ -4,7 +4,8 @@ Web tĩnh để học và thi thử lý thuyết sát hạch lái xe hạng B th
 
 ## Tính năng
 
-- **Chế độ học:** học theo chương, theo 60 câu điểm liệt, theo câu đã làm sai hoặc câu đã đánh dấu. Chọn đáp án là thấy ngay đúng/sai kèm giải thích, quy tắc, mẹo nhớ và căn cứ pháp lý. Câu sa hình có thêm phân tích 5 bước.
+- **Ôn câu sai:** gom mọi câu từng trả lời sai khi học và thi, kèm số lần sai. Ôn tất cả, theo chương, riêng câu điểm liệt hoặc câu sai từ 2 lần; câu hiện như chưa làm, trả lời đúng thì tự gỡ khỏi danh sách. Từ kết quả thi có thể ôn ngay các câu sai/bỏ trống của đề đó.
+- **Chế độ học:** học theo chương, theo 60 câu điểm liệt hoặc câu đã đánh dấu. Chọn đáp án là thấy ngay đúng/sai kèm giải thích, quy tắc, mẹo nhớ và căn cứ pháp lý. Câu sa hình có thêm phân tích 5 bước.
 - **Chế độ thi:** mô phỏng đề thật 30 câu / 20 phút, đổi đáp án được trước khi nộp, hết giờ tự nộp. Kết quả có đạt/không đạt, cảnh báo sai câu điểm liệt, và xem lại từng câu kèm giải thích.
 - **30 đề mẫu cố định + đề ngẫu nhiên:** mỗi đề đúng cấu trúc hạng B: 8 câu quy tắc, 1 câu điểm liệt, 1 văn hóa – đạo đức, 1 kỹ thuật lái, 1 cấu tạo – sửa chữa, 9 biển báo, 9 sa hình. 30 đề mẫu dùng 30 câu điểm liệt khác nhau và phủ 546/600 câu.
 - Tiến độ học, câu sai, câu đánh dấu và bài thi đang làm dở được lưu trong trình duyệt (localStorage).

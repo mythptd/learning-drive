@@ -17,7 +17,6 @@
   const SETS = {
     all: { name: 'Tất cả 600 câu', ids: () => QUESTIONS.map((q) => q.id) },
     crit: { name: '60 câu điểm liệt', ids: () => QUESTIONS.filter((q) => q.crit).map((q) => q.id) },
-    wrong: { name: 'Câu đã làm sai', ids: () => QUESTIONS.filter((q) => state.wrong[q.id]).map((q) => q.id) },
     marked: { name: 'Câu đã đánh dấu', ids: () => QUESTIONS.filter((q) => state.marks[q.id]).map((q) => q.id) },
   };
   for (const ch of Object.keys(CHAPTERS)) {
@@ -28,20 +27,24 @@
   // ---------- Lưu trữ ----------
   const STORE_KEY = 'gplx-b-2025';
   const state = Object.assign(
-    { learn: {}, marks: {}, wrong: {}, exams: {}, active: null, lastResult: null, theme: null },
+    { learn: {}, marks: {}, wrong: {}, exams: {}, active: null, review: null, lastResult: null, theme: null },
     load()
   );
+  // Bản cũ lưu câu sai dạng true; quy về số lần sai.
+  for (const id in state.wrong) state.wrong[id] = +state.wrong[id] || 1;
   function load() {
     try { return JSON.parse(localStorage.getItem(STORE_KEY)) || {}; } catch { return {}; }
   }
   function save() {
     try { localStorage.setItem(STORE_KEY, JSON.stringify(state)); } catch { /* bộ nhớ trình duyệt bị chặn */ }
   }
+  // state.wrong[id] = số lần trả lời sai; trả lời đúng thì gỡ khỏi danh sách câu sai.
   function recordAnswer(id, picked) {
     const q = BY_ID.get(id);
     if (picked === q.c) delete state.wrong[id];
-    else state.wrong[id] = true;
+    else state.wrong[id] = (+state.wrong[id] || 0) + 1;
   }
+  const wrongIds = () => QUESTIONS.filter((q) => state.wrong[q.id]).map((q) => q.id);
 
   // ---------- Tiện ích ----------
   const $app = document.getElementById('app');
@@ -169,7 +172,11 @@
         ${topic('ch4', 'Kết cấu xe, đèn báo, bảo dưỡng')}
         ${topic('ch5', 'Biển báo, vạch kẻ, đèn tín hiệu')}
         ${topic('ch6', 'Thứ tự xe qua giao lộ, tình huống')}
-        ${topic('wrong', 'Tự động gom các câu bạn trả lời sai')}
+        <a class="card topic" href="#/review">
+          <h3>Ôn lại câu sai</h3>
+          <span class="muted small">Làm lại các câu từng sai khi học và thi; đúng thì tự gỡ khỏi danh sách</span>
+          <div class="meta"><span>${wrongCount} câu cần ôn</span><span>Ôn →</span></div>
+        </a>
         ${topic('marked', 'Các câu bạn đánh dấu để xem lại')}
       </div>
 
@@ -190,7 +197,7 @@
     const ids = SETS[setKey].ids();
     if (!ids.length) {
       $app.innerHTML = learnShell(setKey, ids, null,
-        `<div class="card empty">${setKey === 'wrong' ? 'Chưa có câu nào làm sai. Tuyệt vời!' : 'Chưa có câu nào được đánh dấu. Bấm ☆ khi học để đánh dấu.'}</div>`);
+        '<div class="card empty">Chưa có câu nào được đánh dấu. Bấm ☆ khi học để đánh dấu.</div>');
       return;
     }
     if (!ids.includes(qid)) qid = ids.find((id) => state.learn[id] == null) ?? ids[0];
@@ -389,6 +396,7 @@
         </div>
         <div class="row">
           <a class="btn btn-primary" href="#/exam/${again}">${r.key === 'random' ? 'Thi đề ngẫu nhiên khác' : 'Thi lại đề này'}</a>
+          ${wrong + blank ? `<button class="btn" data-act="review-exam">Ôn lại ${wrong + blank} câu sai</button>` : ''}
           <a class="btn" href="#/exams">Danh sách đề</a>
         </div>
       </section>
@@ -404,7 +412,125 @@
           extraBadges: it.ok ? '<span class="badge badge-ok">Đúng</span>' : it.picked == null ? '<span class="badge badge-warn">Chưa làm</span>' : '<span class="badge badge-bad">Sai</span>',
         })).join('') : '<div class="card empty">Không có câu nào.</div>'}
       </div>`;
-    ctx = { view: 'result', filter };
+    ctx = { view: 'result', filter, missed: r.items.filter((i) => !i.ok).map((i) => i.id) };
+  }
+
+  // ---------- Ôn lại câu sai ----------
+  // Mỗi lượt ôn chốt sẵn danh sách câu, nên câu vừa trả lời đúng (và bị gỡ khỏi danh sách sai) không làm nhảy thứ tự.
+  function startReview(ids, label, mix) {
+    if (!ids.length) return;
+    const list = mix ? ids.slice().sort(() => Math.random() - 0.5) : ids.slice();
+    state.review = { ids: list, answers: {}, cur: 0, done: false, label };
+    save();
+    go('#/review');
+  }
+
+  function viewReviewStart() {
+    const ids = wrongIds();
+    if (!ids.length) {
+      $app.innerHTML = `<h1>Ôn lại câu sai</h1>
+        <div class="card empty">Không còn câu nào làm sai. Tuyệt vời!<br><br>
+          <a class="btn btn-primary" href="#/learn/all">Học tiếp</a> <a class="btn" href="#/exams">Thi thử</a></div>`;
+      ctx = { view: 'review-start' };
+      return;
+    }
+    const groups = [['crit', 'Câu điểm liệt', ids.filter((id) => BY_ID.get(id).crit)]];
+    for (const ch of Object.keys(CHAPTERS)) groups.push(['ch' + ch, `Chương ${ch}: ${CHAPTERS[ch]}`, ids.filter((id) => BY_ID.get(id).ch === +ch)]);
+    const most = ids.slice().sort((a, b) => state.wrong[b] - state.wrong[a]).filter((id) => state.wrong[id] > 1);
+    $app.innerHTML = `
+      <h1>Ôn lại câu sai</h1>
+      <p class="muted">Các câu bạn từng trả lời sai khi học hoặc thi. Câu sẽ hiện như chưa làm; trả lời đúng thì câu được gỡ khỏi danh sách, sai thì giữ lại để ôn tiếp.</p>
+      <section class="card pad review-start">
+        <div class="row"><b style="font-size:1.4rem">${ids.length}</b><span class="muted">câu cần ôn</span><span class="spacer"></span>
+          <label class="row small"><input type="checkbox" data-mix checked> Trộn thứ tự</label></div>
+        <div class="row">
+          <button class="btn btn-primary" data-review="all">Ôn tất cả ${ids.length} câu</button>
+          ${most.length ? `<button class="btn" data-review="most">Câu sai từ 2 lần trở lên (${most.length})</button>` : ''}
+        </div>
+        <div class="chips">${groups.filter((g) => g[2].length).map(([k, name, list]) =>
+          `<button class="btn btn-sm${k === 'crit' ? ' chip-crit' : ''}" data-review="${k}">${esc(name)} <span class="badge">${list.length}</span></button>`).join('')}</div>
+        <div class="row"><span class="spacer"></span><button class="btn btn-sm" data-act="clear-wrong">Xóa danh sách câu sai</button></div>
+      </section>`;
+    ctx = { view: 'review-start', groups: Object.fromEntries(groups.map((g) => [g[0], g[2]])), all: ids, most };
+  }
+
+  function viewReview() {
+    const s = state.review;
+    if (!s) return viewReviewStart();
+    if (s.done) return viewReviewSummary();
+    const q = BY_ID.get(s.ids[s.cur]);
+    const picked = s.answers[q.id];
+    const answered = Object.keys(s.answers).length;
+    const right = s.ids.filter((id) => s.answers[id] === BY_ID.get(id).c).length;
+    const cells = s.ids.map((id, i) => {
+      const p = s.answers[id];
+      let cls = 'qcell';
+      if (p != null) cls += p === BY_ID.get(id).c ? ' ok' : ' bad';
+      if (i === s.cur) cls += ' cur';
+      if (BY_ID.get(id).crit) cls += ' crit';
+      return `<button type="button" class="${cls}" data-idx="${i}" title="Câu ${id}">${i + 1}</button>`;
+    }).join('');
+    const times = state.wrong[q.id];
+    const badge = picked == null
+      ? (times ? `<span class="badge badge-warn">Đã sai ${times} lần</span>` : '')
+      : picked === q.c ? '<span class="badge badge-ok">Đã gỡ khỏi danh sách sai</span>' : `<span class="badge badge-bad">Vẫn sai · ${times} lần</span>`;
+    const last = s.cur === s.ids.length - 1;
+    $app.innerHTML = `
+      <div class="card exam-bar">
+        <b>${esc(s.label)}</b>
+        <span class="muted small">Đã ôn ${answered}/${s.ids.length}</span>
+        <span class="badge badge-ok">${right} đúng</span><span class="badge badge-bad">${answered - right} sai</span>
+        <span class="spacer"></span>
+        <button class="btn btn-primary" data-act="review-finish">Kết thúc</button>
+      </div>
+      <div class="layout">
+        <aside class="card sidebar">
+          <div class="progress"><span style="width:${(answered / s.ids.length) * 100}%"></span></div>
+          <div class="qgrid">${cells}</div>
+          <div class="legend"><span><i style="background:var(--ok-soft)"></i>Đã đúng</span><span><i style="background:var(--bad-soft)"></i>Vẫn sai</span><span><i style="background:var(--bad);border-radius:50%"></i>Điểm liệt</span></div>
+        </aside>
+        <section>
+          ${questionCard(q, { label: `Câu ${s.cur + 1}/${s.ids.length}`, picked, mode: 'learn', extraBadges: badge })}
+          <div class="q-nav">
+            <button class="btn" data-idx="${s.cur - 1}" ${s.cur === 0 ? 'disabled' : ''}>← Câu trước</button>
+            <span class="spacer"></span>
+            ${last && answered === s.ids.length
+              ? '<button class="btn btn-primary" data-act="review-finish">Xem kết quả</button>'
+              : `<button class="btn btn-primary" data-idx="${s.cur + 1}" ${last ? 'disabled' : ''}>Câu sau →</button>`}
+          </div>
+          <p class="kbd-hint">Phím tắt: 1–4 chọn đáp án · ← → chuyển câu</p>
+        </section>
+      </div>`;
+    ctx = { view: 'review' };
+  }
+
+  function viewReviewSummary() {
+    const s = state.review;
+    const right = s.ids.filter((id) => s.answers[id] === BY_ID.get(id).c);
+    const still = s.ids.filter((id) => s.answers[id] != null && s.answers[id] !== BY_ID.get(id).c);
+    const skipped = s.ids.filter((id) => s.answers[id] == null);
+    const again = [...still, ...skipped];
+    $app.innerHTML = `
+      <section class="card result-hero">
+        <div class="score-ring" style="--p:${Math.round((right.length / s.ids.length) * 100)};--ring:var(--ok)"><div><span><b>${right.length}</b><br><span class="small muted">/${s.ids.length}</span></span></div></div>
+        <div style="flex:1;min-width:220px">
+          <div class="verdict ${still.length ? 'fail' : 'pass'}">${still.length ? 'Cần ôn thêm' : 'Hoàn thành!'}</div>
+          <div class="muted">${esc(s.label)}</div>
+          <div class="checks" style="margin-top:10px">
+            <div>✅ ${right.length} câu trả lời đúng, đã gỡ khỏi danh sách câu sai</div>
+            <div>❌ ${still.length} câu vẫn sai</div>
+            ${skipped.length ? `<div>⏭ ${skipped.length} câu chưa làm</div>` : ''}
+            <div>📋 Còn ${wrongIds().length} câu trong danh sách câu sai</div>
+          </div>
+        </div>
+        <div class="row">
+          ${again.length ? `<button class="btn btn-primary" data-act="review-again">Ôn lại ${again.length} câu ${skipped.length ? 'chưa thuộc' : 'còn sai'}</button>` : ''}
+          <button class="btn" data-act="review-close">Danh sách câu sai</button>
+        </div>
+      </section>
+      ${still.length ? `<div class="section-title"><h2>Các câu vẫn sai</h2></div>
+        <div class="review">${still.map((id) => questionCard(BY_ID.get(id), { label: `Câu ${s.ids.indexOf(id) + 1}`, picked: s.answers[id], mode: 'review' })).join('')}</div>` : ''}`;
+    ctx = { view: 'review-summary', again };
   }
 
   // ---------- Điều hướng ----------
@@ -421,7 +547,9 @@
     document.querySelectorAll('[data-nav]').forEach((el) => {
       el.classList.toggle('active', el.dataset.nav === (page === 'exam' || page === 'result' ? 'exams' : page || 'home'));
     });
+    updateWrongBadge();
     if (page === 'learn') viewLearn(a || 'all', b ? +b : null);
+    else if (page === 'review') viewReview();
     else if (page === 'exams') viewExams();
     else if (page === 'exam') startExam(a);
     else if (page === 'result') viewResult();
@@ -429,13 +557,42 @@
     window.scrollTo(0, 0);
   }
 
+  function updateWrongBadge() {
+    const el = document.querySelector('[data-wrong-count]');
+    const n = wrongIds().length;
+    el.textContent = n;
+    el.hidden = !n;
+  }
+
   // ---------- Sự kiện ----------
+  function currentQuestion() {
+    if (ctx.view === 'learn') return BY_ID.get(ctx.qid);
+    if (ctx.view === 'exam') return BY_ID.get(state.active.ids[state.active.cur]);
+    if (ctx.view === 'review') return BY_ID.get(state.review.ids[state.review.cur]);
+    return null;
+  }
+
   function pickAnswer(i) {
+    if (ctx.view === 'review') {
+      const s = state.review;
+      const id = s.ids[s.cur];
+      if (s.answers[id] != null) return;
+      s.answers[id] = i;
+      state.learn[id] = i;
+      recordAnswer(id, i);
+      save();
+      updateWrongBadge();
+      const y = window.scrollY;
+      viewReview();
+      window.scrollTo(0, y);
+      return;
+    }
     if (ctx.view === 'learn') {
       if (state.learn[ctx.qid] != null) return;
       state.learn[ctx.qid] = i;
       recordAnswer(ctx.qid, i);
       save();
+      updateWrongBadge();
       const y = window.scrollY;
       viewLearn(ctx.setKey, ctx.qid);
       window.scrollTo(0, y);
@@ -449,16 +606,18 @@
     }
   }
 
-  function moveExam(idx) {
-    const ex = state.active;
-    if (!ex || idx < 0 || idx >= ex.ids.length) return;
-    ex.cur = idx;
+  // Chuyển câu trong bài thi hoặc lượt ôn câu sai.
+  function moveTo(idx) {
+    const s = ctx.view === 'review' ? state.review : ctx.view === 'exam' ? state.active : null;
+    if (!s || idx < 0 || idx >= s.ids.length) return;
+    s.cur = idx;
     save();
-    viewExam();
+    if (ctx.view === 'review') viewReview(); else viewExam();
+    window.scrollTo(0, 0);
   }
 
   $app.addEventListener('click', async (e) => {
-    const t = e.target.closest('[data-pick],[data-go],[data-idx],[data-act],[data-filter],[data-zoom]');
+    const t = e.target.closest('[data-pick],[data-go],[data-idx],[data-act],[data-filter],[data-zoom],[data-review]');
     if (!t || t.disabled) return;
     if (t.dataset.zoom !== undefined) {
       const lb = document.getElementById('lightbox');
@@ -466,8 +625,30 @@
       lb.hidden = false;
     } else if (t.dataset.pick !== undefined) pickAnswer(+t.dataset.pick);
     else if (t.dataset.go !== undefined && t.dataset.go !== '') go(`#/learn/${ctx.setKey}/${t.dataset.go}`);
-    else if (t.dataset.idx !== undefined) moveExam(+t.dataset.idx);
+    else if (t.dataset.idx !== undefined) moveTo(+t.dataset.idx);
     else if (t.dataset.filter) viewResult(t.dataset.filter);
+    else if (t.dataset.review) {
+      const k = t.dataset.review;
+      const ids = k === 'all' ? ctx.all : k === 'most' ? ctx.most : ctx.groups[k];
+      const label = k === 'all' ? 'Ôn tất cả câu sai' : k === 'most' ? 'Câu sai nhiều lần' : k === 'crit' ? 'Ôn câu điểm liệt đã sai' : `Ôn câu sai chương ${k.slice(2)}`;
+      startReview(ids, label, $app.querySelector('[data-mix]').checked);
+    } else if (t.dataset.act === 'review-exam') {
+      startReview(ctx.missed, `Câu sai trong ${examTitle(state.lastResult.key)}`, false);
+    } else if (t.dataset.act === 'review-again') {
+      startReview(ctx.again, 'Ôn lại câu còn sai', true);
+    } else if (t.dataset.act === 'review-close') {
+      state.review = null; save(); viewReviewStart();
+    } else if (t.dataset.act === 'review-finish') {
+      const s = state.review;
+      const left = s.ids.length - Object.keys(s.answers).length;
+      if (!left || await confirmBox(`Còn ${left} câu chưa ôn. Kết thúc lượt ôn này?`, 'Kết thúc')) {
+        s.done = true; save(); viewReviewSummary(); window.scrollTo(0, 0);
+      }
+    } else if (t.dataset.act === 'clear-wrong') {
+      if (await confirmBox('Xóa toàn bộ danh sách câu sai? Tiến độ học vẫn được giữ.', 'Xóa')) {
+        state.wrong = {}; save(); updateWrongBadge(); viewReviewStart();
+      }
+    }
     else if (t.dataset.act === 'mark') {
       if (state.marks[ctx.qid]) delete state.marks[ctx.qid]; else state.marks[ctx.qid] = true;
       save(); viewLearn(ctx.setKey, ctx.qid);
@@ -508,14 +689,15 @@
     if (!lb.hidden) { if (e.key === 'Escape') lb.hidden = true; return; }
     const k = KEYS.indexOf(e.key);
     if (k >= 0) {
-      const q = ctx.view === 'learn' ? BY_ID.get(ctx.qid) : ctx.view === 'exam' ? BY_ID.get(state.active.ids[state.active.cur]) : null;
+      const q = currentQuestion();
       if (q && k < q.a.length) pickAnswer(k);
     } else if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') {
       const d = e.key === 'ArrowRight' ? 1 : -1;
       if (ctx.view === 'learn') {
         const next = ctx.ids[ctx.ids.indexOf(ctx.qid) + d];
         if (next) go(`#/learn/${ctx.setKey}/${next}`);
-      } else if (ctx.view === 'exam') moveExam(state.active.cur + d);
+      } else if (ctx.view === 'exam') moveTo(state.active.cur + d);
+      else if (ctx.view === 'review') moveTo(state.review.cur + d);
     }
   });
 

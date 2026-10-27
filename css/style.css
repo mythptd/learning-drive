@@ -64,6 +64,11 @@ main { max-width: 1120px; margin: 0 auto; padding: 20px 16px 64px; outline: none
 .nav a { padding: 7px 12px; border-radius: 8px; color: var(--muted); font-weight: 500; }
 .nav a:hover { background: var(--surface-2); color: var(--text); }
 .nav a.active { background: var(--primary-soft); color: var(--primary); }
+.nav-count {
+  display: inline-block; min-width: 20px; padding: 0 6px; margin-left: 2px; border-radius: 99px;
+  background: var(--bad); color: #fff; font-size: 11px; font-weight: 700; line-height: 18px; text-align: center;
+}
+.nav-count[hidden] { display: none; }
 .theme-toggle { border: 1px solid var(--border); background: var(--surface); border-radius: 8px; width: 36px; height: 36px; cursor: pointer; }
 
 /* ---------- Generic ---------- */
@@ -212,6 +217,13 @@ details.law summary { cursor: pointer; font-weight: 600; color: var(--primary); 
 
 .empty { padding: 40px 20px; text-align: center; color: var(--muted); }
 
+/* ---------- Ôn câu sai ---------- */
+.review-start { display: flex; flex-direction: column; gap: 14px; }
+.review-start label { cursor: pointer; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chips .btn { white-space: normal; text-align: left; }
+.chip-crit { border-color: var(--bad); color: var(--bad); }
+
 /* ---------- Overlays ---------- */
 .lightbox { position: fixed; inset: 0; z-index: 50; background: rgba(0,0,0,.85); display: grid; place-items: center; padding: 16px; }
 .lightbox[hidden], .modal[hidden] { display: none; }
@@ -234,7 +246,7 @@ details.law summary { cursor: pointer; font-weight: 600; color: var(--primary); 
 @media (max-width: 560px) {
   .topbar { flex-wrap: wrap; gap: 8px; }
   .nav { order: 3; width: 100%; }
-  .nav a { flex: 1; text-align: center; }
+  .nav a { flex: auto; text-align: center; padding: 7px 4px; font-size: 14px; white-space: nowrap; }
   .brand-text small { display: none; }
   .question { padding: 14px; }
   .q-text { font-size: 1rem; }
