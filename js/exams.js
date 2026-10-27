@@ -18,7 +18,9 @@
     ],
   };
 
-  const PRESET_COUNT = 30;
+  // 60 đề = đúng 60 câu điểm liệt, mỗi đề một câu, không đề nào trùng câu liệt.
+  // Thêm đề chỉ nối tiếp dãy sinh, các đề cũ giữ nguyên.
+  const PRESET_COUNT = 60;
   const PRESET_SEED = 20250601;
 
   function mulberry32(seed) {
@@ -48,7 +50,8 @@
     );
   }
 
-  // Lấy câu theo hàng đợi xáo trộn: hết hàng đợi mới xáo lại, nên 30 đề phủ được nhiều câu nhất có thể.
+  // Lấy câu theo hàng đợi xáo trộn: hết hàng đợi mới xáo lại, nên các đề phủ được nhiều câu nhất có thể
+  // và chưa dùng hết một vòng thì không lặp câu.
   function makeDrawer(pool, rand) {
     let queue = [];
     return function draw(n) {
@@ -70,7 +73,10 @@
 
   function presetExams(questions) {
     const rand = mulberry32(PRESET_SEED);
-    const drawers = pools(questions).map((p) => makeDrawer(p, rand));
+    const ps = pools(questions);
+    const crit = ps[RULES.slots.findIndex((s) => s.crit)];
+    if (crit.length < PRESET_COUNT) console.warn(`Chỉ có ${crit.length} câu điểm liệt cho ${PRESET_COUNT} đề: sẽ có đề trùng câu liệt.`);
+    const drawers = ps.map((p) => makeDrawer(p, rand));
     return Array.from({ length: PRESET_COUNT }, () => buildExam(drawers));
   }
 

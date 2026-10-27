@@ -151,7 +151,7 @@
           <p>Bộ 600 câu hỏi của Cục CSGT – Bộ Công an, áp dụng từ 01/06/2025. Chế độ học có giải thích ngay khi chọn đáp án; chế độ thi mô phỏng đề thật ${RULES.total} câu / ${RULES.minutes} phút.</p>
           <div class="hero-actions">
             <a class="btn btn-primary" href="#/learn/all">Bắt đầu học</a>
-            <a class="btn" href="#/exams">Thi thử 30 đề</a>
+            <a class="btn" href="#/exams">Thi thử ${PRESETS.length} đề</a>
             <a class="btn" href="#/exam/random">Đề ngẫu nhiên</a>
           </div>
         </div>
@@ -159,7 +159,7 @@
           <div class="stat"><b>${learned}/600</b><span>Câu đã học</span></div>
           <div class="stat"><b>${learned ? Math.round((correct / learned) * 100) : 0}%</b><span>Tỉ lệ đúng khi học</span></div>
           <div class="stat"><b>${wrongCount}</b><span>Câu sai cần ôn</span></div>
-          <div class="stat"><b>${passed}/30</b><span>Đề mẫu đã đạt</span></div>
+          <div class="stat"><b>${passed}/${PRESETS.length}</b><span>Đề mẫu đã đạt</span></div>
         </div>
       </section>
 
