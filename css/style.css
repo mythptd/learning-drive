@@ -118,6 +118,28 @@ main { max-width: 1120px; margin: 0 auto; padding: 20px 16px 64px; outline: none
 .rules-list { margin: 0; padding-left: 18px; }
 .rules-list li { margin: 4px 0; }
 
+/* ---------- Mẹo ghi nhớ ---------- */
+.tip-intro { padding: 20px; display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+.tip-intro h1 { margin-bottom: 6px; }
+.tip-intro p { margin: 0; }
+.tip-controls { display: flex; align-items: end; gap: 12px; margin: 16px 0 12px; flex-wrap: wrap; }
+.tip-controls label { display: flex; flex-direction: column; gap: 5px; font-size: 13px; font-weight: 600; }
+.tip-controls input, .tip-controls select { min-height: 40px; padding: 8px 10px; border: 1px solid var(--border); border-radius: 8px; background: var(--surface); color: var(--text); font: inherit; }
+.tip-search-label { flex: 1 1 260px; }
+.tip-topic-label { flex: 1 1 240px; }
+.tip-controls .small { padding-bottom: 10px; }
+.tip-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; }
+.tip-card { display: flex; flex-direction: column; gap: 10px; padding: 15px; }
+.tip-card[hidden] { display: none; }
+.tip-card-head { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+.tip-title { margin: 0; font-size: 1.02rem; line-height: 1.4; }
+.tip-points { margin: 0; padding-left: 19px; color: var(--text); line-height: 1.55; }
+.tip-points li + li { margin-top: 7px; }
+.tip-source { margin: 0 0 12px; }
+.tip-link { align-self: flex-start; font-weight: 600; }
+.tip-empty { margin-top: 12px; }
+.tip-empty[hidden] { display: none; }
+
 /* ---------- Learn / question layout ---------- */
 .layout { display: grid; grid-template-columns: 280px 1fr; gap: 16px; align-items: start; }
 .sidebar { position: sticky; top: 74px; padding: 14px; max-height: calc(100vh - 92px); display: flex; flex-direction: column; gap: 12px; }
@@ -188,6 +210,13 @@ details.law summary { cursor: pointer; font-weight: 600; color: var(--primary); 
 .exam-card { padding: 14px; display: flex; flex-direction: column; gap: 10px; color: var(--text); }
 .exam-card h3 { margin: 0; font-size: 1rem; }
 .exam-card .row { justify-content: space-between; }
+.exam-card-main { display: flex; flex-direction: column; gap: 10px; color: var(--text); }
+.exam-card-main:hover h3 { color: var(--primary); }
+.exam-attempts { display: flex; flex-direction: column; gap: 7px; padding-top: 10px; border-top: 1px solid var(--border); }
+.attempt-links { display: flex; flex-wrap: wrap; gap: 6px; }
+.attempt-link { display: flex; flex-direction: column; gap: 1px; padding: 5px 8px; border: 1px solid var(--border); border-radius: 8px; background: var(--surface); color: var(--text); font-size: 12px; }
+.attempt-link:hover { border-color: var(--primary); color: var(--primary); }
+.attempt-link small { color: var(--muted); font-size: 11px; }
 .random-card { background: linear-gradient(135deg, var(--primary-soft), var(--surface)); }
 
 .exam-bar {
@@ -245,8 +274,8 @@ details.law summary { cursor: pointer; font-weight: 600; color: var(--primary); 
 }
 @media (max-width: 560px) {
   .topbar { flex-wrap: wrap; gap: 8px; }
-  .nav { order: 3; width: 100%; }
-  .nav a { flex: auto; text-align: center; padding: 7px 4px; font-size: 14px; white-space: nowrap; }
+  .nav { order: 3; width: 100%; overflow-x: auto; }
+  .nav a { flex: 1 0 auto; text-align: center; padding: 7px 4px; font-size: 14px; white-space: nowrap; }
   .brand-text small { display: none; }
   .question { padding: 14px; }
   .q-text { font-size: 1rem; }

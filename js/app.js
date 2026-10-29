@@ -2,6 +2,7 @@
   'use strict';
 
   const QUESTIONS = window.QUESTIONS || [];
+  const VIDEO_TIPS = window.VIDEO_TIPS || [];
   const BY_ID = new Map(QUESTIONS.map((q) => [q.id, q]));
   const { RULES } = window.Exams;
   const PRESETS = window.Exams.presetExams(QUESTIONS);
@@ -27,7 +28,7 @@
   // ---------- Lưu trữ ----------
   const STORE_KEY = 'gplx-b-2025';
   const state = Object.assign(
-    { learn: {}, marks: {}, wrong: {}, exams: {}, active: null, review: null, lastResult: null, theme: null },
+    { learn: {}, marks: {}, wrong: {}, exams: {}, results: {}, active: null, review: null, lastResult: null, theme: null },
     load()
   );
   // Bản cũ lưu câu sai dạng true; quy về số lần sai.
@@ -38,6 +39,42 @@
   function save() {
     try { localStorage.setItem(STORE_KEY, JSON.stringify(state)); } catch { /* bộ nhớ trình duyệt bị chặn */ }
   }
+  // Lưu riêng theo đề, giữ lại 20 lần thi gần nhất cho mỗi đề.
+  const RESULT_HISTORY_LIMIT = 20;
+  const flatResults = Array.isArray(state.results);
+  function groupResults(results) {
+    const grouped = {};
+    const add = (result, key) => {
+      if (!result || typeof result !== 'object') return;
+      const examKey = result.key || key;
+      if (!examKey) return;
+      (grouped[examKey] ||= []).push({ ...result, key: examKey });
+    };
+    if (Array.isArray(results)) results.forEach((result) => add(result));
+    else if (results && typeof results === 'object') {
+      Object.entries(results).forEach(([key, attempts]) => {
+        if (Array.isArray(attempts)) attempts.forEach((result) => add(result, key));
+      });
+    }
+    Object.keys(grouped).forEach((key) => {
+      grouped[key] = grouped[key].sort((a, b) => (+b.at || 0) - (+a.at || 0)).slice(0, RESULT_HISTORY_LIMIT);
+    });
+    return grouped;
+  }
+  state.results = groupResults(state.results);
+  let historyMigrated = flatResults;
+  // Chuyển kết quả cuối cùng từ phiên bản cũ sang lịch sử để không mất dữ liệu đã có.
+  if (state.lastResult && state.lastResult.key) {
+    const attempts = state.results[state.lastResult.key] || [];
+    const previous = attempts.find((r) => r.id != null && state.lastResult.id != null && String(r.id) === String(state.lastResult.id));
+    if (previous) state.lastResult = previous;
+    else {
+      state.lastResult = { ...state.lastResult, id: String(state.lastResult.id || state.lastResult.at || Date.now()) };
+      state.results[state.lastResult.key] = [state.lastResult, ...attempts].slice(0, RESULT_HISTORY_LIMIT);
+      historyMigrated = true;
+    }
+  }
+  if (historyMigrated) save();
   // state.wrong[id] = số lần trả lời sai; trả lời đúng thì gỡ khỏi danh sách câu sai.
   function recordAnswer(id, picked) {
     const q = BY_ID.get(id);
@@ -153,6 +190,7 @@
             <a class="btn btn-primary" href="#/learn/all">Bắt đầu học</a>
             <a class="btn" href="#/exams">Thi thử ${PRESETS.length} đề</a>
             <a class="btn" href="#/exam/random">Đề ngẫu nhiên</a>
+            <a class="btn" href="#/tips">Mẹo ghi nhớ</a>
           </div>
         </div>
         <div class="stats">
@@ -189,6 +227,51 @@
         </ul>
         <p class="muted small" style="margin:10px 0 0">Theo hướng dẫn sử dụng bộ 600 câu hỏi kèm Công văn 2262/CSGT-P5 ngày 07/05/2025. Hãy đối chiếu với trung tâm sát hạch nơi bạn thi.</p>
       </div>`;
+  }
+
+  // ---------- Mẹo ghi nhớ ----------
+  function foldText(value) {
+    return String(value ?? '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+  }
+
+  function viewTips() {
+    const topics = [...new Set(VIDEO_TIPS.map((tip) => tip.topic))];
+    const options = ['<option value="all">Tất cả chủ đề</option>'].concat(
+      topics.map((topic) => '<option value="' + esc(topic) + '">' + esc(topic) + '</option>')
+    ).join('');
+    const cards = VIDEO_TIPS.map((tip) => {
+      const time = videoTimeLabel(tip.time);
+      const searchText = foldText([tip.topic, tip.title, ...(tip.tags || []), ...tip.tips].join(' '));
+      return '<article class="card tip-card" data-tip-card data-topic="' + esc(tip.topic) + '" data-search="' + esc(searchText) + '">' +
+        '<div class="tip-card-head"><span class="badge">' + esc(time) + '</span><span class="badge">' + esc(tip.topic) + '</span></div>' +
+        '<h2 class="tip-title">' + esc(tip.title) + '</h2>' +
+        '<ul class="tip-points">' + tip.tips.map((point) => '<li>' + esc(point) + '</li>').join('') + '</ul>' +
+        '<a class="tip-link" href="https://www.youtube.com/watch?v=eIgT4kjyw2Q&amp;t=' + tip.time + 's" target="_blank" rel="noopener">Xem đoạn ' + esc(time) + ' →</a>' +
+        '</article>';
+    }).join('');
+
+    $app.innerHTML =
+      '<section class="card tip-intro">' +
+        '<div><h1>Mẹo trong toàn bộ video</h1><p class="muted">Ghi chú theo các mốc từ đầu đến cuối clip; tìm theo từ khóa hoặc lọc chủ đề, rồi mở đúng đoạn để xem lại.</p></div>' +
+        '<a class="btn btn-primary" href="https://www.youtube.com/watch?v=eIgT4kjyw2Q" target="_blank" rel="noopener">▶ Mở toàn bộ video · 3:13:56</a>' +
+      '</section>' +
+      '<div class="tip-controls">' +
+        '<label class="tip-search-label">Tìm trong ghi chú<input type="search" data-tip-search placeholder="Ví dụ: vòng xuyến, biển phụ, sa hình…" autocomplete="off"></label>' +
+        '<label class="tip-topic-label">Lọc theo chủ đề<select data-tip-topic>' + options + '</select></label>' +
+        '<span class="muted small" data-tip-count>' + VIDEO_TIPS.length + '/' + VIDEO_TIPS.length + ' chủ đề</span>' +
+      '</div><p class="tip-source muted small">Ghi chú tóm tắt từ phụ đề tự động của video. Một số mẹo là cách ghi nhớ trong clip, không thay đáp án ngân hàng câu hỏi hoặc quy định hiện hành; hãy đọc kỹ câu và đối chiếu khi ôn.</p>' +
+      '<div class="tip-list">' + cards + '</div>' +
+      '<div class="card empty tip-empty" data-tip-empty hidden>Không tìm thấy mẹo phù hợp.</div>';
+    ctx = { view: 'tips' };
+  }
+
+  function videoTimeLabel(seconds) {
+    const h = Math.floor(seconds / 3600);
+    const m = Math.floor((seconds % 3600) / 60);
+    const s = seconds % 60;
+    return h
+      ? `${h}:${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`
+      : `${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
   }
 
   // ---------- Chế độ học ----------
@@ -249,26 +332,49 @@
 
   // ---------- Danh sách đề ----------
   function viewExams() {
+    const attemptHistory = (key) => {
+      const attempts = state.results[key] || [];
+      if (!attempts.length) return '';
+      return `<div class="exam-attempts">
+        <span class="muted small">Lịch sử ${attempts.length} lần thi</span>
+        <div class="attempt-links">${attempts.map((result) => {
+          const when = Number.isFinite(+result.at)
+            ? new Date(+result.at).toLocaleString('vi-VN', { day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit' })
+            : 'Đã lưu';
+          return `<a class="attempt-link" href="#/result/${encodeURIComponent(result.id)}" title="Xem lại câu trả lời lần thi này">
+            <b>${result.attempt ? `Lần ${result.attempt}` : 'Lần thi'} · ${result.score}/${RULES.total}</b><small>${esc(when)}</small>
+          </a>`;
+        }).join('')}</div>
+      </div>`;
+    };
     const cards = PRESETS.map((ids, i) => {
-      const r = state.exams[presetKey(i + 1)];
+      const key = presetKey(i + 1);
+      const r = state.exams[key];
       const status = !r ? '<span class="badge">Chưa thi</span>'
         : r.passed ? `<span class="badge badge-ok">Đạt · ${r.best}/${RULES.total}</span>`
           : `<span class="badge badge-bad">Chưa đạt · ${r.best}/${RULES.total}</span>`;
-      return `<a class="card exam-card" href="#/exam/${i + 1}">
-        <div class="row"><h3>Đề số ${i + 1}</h3>${status}</div>
-        <span class="muted small">${RULES.total} câu · ${RULES.minutes} phút${r ? ` · đã thi ${r.attempts} lần` : ''}</span>
-      </a>`;
+      return `<div class="card exam-card">
+        <a class="exam-card-main" href="#/exam/${i + 1}">
+          <div class="row"><h3>Đề số ${i + 1}</h3>${status}</div>
+          <span class="muted small">${RULES.total} câu · ${RULES.minutes} phút${r ? ` · đã thi ${r.attempts} lần` : ''}</span>
+        </a>
+        ${attemptHistory(key)}
+      </div>`;
     }).join('');
     const active = state.active;
     $app.innerHTML = `
       <h1>Thi thử</h1>
       <p class="muted">Mỗi đề gồm ${RULES.total} câu, ${RULES.minutes} phút, đúng từ ${RULES.pass} câu và không sai câu điểm liệt thì đạt. Có giải thích chi tiết khi xem kết quả.</p>
       ${active ? `<div class="card pad row" style="margin-bottom:14px;border-color:var(--warn)"><span>Bạn đang làm dở <b>${esc(examTitle(active.key))}</b>.</span><span class="spacer"></span><a class="btn btn-primary" href="#/exam/${active.key === 'random' ? 'random' : active.key.slice(1)}">Làm tiếp</a></div>` : ''}
+      <div class="section-title"><h2>Danh sách đề</h2></div>
       <div class="grid">
-        <a class="card exam-card random-card" href="#/exam/random">
-          <div class="row"><h3>🎲 Đề ngẫu nhiên</h3><span class="badge">Trộn mới</span></div>
-          <span class="muted small">Trộn ngẫu nhiên từ 600 câu theo đúng cấu trúc đề thi thật</span>
-        </a>
+        <div class="card exam-card random-card">
+          <a class="exam-card-main" href="#/exam/random">
+            <div class="row"><h3>🎲 Đề ngẫu nhiên</h3><span class="badge">Trộn mới</span></div>
+            <span class="muted small">Trộn ngẫu nhiên từ 600 câu theo đúng cấu trúc đề thi thật</span>
+          </a>
+          ${attemptHistory('random')}
+        </div>
         ${cards}
       </div>`;
     ctx = { view: 'exams' };
@@ -364,15 +470,22 @@
     const r = state.exams[ex.key] || { attempts: 0, best: 0, passed: false };
     r.attempts++; r.best = Math.max(r.best, score); r.passed = r.passed || passed;
     state.exams[ex.key] = r;
-    state.lastResult = { key: ex.key, items, score, critFail, passed, used, timeout: !!timeout, at: Date.now() };
+    const at = Date.now();
+    let id = String(at);
+    while (Object.values(state.results).some((attempts) => attempts.some((item) => String(item.id) === id))) id = String(+id + 1);
+    const result = { id, key: ex.key, attempt: r.attempts, items, score, critFail, passed, used, timeout: !!timeout, at };
+    state.results[ex.key] = [result, ...(state.results[ex.key] || [])].slice(0, RESULT_HISTORY_LIMIT);
+    state.lastResult = result;
     state.active = null;
     save();
     go('#/result');
   }
 
   // ---------- Kết quả ----------
-  function viewResult(filter = 'all') {
-    const r = state.lastResult;
+  function viewResult(attemptId, filter = 'all') {
+    const r = attemptId
+      ? Object.values(state.results).flat().find((item) => String(item.id) === String(attemptId))
+      : state.lastResult;
     if (!r) return go('#/exams');
     const pct = Math.round((r.score / RULES.total) * 100);
     const wrong = r.items.filter((i) => i.picked != null && !i.ok).length;
@@ -396,7 +509,7 @@
         </div>
         <div class="row">
           <a class="btn btn-primary" href="#/exam/${again}">${r.key === 'random' ? 'Thi đề ngẫu nhiên khác' : 'Thi lại đề này'}</a>
-          ${wrong + blank ? `<button class="btn" data-act="review-exam">Ôn lại ${wrong + blank} câu sai</button>` : ''}
+          ${wrong + blank ? `<button class="btn" data-act="review-exam">Ôn lại ${wrong + blank} câu sai/chưa làm</button>` : ''}
           <a class="btn" href="#/exams">Danh sách đề</a>
         </div>
       </section>
@@ -412,7 +525,7 @@
           extraBadges: it.ok ? '<span class="badge badge-ok">Đúng</span>' : it.picked == null ? '<span class="badge badge-warn">Chưa làm</span>' : '<span class="badge badge-bad">Sai</span>',
         })).join('') : '<div class="card empty">Không có câu nào.</div>'}
       </div>`;
-    ctx = { view: 'result', filter, missed: r.items.filter((i) => !i.ok).map((i) => i.id) };
+    ctx = { view: 'result', filter, resultId: r.id == null ? null : String(r.id), key: r.key, missed: r.items.filter((i) => !i.ok).map((i) => i.id) };
   }
 
   // ---------- Ôn lại câu sai ----------
@@ -549,10 +662,11 @@
     });
     updateWrongBadge();
     if (page === 'learn') viewLearn(a || 'all', b ? +b : null);
+    else if (page === 'tips') viewTips();
     else if (page === 'review') viewReview();
     else if (page === 'exams') viewExams();
     else if (page === 'exam') startExam(a);
-    else if (page === 'result') viewResult();
+    else if (page === 'result') viewResult(a);
     else viewHome();
     window.scrollTo(0, 0);
   }
@@ -626,14 +740,14 @@
     } else if (t.dataset.pick !== undefined) pickAnswer(+t.dataset.pick);
     else if (t.dataset.go !== undefined && t.dataset.go !== '') go(`#/learn/${ctx.setKey}/${t.dataset.go}`);
     else if (t.dataset.idx !== undefined) moveTo(+t.dataset.idx);
-    else if (t.dataset.filter) viewResult(t.dataset.filter);
+    else if (t.dataset.filter) viewResult(ctx.resultId, t.dataset.filter);
     else if (t.dataset.review) {
       const k = t.dataset.review;
       const ids = k === 'all' ? ctx.all : k === 'most' ? ctx.most : ctx.groups[k];
       const label = k === 'all' ? 'Ôn tất cả câu sai' : k === 'most' ? 'Câu sai nhiều lần' : k === 'crit' ? 'Ôn câu điểm liệt đã sai' : `Ôn câu sai chương ${k.slice(2)}`;
       startReview(ids, label, $app.querySelector('[data-mix]').checked);
     } else if (t.dataset.act === 'review-exam') {
-      startReview(ctx.missed, `Câu sai trong ${examTitle(state.lastResult.key)}`, false);
+      startReview(ctx.missed, `Câu sai/chưa làm trong ${examTitle(ctx.key)}`, false);
     } else if (t.dataset.act === 'review-again') {
       startReview(ctx.again, 'Ôn lại câu còn sai', true);
     } else if (t.dataset.act === 'review-close') {
@@ -681,6 +795,29 @@
     const setKey = SETS[ctx.setKey].ids().includes(n) ? ctx.setKey : 'all';
     go(`#/learn/${setKey}/${n}`);
   });
+
+  $app.addEventListener('change', (e) => {
+    if (e.target.matches('[data-tip-topic]')) filterTips();
+  });
+  $app.addEventListener('input', (e) => {
+    if (e.target.matches('[data-tip-search]')) filterTips();
+  });
+
+  function filterTips() {
+    const search = foldText($app.querySelector('[data-tip-search]')?.value || '');
+    const topic = $app.querySelector('[data-tip-topic]')?.value || 'all';
+    const cards = [...$app.querySelectorAll('[data-tip-card]')];
+    let visible = 0;
+    cards.forEach((card) => {
+      const show = (topic === 'all' || card.dataset.topic === topic) && card.dataset.search.includes(search);
+      card.hidden = !show;
+      if (show) visible++;
+    });
+    const count = $app.querySelector('[data-tip-count]');
+    if (count) count.textContent = visible + '/' + cards.length + ' chủ đề';
+    const empty = $app.querySelector('[data-tip-empty]');
+    if (empty) empty.hidden = visible > 0;
+  }
 
   document.addEventListener('keydown', (e) => {
     if (e.target.matches('input, select, textarea') || e.ctrlKey || e.metaKey || e.altKey) return;
